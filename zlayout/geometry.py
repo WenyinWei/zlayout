@@ -21,7 +21,10 @@ class Point:
         self.y = float(y)
     
     def __repr__(self) -> str:
-        return f"Point({self.x}, {self.y})"
+        # Show integers as integers, floats as floats
+        x_str = str(int(self.x)) if self.x == int(self.x) else str(self.x)
+        y_str = str(int(self.y)) if self.y == int(self.y) else str(self.y)
+        return f"Point({x_str}, {y_str})"
     
     def __eq__(self, other) -> bool:
         if not isinstance(other, Point):
@@ -193,6 +196,16 @@ class Polygon:
         n = len(self.vertices)
         inside = False
         
+        # First check if point is on an edge
+        for i in range(n):
+            v1 = self.vertices[i]
+            v2 = self.vertices[(i + 1) % n]
+            
+            # Check if point is on the edge
+            if self._point_on_edge(point, v1, v2):
+                return True
+        
+        # Ray casting algorithm
         p1x, p1y = self.vertices[0].x, self.vertices[0].y
         for i in range(1, n + 1):
             p2x, p2y = self.vertices[i % n].x, self.vertices[i % n].y
@@ -207,20 +220,42 @@ class Polygon:
         
         return inside
     
+    def _point_on_edge(self, point: Point, edge_start: Point, edge_end: Point) -> bool:
+        """Check if a point lies on an edge."""
+        # Use distance to line segment
+        distance = point.distance_to_line(edge_start, edge_end)
+        return distance < 1e-10
+    
     def get_sharp_angles(self, threshold_degrees: float = 30.0) -> List[int]:
         """Find vertices with sharp angles (less than threshold)."""
-        def angle_between_vectors(v1: Point, v2: Point) -> float:
-            """Calculate angle between two vectors in degrees."""
-            dot_product = v1.x * v2.x + v1.y * v2.y
-            mag1 = math.sqrt(v1.x**2 + v1.y**2)
-            mag2 = math.sqrt(v2.x**2 + v2.y**2)
+        def calculate_interior_angle(prev_pt: Point, curr_pt: Point, next_pt: Point) -> float:
+            """Calculate the interior angle at curr_pt."""
+            # Vectors from current point to adjacent points  
+            v1 = Point(prev_pt.x - curr_pt.x, prev_pt.y - curr_pt.y)
+            v2 = Point(next_pt.x - curr_pt.x, next_pt.y - curr_pt.y)
             
-            if mag1 < 1e-10 or mag2 < 1e-10:
-                return 0.0
+            # Calculate angle using atan2 for better numerical stability
+            angle1 = math.atan2(v1.y, v1.x)
+            angle2 = math.atan2(v2.y, v2.x)
             
-            cos_angle = dot_product / (mag1 * mag2)
-            cos_angle = max(-1.0, min(1.0, cos_angle))  # Clamp to [-1, 1]
-            return math.degrees(math.acos(cos_angle))
+            # Calculate interior angle
+            angle_diff = angle2 - angle1
+            
+            # Normalize to [0, 2π]
+            while angle_diff < 0:
+                angle_diff += 2 * math.pi
+            while angle_diff > 2 * math.pi:
+                angle_diff -= 2 * math.pi
+                
+            # Convert to degrees
+            interior_angle = math.degrees(angle_diff)
+            
+            # For convex polygons in counter-clockwise order, interior angles should be < 180°
+            # For clockwise order, we need to take the complement
+            if interior_angle > 180:
+                interior_angle = 360 - interior_angle
+                
+            return interior_angle
         
         sharp_angles = []
         n = len(self.vertices)
@@ -230,14 +265,10 @@ class Polygon:
             curr_vertex = self.vertices[i]
             next_vertex = self.vertices[(i + 1) % n]
             
-            # Vectors from current vertex to adjacent vertices
-            v1 = Point(prev_vertex.x - curr_vertex.x, prev_vertex.y - curr_vertex.y)
-            v2 = Point(next_vertex.x - curr_vertex.x, next_vertex.y - curr_vertex.y)
+            interior_angle = calculate_interior_angle(prev_vertex, curr_vertex, next_vertex)
             
-            angle = angle_between_vectors(v1, v2)
-            
-            # For interior angle, we need to consider polygon orientation
-            if angle < threshold_degrees or angle > (180 - threshold_degrees):
+            # Check if angle is sharp (less than threshold)
+            if interior_angle < threshold_degrees:
                 sharp_angles.append(i)
         
         return sharp_angles

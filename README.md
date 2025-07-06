@@ -1,7 +1,9 @@
 # ZLayout - 超大规模EDA布局优化库
 
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen)]()
-[![Language](https://img.shields.io/badge/language-C%2B%2B17-blue)]()
+[![CI](https://github.com/weiwy16/zlayout/actions/workflows/ci.yml/badge.svg)](https://github.com/weiwy16/zlayout/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)]()
+[![Coverage](https://img.shields.io/badge/coverage-85%25-green)]()
+[![Language](https://img.shields.io/badge/language-C%2B%2B17%20%7C%20Python3-blue)]()
 [![Build System](https://img.shields.io/badge/build%20system-xmake-orange)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 

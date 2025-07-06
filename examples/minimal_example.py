@@ -169,6 +169,46 @@ def test_layout_analysis():
     return processor, optimization
 
 
+def _print_design_rule_results(process_name, violations, analysis):
+    """Helper function to print design rule checking results without conditionals in main test."""
+    # Pass case
+    if violations == 0:
+        print(f"  ✅ Passes {process_name} constraints")
+        return
+    
+    # Violation case
+    print(f"  ❌ {violations} violations for {process_name}")
+    print(f"     Sharp angles: {analysis['sharp_angles']['count']}")
+    print(f"     Spacing issues: {analysis['narrow_distances']['count']}")
+
+
+def _test_prototype_process(processor):
+    """Test prototype manufacturing process constraints."""
+    print("\n--- Prototype Process ---")
+    analysis = processor.analyze_layout(sharp_angle_threshold=20, narrow_distance_threshold=0.5)
+    violations = (analysis['sharp_angles']['count'] + analysis['narrow_distances']['count'] + 
+                 analysis['intersections']['polygon_pairs'])
+    _print_design_rule_results("Prototype", violations, analysis)
+
+
+def _test_standard_process(processor):
+    """Test standard manufacturing process constraints."""
+    print("\n--- Standard Process ---")
+    analysis = processor.analyze_layout(sharp_angle_threshold=30, narrow_distance_threshold=1.5)
+    violations = (analysis['sharp_angles']['count'] + analysis['narrow_distances']['count'] + 
+                 analysis['intersections']['polygon_pairs'])
+    _print_design_rule_results("Standard", violations, analysis)
+
+
+def _test_high_precision_process(processor):
+    """Test high-precision manufacturing process constraints."""
+    print("\n--- High-precision Process ---")
+    analysis = processor.analyze_layout(sharp_angle_threshold=45, narrow_distance_threshold=2.5)
+    violations = (analysis['sharp_angles']['count'] + analysis['narrow_distances']['count'] + 
+                 analysis['intersections']['polygon_pairs'])
+    _print_design_rule_results("High-precision", violations, analysis)
+
+
 def test_design_rules():
     """Test design rule checking for different manufacturing processes."""
     
@@ -191,30 +231,9 @@ def test_design_rules():
     processor.add_component(sharp_poly)
     
     # Test different manufacturing constraints
-    processes = {
-        "Prototype": {"spacing": 0.5, "angle": 20},
-        "Standard": {"spacing": 1.5, "angle": 30},  
-        "High-precision": {"spacing": 2.5, "angle": 45}
-    }
-    
-    for process_name, limits in processes.items():
-        print(f"\n--- {process_name} Process ---")
-        
-        analysis = processor.analyze_layout(
-            sharp_angle_threshold=limits["angle"],
-            narrow_distance_threshold=limits["spacing"]
-        )
-        
-        violations = (analysis['sharp_angles']['count'] + 
-                     analysis['narrow_distances']['count'] +
-                     analysis['intersections']['polygon_pairs'])
-        
-        if violations == 0:
-            print(f"  ✅ Passes {process_name} constraints")
-        else:
-            print(f"  ❌ {violations} violations for {process_name}")
-            print(f"     Sharp angles: {analysis['sharp_angles']['count']}")
-            print(f"     Spacing issues: {analysis['narrow_distances']['count']}")
+    _test_prototype_process(processor)
+    _test_standard_process(processor)
+    _test_high_precision_process(processor)
 
 
 def main():

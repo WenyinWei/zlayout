@@ -78,6 +78,14 @@ class TestRectangle(unittest.TestCase):
         self.rect2 = Rectangle(5, 2, 8, 6)
         self.rect3 = Rectangle(20, 20, 5, 5)
     
+    def _assert_vertices_equal(self, expected_vertices, actual_vertices):
+        """Helper method to assert vertex equality without loops in test."""
+        self.assertEqual(len(expected_vertices), len(actual_vertices))
+        self.assertEqual(expected_vertices[0], actual_vertices[0])
+        self.assertEqual(expected_vertices[1], actual_vertices[1])
+        self.assertEqual(expected_vertices[2], actual_vertices[2])
+        self.assertEqual(expected_vertices[3], actual_vertices[3])
+    
     def test_rectangle_creation(self):
         """Test rectangle creation and properties."""
         self.assertEqual(self.rect1.x, 0)
@@ -130,8 +138,7 @@ class TestRectangle(unittest.TestCase):
         expected_vertices = [
             Point(0, 0), Point(10, 0), Point(10, 5), Point(0, 5)
         ]
-        for expected, actual in zip(expected_vertices, polygon.vertices):
-            self.assertEqual(expected, actual)
+        self._assert_vertices_equal(expected_vertices, polygon.vertices)
 
 
 class TestPolygon(unittest.TestCase):
@@ -154,6 +161,17 @@ class TestPolygon(unittest.TestCase):
             Point(1, 1), Point(1, 3), Point(0, 3)
         ])
     
+    def _assert_edges_equal(self, expected_edges, actual_edges):
+        """Helper method to assert edge equality without loops in test."""
+        self.assertEqual(len(expected_edges), len(actual_edges))
+        # Assert each edge individually
+        self.assertEqual(expected_edges[0][0], actual_edges[0][0])
+        self.assertEqual(expected_edges[0][1], actual_edges[0][1])
+        self.assertEqual(expected_edges[1][0], actual_edges[1][0])
+        self.assertEqual(expected_edges[1][1], actual_edges[1][1])
+        self.assertEqual(expected_edges[2][0], actual_edges[2][0])
+        self.assertEqual(expected_edges[2][1], actual_edges[2][1])
+    
     def test_polygon_creation(self):
         """Test polygon creation."""
         self.assertEqual(len(self.triangle.vertices), 3)
@@ -175,9 +193,7 @@ class TestPolygon(unittest.TestCase):
             (Point(2, 3), Point(0, 0))
         ]
         
-        for expected, actual in zip(expected_edges, edges):
-            self.assertEqual(expected[0], actual[0])
-            self.assertEqual(expected[1], actual[1])
+        self._assert_edges_equal(expected_edges, edges)
     
     def test_bounding_box(self):
         """Test bounding box calculation."""
@@ -218,52 +234,51 @@ class TestPolygon(unittest.TestCase):
         edge_point = Point(2, 0)
         self.assertTrue(self.triangle.contains_point(edge_point))
     
-+    def test_sharp_angle_detection(self):
-+        """Test sharp angle detection."""
-+        # Create polygon with sharp angle
-+        sharp_poly = Polygon([
-+            Point(0, 0), Point(10, 0), Point(1, 1), Point(0, 10)
-+        ])
-+        
-+        sharp_angles = sharp_poly.get_sharp_angles(threshold_degrees=45)
-+        self.assertGreater(len(sharp_angles), 0)
-+        
-+        # Square should have no sharp angles (all 90 degrees)
-+        square_sharp = self.square.get_sharp_angles(threshold_degrees=45)
-+        self.assertEqual(len(square_sharp), 0)
-+
-+    def test_sharp_angle_detection_at_boundary(self):
-+        """Test sharp angle detection at threshold boundary values."""
-+        # Square: all angles are 90 degrees
-+        # At threshold 90, should not be considered sharp (assuming strict <)
-+        square_90 = self.square.get_sharp_angles(threshold_degrees=90)
-+        self.assertEqual(len(square_90), 0)
-+
-+        # At threshold just above 90, still should be 0
-+        square_91 = self.square.get_sharp_angles(threshold_degrees=91)
-+        self.assertEqual(len(square_91), 0)
-+
-+        # At threshold just below 90, all 4 should be detected as sharp
-+        square_89 = self.square.get_sharp_angles(threshold_degrees=89)
-+        self.assertEqual(len(square_89), 4)
-+
-+        # Triangle with 45 degree angle
-+        right_triangle = Polygon([
-+            Point(0, 0), Point(1, 0), Point(0, 1)
-+        ])
-+        # All angles: 90, 45, 45
-+        # At threshold 45, should not be considered sharp (assuming strict <)
-+        tri_45 = right_triangle.get_sharp_angles(threshold_degrees=45)
-+        self.assertEqual(len(tri_45), 0)
-+
-+        # At threshold just below 45, both 45 degree angles should be detected
-+        tri_44 = right_triangle.get_sharp_angles(threshold_degrees=44.999)
-+        self.assertEqual(len(tri_44), 2)
-+
-+        # At threshold just above 45, still should be 0
-+        tri_46 = right_triangle.get_sharp_angles(threshold_degrees=46)
-+        self.assertEqual(len(tri_46), 0)
-+
+    def test_sharp_angle_detection(self):
+        """Test sharp angle detection."""
+        # Create polygon with sharp angle
+        sharp_poly = Polygon([
+            Point(0, 0), Point(10, 0), Point(1, 1), Point(0, 10)
+        ])
+        
+        sharp_angles = sharp_poly.get_sharp_angles(threshold_degrees=45)
+        self.assertGreater(len(sharp_angles), 0)
+        
+        # Square should have no sharp angles (all 90 degrees)
+        square_sharp = self.square.get_sharp_angles(threshold_degrees=45)
+        self.assertEqual(len(square_sharp), 0)
+
+    def test_sharp_angle_detection_at_boundary(self):
+        """Test sharp angle detection at threshold boundary values."""
+        # Square: all angles are 90 degrees
+        # At threshold 90, should not be considered sharp (assuming strict <)
+        square_90 = self.square.get_sharp_angles(threshold_degrees=90)
+        self.assertEqual(len(square_90), 0)
+
+        # At threshold just above 90, still should be 0
+        square_91 = self.square.get_sharp_angles(threshold_degrees=91)
+        self.assertEqual(len(square_91), 0)
+
+        # At threshold just below 90, all 4 should be detected as sharp
+        square_89 = self.square.get_sharp_angles(threshold_degrees=89)
+        self.assertEqual(len(square_89), 4)
+
+        # Triangle with 45 degree angle
+        right_triangle = Polygon([
+            Point(0, 0), Point(1, 0), Point(0, 1)
+        ])
+        # All angles: 90, 45, 45
+        # At threshold 45, should not be considered sharp (assuming strict <)
+        tri_45 = right_triangle.get_sharp_angles(threshold_degrees=45)
+        self.assertEqual(len(tri_45), 0)
+
+        # At threshold just below 45, both 45 degree angles should be detected
+        tri_44 = right_triangle.get_sharp_angles(threshold_degrees=44.999)
+        self.assertEqual(len(tri_44), 2)
+
+        # At threshold just above 45, still should be 0
+        tri_46 = right_triangle.get_sharp_angles(threshold_degrees=46)
+        self.assertEqual(len(tri_46), 0)
 class TestGeometryIntegration(unittest.TestCase):
     """Integration tests for geometry classes."""
     

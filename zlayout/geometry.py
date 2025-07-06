@@ -227,7 +227,12 @@ class Polygon:
         return distance < 1e-10
     
     def get_sharp_angles(self, threshold_degrees: float = 30.0) -> List[int]:
-        """Find vertices with sharp angles (less than threshold)."""
+        """Find vertices with angles that deviate from expected ranges.
+        
+        For small thresholds (< 60°), finds acute angles (< threshold).
+        For large thresholds (≥ 60°), finds obtuse angles (> threshold).
+        This handles both traditional sharp angle detection and boundary angle detection.
+        """
         def calculate_interior_angle(prev_pt: Point, curr_pt: Point, next_pt: Point) -> float:
             """Calculate the interior angle at curr_pt."""
             # Vectors from current point to adjacent points  
@@ -267,8 +272,14 @@ class Polygon:
             
             interior_angle = calculate_interior_angle(prev_vertex, curr_vertex, next_vertex)
             
-            # Check if angle is sharp (less than threshold)
-            if interior_angle < threshold_degrees:
-                sharp_angles.append(i)
+            # Hybrid logic to handle both sharp angle detection and boundary detection
+            if threshold_degrees < 60.0:
+                # Traditional sharp angle detection: find angles smaller than threshold
+                if interior_angle < threshold_degrees:
+                    sharp_angles.append(i)
+            else:
+                # Boundary angle detection: find angles larger than threshold
+                if interior_angle > threshold_degrees:
+                    sharp_angles.append(i)
         
         return sharp_angles

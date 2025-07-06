@@ -434,15 +434,12 @@ xmake test
 
 ## 📮 联系方式
 
-- **项目主页**: https://github.com/your-username/zlayout
-- **问题反馈**: https://github.com/your-username/zlayout/issues
-- **邮箱**: weiwy16@tsinghua.org.cn | wenyin@mail.ustc.edu.cn
+- Wenyin WEI 魏文崟: weiwy16@tsinghua.org.cn | wenyin@mail.ustc.edu.cn
 
 ## 🙏 致谢
 
 - 感谢EDA社区的算法研究贡献
 - 感谢XMake项目提供优秀的构建系统
-- 特别感谢面试官提出的挑战性算法问题
 
 ---
 

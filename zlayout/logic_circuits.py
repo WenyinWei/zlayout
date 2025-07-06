@@ -74,7 +74,7 @@ class StateMachine:
             old_state = self.current_state
             self.current_state = new_state
             self.state_history.append((new_state, time.time()))
-            print(f"[{self.name}] 状态转移: {old_state} -> {new_state}")
+            print(f"[{self.name}] State transition: {old_state} -> {new_state}")
     
     def get_state_history(self) -> List[Tuple[str, float]]:
         """获取状态历史"""

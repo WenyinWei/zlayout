@@ -15,6 +15,23 @@ from .logic_circuits import (
     SequentialLogic, Signal, LogicState
 )
 
+class ComponentJSONEncoder(json.JSONEncoder):
+    """Custom JSON encoder for component objects"""
+    
+    def default(self, obj):
+        if isinstance(obj, LogicState):
+            # Convert LogicState to its name (string representation)
+            return obj.name
+        elif isinstance(obj, Enum):
+            # Handle other enums by converting to their value
+            return obj.value
+        elif hasattr(obj, '__dict__'):
+            # For other complex objects, try to serialize their __dict__
+            return obj.__dict__
+        else:
+            # Let the base class default method raise the TypeError
+            return super().default(obj)
+
 class ComponentType(Enum):
     """组件类型枚举"""
     DATABASE = "database"      # 数据库存储的组件
@@ -304,7 +321,7 @@ class ComponentManager:
         }
         
         with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(design, f, indent=2, ensure_ascii=False)
+            json.dump(design, f, indent=2, ensure_ascii=False, cls=ComponentJSONEncoder)
     
     def close(self):
         """关闭数据库连接"""

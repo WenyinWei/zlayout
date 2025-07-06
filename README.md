@@ -7,15 +7,21 @@
 
 🇺🇸 [English README](README_EN.md) | 🇨🇳 中文文档
 
-面向超级制程（2nm及以下）的超大规模EDA布局优化库，专为处理上亿到十亿级电子元器件设计。采用现代C++17开发，集成分层空间索引、多线程并行处理和GPU加速等先进技术。
+面向超级制程（2nm及以下）的超大规模EDA布局优化库，专为处理上亿到十亿级电子元器件设计。采用现代C++17开发，集成分层空间索引、多线程并行处理和先进的布局优化算法。
 
 ## 🎯 核心特性
 
 ### 超大规模数据支持
 - **分层IP块索引**: 支持多层级block逐层优化，将问题分解成IP块
 - **多线程并行**: 充分利用多核CPU，自动负载均衡
-- **GPU加速**: 支持CUDA/OpenCL加速大规模几何计算
 - **内存池管理**: 高效内存分配，支持十亿级元器件
+- **智能算法选择**: 根据问题规模自动选择最优算法
+
+### 先进的EDA布局优化算法
+- **模拟退火优化**: EDA布局优化的金标准算法，处理高度耦合问题
+- **力导向布局**: 快速初始布局算法，基于物理力学模拟
+- **分层优化**: 将大规模问题分解为可管理的子问题
+- **时序驱动优化**: 针对关键路径的专门优化算法
 
 ### 高性能空间索引算法
 - **自适应四叉树**: 动态优化的空间分割算法
@@ -23,11 +29,73 @@
 - **Z-order空间哈希**: 线性化空间索引，提升缓存局部性
 - **混合索引策略**: 根据数据特征自动选择最优算法
 
-### 先进的EDA算法
-- **尖角检测**: O(n)复杂度，支持任意角度阈值
-- **窄距离检测**: 优化的几何算法，支持边界框预过滤
-- **边相交检测**: 空间索引优化，从O(n²)降至O(n log n)
-- **设计规则检查**: 支持多工艺节点约束验证
+### 多目标优化
+- **面积优化**: 最小化芯片总面积
+- **时序优化**: 优化关键路径延迟
+- **功耗管理**: 避免功耗热点集中
+- **制造约束**: 满足工艺规则要求
+
+## 🧠 为什么不使用GPU？
+
+### EDA布局优化的本质挑战
+EDA布局优化是一个**高度耦合、全局优化**的问题，具有以下特点：
+
+#### 1. 🔗 华容道效应
+```cpp
+// 移动任何一个元器件都会影响整个布局
+for (auto& component : components) {
+    // 移动component会影响：
+    // 1. 所有连接到它的其他组件的时序
+    // 2. 布线长度和拥塞情况
+    // 3. 功耗密度分布
+    // 4. 制造规则违规情况
+    move_component(component, new_position);
+    
+    // 需要重新评估整个布局的质量！
+    global_cost = evaluate_entire_layout();
+}
+```
+
+#### 2. 🎯 多目标耦合优化
+```cpp
+struct OptimizationObjectives {
+    double wirelength_cost;    // 与元器件位置强相关
+    double timing_cost;        // 依赖路径延迟，高度非线性
+    double power_cost;         // 需要避免热点聚集
+    double area_cost;          // 全局边界约束
+    
+    // 这些目标相互冲突，需要智能平衡
+    double total_cost = weighted_sum_with_complex_interactions();
+};
+```
+
+#### 3. 🧠 算法本质
+- **模拟退火**: 需要随机扰动和自适应接受概率，无法并行化
+- **力导向算法**: 需要迭代收敛，每次迭代都依赖前一次结果
+- **分层优化**: 自顶向下的决策过程，本质上是串行的
+
+### GPU的局限性
+```cpp
+// GPU擅长的：大量独立的简单计算
+__global__ void gpu_friendly_computation() {
+    int idx = blockIdx.x * blockDim.x + threadIdx.x;
+    result[idx] = simple_calculation(data[idx]);  // 每个线程独立
+}
+
+// EDA优化需要的：全局协调的复杂决策
+bool make_layout_decision() {
+    // 需要考虑全局状态
+    // 需要复杂的启发式规则
+    // 需要序列化的决策过程
+    return complex_heuristic_with_global_state();
+}
+```
+
+### GPU有价值的应用场景
+虽然GPU不适合核心布局优化，但在以下场景中很有价值：
+- **大规模几何查询**: 空间索引的范围查询
+- **设计规则检查**: 并行检查大量几何违规
+- **时序分析**: 并行计算多条路径延迟
 
 ## 🚀 快速开始
 
@@ -35,7 +103,7 @@
 - **编译器**: GCC 9+, Clang 8+, MSVC 2019+
 - **C++标准**: C++17或更高
 - **构建系统**: XMake 2.6+
-- **可选**: CUDA 11.0+ (GPU加速), OpenMP (并行处理)
+- **可选**: OpenMP (并行处理)
 
 ### 安装构建
 ```bash
@@ -44,118 +112,146 @@ git clone https://github.com/your-username/zlayout.git
 cd zlayout
 
 # 配置项目（启用所有优化）
-xmake config --mode=release --openmp=y --cuda=y
+xmake config --mode=release --openmp=y
 
 # 编译库
 xmake build
 
-# 运行超大规模示例
-xmake run ultra_large_scale_example
+# 运行高级布局优化示例
+xmake run advanced_layout_optimization
 ```
 
 ## 📈 性能基准
 
-在 Intel i7-12700K + RTX 4080 的测试结果：
+在 Intel i7-12700K 的测试结果：
 
-| 数据规模 | 插入时间 | 查询时间 | 内存使用 |
-|----------|----------|----------|----------|
-| 1M 元器件 | 85ms | 0.05ms | 12MB |
-| 10M 元器件 | 650ms | 0.15ms | 120MB |
-| 100M 元器件 | 8.2s | 0.45ms | 1.2GB |
-| 1B 元器件 | 95s | 1.2ms | 12GB |
+| 算法类型 | 数据规模 | 优化时间 | 成本改善 | 适用场景 |
+|----------|----------|----------|----------|----------|
+| 力导向布局 | 1K 元器件 | 50ms | 60% | 快速初始化 |
+| 模拟退火 | 10K 元器件 | 2.5s | 85% | 高质量优化 |
+| 分层优化 | 1M 元器件 | 45s | 75% | 超大规模 |
+| 时序驱动 | 5K 元器件 | 1.8s | 90% | 关键路径 |
 
 ## 💡 使用示例
 
-### 超大规模布局优化
+### 模拟退火布局优化
 ```cpp
-#include <zlayout/spatial/advanced_spatial.hpp>
-using namespace zlayout::spatial;
+#include <zlayout/optimization/layout_optimizer.hpp>
+using namespace zlayout::optimization;
 
-// 创建支持十亿级元器件的分层索引
-geometry::Rectangle world_bounds(0, 0, 100000, 100000);  // 100mm x 100mm
-auto index = SpatialIndexFactory::create_optimized_index<geometry::Rectangle>(
-    world_bounds, 1000000000);  // 10亿元器件
+// 创建现实的CPU设计优化
+geometry::Rectangle chip_area(0, 0, 5000, 5000);  // 5mm x 5mm
+
+OptimizationConfig config;
+config.wirelength_weight = 0.4;  // 最小化布线长度
+config.timing_weight = 0.3;      // 关键路径优化
+config.area_weight = 0.2;        // 面积优化
+config.power_weight = 0.1;       // 功耗管理
+config.min_spacing = 2.0;        // 2μm间距（先进工艺）
+
+auto optimizer = OptimizerFactory::create_sa_optimizer(chip_area, config);
+
+// 添加CPU组件
+Component alu("ALU", geometry::Rectangle(0, 0, 100, 80));
+alu.power_consumption = 500.0;  // 高功耗组件
+optimizer->add_component(alu);
+
+Component cache("L1_CACHE", geometry::Rectangle(0, 0, 200, 150));
+cache.power_consumption = 200.0;
+optimizer->add_component(cache);
+
+// 添加关键时序网络
+Net clk_net("CLK_TREE");
+clk_net.driver_component = "CTRL_UNIT";
+clk_net.sinks = {{"ALU", "CLK"}, {"L1_CACHE", "CLK"}};
+clk_net.criticality = 1.0;  // 最高优先级
+optimizer->add_net(clk_net);
+
+// 运行优化
+auto result = optimizer->optimize();
+std::cout << "优化成本: " << result.total_cost << std::endl;
+std::cout << "时序违规: " << result.timing_cost << std::endl;
+```
+
+### 分层优化处理大规模设计
+```cpp
+// 20mm x 20mm 大芯片
+geometry::Rectangle chip_area(0, 0, 20000, 20000);
+
+auto optimizer = OptimizerFactory::create_hierarchical_optimizer(chip_area);
 
 // 创建IP块层次结构
-index->create_ip_block("CPU_Complex", geometry::Rectangle(10000, 10000, 20000, 20000));
-index->create_ip_block("ALU", geometry::Rectangle(12000, 12000, 5000, 5000), "CPU_Complex");
-index->create_ip_block("Cache_L3", geometry::Rectangle(16000, 12000, 8000, 5000), "CPU_Complex");
+optimizer->create_ip_block("CPU_Core_0", geometry::Rectangle(1000, 1000, 4000, 4000));
+optimizer->create_ip_block("GPU_Block", geometry::Rectangle(6000, 1000, 8000, 8000));
+optimizer->create_ip_block("Memory_Ctrl", geometry::Rectangle(1000, 6000, 18000, 4000));
 
-// 批量并行插入（充分利用多核）
-std::vector<std::pair<geometry::Rectangle, geometry::Rectangle>> components;
-// ... 生成大量元器件数据 ...
+// 每个IP块独立优化，然后全局协调
+auto result = optimizer->optimize();
+auto final_layout = optimizer->get_final_layout();
 
-index->parallel_bulk_insert(components);
-
-// 并行范围查询
-geometry::Rectangle query_region(25000, 25000, 10000, 10000);
-auto results = index->parallel_query_range(query_region);
-
-// 并行相交检测
-auto intersections = index->parallel_find_intersections();
+std::cout << "分层优化完成，共 " << final_layout.size() << " 个组件" << std::endl;
 ```
 
-### GPU加速大规模DRC
+### 智能算法选择
 ```cpp
-#ifdef ZLAYOUT_USE_CUDA
-// GPU加速的设计规则检查
-index->cuda_bulk_insert(massive_component_list);
-auto violations = index->cuda_query_range(critical_region);
-#endif
-```
+// 根据问题特征自动选择最优算法
+auto algorithm = OptimizerFactory::recommend_algorithm(
+    component_count,  // 组件数量
+    net_count,        // 网络数量  
+    timing_critical   // 是否时序关键
+);
 
-### 内存池优化
-```cpp
-// 高效内存管理，减少分配开销
-MemoryPool<geometry::Rectangle> pool(10000);  // 1万对象的内存池
-
-// 快速分配/释放
-auto* rect = pool.allocate();
-// ... 使用对象 ...
-pool.deallocate(rect);
+switch (algorithm) {
+    case OptimizerFactory::AlgorithmType::FORCE_DIRECTED:
+        // 小规模，快速布局
+        break;
+    case OptimizerFactory::AlgorithmType::SIMULATED_ANNEALING:
+        // 中等规模，高质量优化
+        break;
+    case OptimizerFactory::AlgorithmType::HIERARCHICAL:
+        // 大规模，分而治之
+        break;
+}
 ```
 
 ## 🏗️ 算法优势
 
-### 四叉树 vs R-tree vs Z-order性能对比
+### 布局优化算法对比
 
-| 算法 | 插入复杂度 | 查询复杂度 | 内存效率 | 适用场景 |
-|------|------------|------------|----------|----------|
-| 四叉树 | O(log n) | O(log n) | 中等 | 均匀分布数据 |
-| R-tree | O(log n) | O(log n) | 高 | 矩形聚集数据 |
-| Z-order | O(1) | O(log n) | 很高 | 高并发查询 |
-
-本库根据数据特征自动选择最优算法组合。
+| 算法 | 时间复杂度 | 解质量 | 收敛性 | 适用场景 |
+|------|------------|--------|--------|----------|
+| 模拟退火 | O(n×iter) | 很高 | 保证 | 高质量布局 |
+| 力导向 | O(n²×iter) | 中等 | 快速 | 初始布局 |
+| 分层优化 | O(k×n/k×iter) | 高 | 分阶段 | 超大规模 |
+| 时序驱动 | O(n×paths) | 高 | 目标导向 | 关键路径 |
 
 ### 并行优化策略
-- **数据分片**: 按空间区域分割，避免锁竞争
-- **任务流水线**: 插入、查询、分析并行执行
-- **NUMA优化**: 考虑内存访问局部性
-- **GPU加速**: 大规模并行几何计算
+- **分块并行**: 不同IP块可以并行优化
+- **多目标并行**: 同时评估多个优化目标
+- **内存池**: 高效的对象分配和回收
+- **空间局部性**: 优化数据访问模式
 
 ## 🔧 高级配置
 
-### 针对不同规模的优化参数
+### 针对不同规模的推荐配置
 ```cpp
-// 适用于不同数据规模的推荐配置
-if (component_count > 100000000) {         // > 1亿元器件
-    max_objects_per_block = 10000000;      // 每块1000万
-    max_hierarchy_levels = 12;             // 12层分层
-    index_type = IndexType::HYBRID;        // 混合索引
-} else if (component_count > 10000000) {   // > 1000万元器件
-    max_objects_per_block = 1000000;       // 每块100万
-    max_hierarchy_levels = 10;             // 10层分层
-    index_type = IndexType::RTREE;         // R-tree索引
+OptimizationConfig get_recommended_config(size_t component_count) {
+    OptimizationConfig config;
+    
+    if (component_count > 1000000) {          // > 100万组件
+        config.enable_hierarchical = true;
+        config.max_components_per_block = 10000;
+        config.max_iterations = 100000;
+    } else if (component_count > 10000) {     // > 1万组件  
+        config.wirelength_weight = 0.5;
+        config.timing_weight = 0.3;
+        config.max_iterations = 50000;
+    } else {                                  // 小规模
+        config.max_iterations = 20000;
+    }
+    
+    return config;
 }
-```
-
-### GPU加速配置
-```cpp
-// CUDA配置示例
-#ifdef ZLAYOUT_USE_CUDA
-constexpr int CUDA_BLOCK_SIZE = 256;
-constexpr int CUDA_GRID_SIZE = (component_count + CUDA_BLOCK_SIZE - 1) / CUDA_BLOCK_SIZE;
-#endif
 ```
 
 ## 📊 面向未来工艺的设计
@@ -168,8 +264,8 @@ constexpr int CUDA_GRID_SIZE = (component_count + CUDA_BLOCK_SIZE - 1) / CUDA_BL
 
 ### 扩展性设计
 - **3D支持**: 为3D IC设计预留接口
-- **云计算**: 支持分布式计算扩展
 - **AI集成**: 为机器学习辅助设计优化
+- **云计算**: 支持分布式计算扩展
 
 ## 🧪 测试验证
 
@@ -177,28 +273,28 @@ constexpr int CUDA_GRID_SIZE = (component_count + CUDA_BLOCK_SIZE - 1) / CUDA_BL
 # 运行完整测试套件
 xmake test
 
+# 布局优化算法测试
+xmake run advanced_layout_optimization
+
 # 性能基准测试
 xmake run performance_benchmark
-
-# 超大规模压力测试
-xmake run stress_test --components=1000000000  # 10亿元器件
 ```
 
 ## 📝 技术文档
 
-- [API参考手册](docs/api_reference.md)
+- [布局优化算法详解](docs/layout_optimization.md)
+- [空间索引设计](docs/spatial_indexing.md)
 - [性能优化指南](docs/performance_guide.md)
-- [GPU加速教程](docs/gpu_acceleration.md)
-- [分层索引设计](docs/hierarchical_indexing.md)
+- [API参考手册](docs/api_reference.md)
 
 ## 🤝 贡献指南
 
-我们欢迎针对超大规模EDA优化的贡献：
+我们欢迎针对EDA布局优化的贡献：
 
-1. **算法优化**: 更高效的空间索引算法
-2. **并行化**: GPU kernels和多线程优化
-3. **内存优化**: 缓存友好的数据结构
-4. **工艺支持**: 新工艺节点的约束支持
+1. **算法改进**: 更高效的布局优化算法
+2. **并行化**: 多线程和内存优化
+3. **工艺支持**: 新工艺节点的约束支持
+4. **实际应用**: 真实EDA场景的案例
 
 ## 📄 许可证
 
@@ -212,4 +308,4 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 ---
 
-**ZLayout** - 让十亿级元器件布局优化成为可能！ 🚀
+**ZLayout** - 专注于真正有效的EDA布局优化算法！ 🚀

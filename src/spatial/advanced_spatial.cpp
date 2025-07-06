@@ -403,44 +403,6 @@ void HierarchicalSpatialIndex<T>::optimize_for_query_pattern(
     // 4. Adjust memory allocation patterns
 }
 
-#ifdef ZLAYOUT_USE_CUDA
-// CUDA implementation stubs
-template<typename T>
-void HierarchicalSpatialIndex<T>::cuda_bulk_insert(
-    const std::vector<std::pair<T, geometry::Rectangle>>& objects) {
-    // This would contain CUDA kernel calls for parallel insertion
-    // For now, fallback to CPU implementation
-    parallel_bulk_insert(objects);
-}
-
-template<typename T>
-std::vector<T> HierarchicalSpatialIndex<T>::cuda_query_range(
-    const geometry::Rectangle& range) const {
-    // This would contain CUDA kernel calls for parallel querying
-    // For now, fallback to CPU implementation
-    return parallel_query_range(range);
-}
-#endif
-
-#ifdef ZLAYOUT_USE_OPENCL
-// OpenCL implementation stubs
-template<typename T>
-void HierarchicalSpatialIndex<T>::opencl_bulk_insert(
-    const std::vector<std::pair<T, geometry::Rectangle>>& objects) {
-    // This would contain OpenCL kernel calls for parallel insertion
-    // For now, fallback to CPU implementation
-    parallel_bulk_insert(objects);
-}
-
-template<typename T>
-std::vector<T> HierarchicalSpatialIndex<T>::opencl_query_range(
-    const geometry::Rectangle& range) const {
-    // This would contain OpenCL kernel calls for parallel querying
-    // For now, fallback to CPU implementation
-    return parallel_query_range(range);
-}
-#endif
-
 // Explicit template instantiations for common types
 template class RTree<geometry::Rectangle>;
 template class RTree<geometry::Point>;
@@ -449,4 +411,4 @@ template class HierarchicalSpatialIndex<geometry::Point>;
 
 } // namespace spatial
 } // namespace zlayout
-``` 
+```

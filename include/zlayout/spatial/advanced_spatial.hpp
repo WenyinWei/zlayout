@@ -307,17 +307,6 @@ public:
                         const std::string& parent_name = "root");
     void optimize_hierarchy();
     
-    // GPU acceleration interfaces
-    #ifdef ZLAYOUT_USE_CUDA
-    void cuda_bulk_insert(const std::vector<std::pair<T, geometry::Rectangle>>& objects);
-    std::vector<T> cuda_query_range(const geometry::Rectangle& range) const;
-    #endif
-    
-    #ifdef ZLAYOUT_USE_OPENCL
-    void opencl_bulk_insert(const std::vector<std::pair<T, geometry::Rectangle>>& objects);
-    std::vector<T> opencl_query_range(const geometry::Rectangle& range) const;
-    #endif
-    
     // Statistics and optimization
     struct Statistics {
         size_t total_objects;

@@ -523,7 +523,8 @@ Point Polygon::line_segment_intersection(const Point& seg1_start, const Point& s
     double u = -((seg1_start.x - seg1_end.x) * (seg1_start.y - seg2_start.y) - 
                  (seg1_start.y - seg1_end.y) * (seg1_start.x - seg2_start.x)) / denom;
     
-    if (t >= 0 && t <= 1 && u >= 0 && u <= 1) {
+    constexpr double EPSILON = 1e-9;
+    if (t >= -EPSILON && t <= 1.0 + EPSILON && u >= -EPSILON && u <= 1.0 + EPSILON) {
         intersects = true;
         double x = seg1_start.x + t * (seg1_end.x - seg1_start.x);
         double y = seg1_start.y + t * (seg1_end.y - seg1_start.y);

@@ -1,11 +1,11 @@
 # ZLayout - Ultra-Large Scale EDA Layout Optimization Library
 
-[![CI](https://github.com/weiwy16/zlayout/actions/workflows/ci.yml/badge.svg)](https://github.com/weiwy16/zlayout/actions/workflows/ci.yml)
-[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)]()
-[![Coverage](https://img.shields.io/badge/coverage-85%25-green)]()
+[![CI](https://github.com/WenyinWei/zlayout/actions/workflows/ci.yml/badge.svg)](https://github.com/WenyinWei/zlayout/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/tests-passing-brightgreen)](https://github.com/WenyinWei/zlayout/actions)
+[![Coverage](https://img.shields.io/badge/coverage-85%25-green)](https://github.com/WenyinWei/zlayout/actions)
 [![Language](https://img.shields.io/badge/language-C%2B%2B17%20%7C%20Python3-blue)]()
 [![Build System](https://img.shields.io/badge/build%20system-xmake-orange)]()
-[![License](https://img.shields.io/badge/license-MIT-green)]()
+[![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/WenyinWei/zlayout/blob/main/LICENSE)
 
 🇺🇸 English README | 🇨🇳 [中文文档](README.md)
 

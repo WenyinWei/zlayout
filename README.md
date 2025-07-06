@@ -419,18 +419,6 @@ xmake build
 xmake test
 ```
 
-### 代码风格
-- 遵循 Google C++ Style Guide
-- 使用 clang-format 格式化
-- 函数和类必须有 Doxygen 文档
-- 单元测试覆盖率要求 >90%
-
-### 提交流程
-1. Fork 项目并创建特性分支
-2. 实现功能并添加测试
-3. 确保所有测试通过
-4. 提交 Pull Request
-
 
 ## 📮 联系方式
 

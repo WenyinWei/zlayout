@@ -185,7 +185,29 @@ desktop.ini
 # Documentation generated files
 docs/html/
 docs/latex/
+docs/generated/
 *.pdf
+
+# Doxygen output
+html/
+latex/
+rtf/
+man/
+xml/
+docbook/
+
+# Documentation build artifacts
+docs/benchmarks/*.json
+docs/images/benchmark_*.png
+docs/images/benchmark_*.txt
+
+# Auto-generated documentation files
+docs/examples/*.py
+docs/examples/*.cpp
+
+# Documentation temporary files
+doxygen_*.tmp
+docs.log
 
 # Temporary files
 *.tmp

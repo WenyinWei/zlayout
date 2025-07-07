@@ -6,8 +6,13 @@
 [![Language](https://img.shields.io/badge/language-C%2B%2B17%20%7C%20Python3-blue)]()
 [![Build System](https://img.shields.io/badge/build%20system-xmake-orange)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/WenyinWei/zlayout/blob/main/LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://wenyinwei.github.io/zlayout/)
 
 🇺🇸 [English README](README_EN.md) | 🇨🇳 中文文档
+
+> 📖 **完整文档**: [https://wenyinwei.github.io/zlayout/](https://wenyinwei.github.io/zlayout/)
+> 
+> 包含API参考、使用教程、性能基准和示例代码等详细内容。
 
 面向超级制程（2nm及以下）的超大规模EDA布局优化库，专为处理上亿到十亿级电子元器件设计。采用现代C++17开发，集成分层空间索引、多线程并行处理和先进的布局优化算法。
 

@@ -6,8 +6,13 @@
 [![Language](https://img.shields.io/badge/language-C%2B%2B17%20%7C%20Python3-blue)]()
 [![Build System](https://img.shields.io/badge/build%20system-xmake-orange)]()
 [![License](https://img.shields.io/badge/license-MIT-green)](https://github.com/WenyinWei/zlayout/blob/main/LICENSE)
+[![Documentation](https://img.shields.io/badge/docs-GitHub%20Pages-blue)](https://wenyinwei.github.io/zlayout/)
 
 🇺🇸 English README | 🇨🇳 [中文文档](README.md)
+
+> 📖 **Complete Documentation**: [https://wenyinwei.github.io/zlayout/](https://wenyinwei.github.io/zlayout/)
+> 
+> Contains API reference, tutorials, performance benchmarks, and example code.
 
 Ultra-large scale EDA layout optimization library for advanced process nodes (2nm and below), designed to handle hundreds of millions to billions of electronic components. Built with modern C++17, featuring hierarchical spatial indexing, multi-threaded parallel processing, and GPU acceleration.
 

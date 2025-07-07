@@ -6,6 +6,11 @@
 #include <zlayout/zlayout.hpp>
 #include <iostream>
 #include <stdexcept>
+#include <chrono>
+#include <algorithm>
+#include <string>
+#include <cstdio>
+#include <cstdlib>
 
 #ifdef ZLAYOUT_OPENMP
 #include <omp.h>
@@ -116,16 +121,29 @@ struct SystemInfo {
     size_t max_threads;
 };
 
+// Helper function for MSVC 2012 compatibility
+namespace {
+    std::string int_to_string(int value) {
+#if defined(_MSC_VER) && _MSC_VER < 1800  // MSVC 2012 and earlier
+        char buffer[32];
+        sprintf(buffer, "%d", value);
+        return std::string(buffer);
+#else
+        return std::to_string(value);
+#endif
+    }
+}
+
 SystemInfo get_system_info() {
     SystemInfo info;
     
     // Compiler information
 #ifdef __GNUC__
-    info.compiler = "GCC " + std::to_string(__GNUC__) + "." + std::to_string(__GNUC_MINOR__);
+    info.compiler = "GCC " + int_to_string(__GNUC__) + "." + int_to_string(__GNUC_MINOR__);
 #elif defined(__clang__)
-    info.compiler = "Clang " + std::to_string(__clang_major__) + "." + std::to_string(__clang_minor__);
+    info.compiler = "Clang " + int_to_string(__clang_major__) + "." + int_to_string(__clang_minor__);
 #elif defined(_MSC_VER)
-    info.compiler = "MSVC " + std::to_string(_MSC_VER);
+    info.compiler = "MSVC " + int_to_string(_MSC_VER);
 #else
     info.compiler = "Unknown compiler";
 #endif

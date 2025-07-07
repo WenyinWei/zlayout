@@ -1,0 +1,15 @@
+<map id="zlayout::geometry::Polygon::intersection_points" name="zlayout::geometry::Polygon::intersection_points">
+<area shape="rect" id="Node000001" title="Find intersection points between polygon edges." alt="" coords="5,62,164,117"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a14debcfee816a83c208c1e9f7fa0a3c1" title="Get polygon edges as pairs of consecutive vertices." alt="" coords="439,5,587,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,65,212,55,322,39,425,29,425,34,323,44,212,60,165,70"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#a798d9faa3daf559487e4c717f9040c42" title="Check if this polygon intersects with another polygon." alt="" coords="212,69,360,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,87,198,87,198,92,165,92"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_polygon.html#a156a60e04ce269b522b49f223aca3b46" title="Helper function to find intersection point of two line segments." alt="" coords="667,119,837,174"/>
+<area shape="poly" id="edge8_Node000001_Node000005" title=" " alt="" coords="165,108,213,119,310,136,408,145,513,148,619,145,653,145,653,150,619,151,513,153,408,151,309,141,211,124,164,113"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="357,67,428,47,429,52,359,72"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_polygon.html#a580fd3da25019265ac2139f09d9c33e8" title="Helper function to check if two line segments intersect." alt="" coords="408,69,619,109"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="360,95,394,96,394,101,360,100"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="408,83,374,83,374,78,408,78"/>
+<area shape="poly" id="edge6_Node000004_Node000005" title=" " alt="" coords="598,107,654,120,653,126,597,112"/>
+<area shape="poly" id="edge7_Node000005_Node000003" title=" " alt="" coords="666,147,544,140,408,124,367,115,368,110,408,119,544,135,667,142"/>
+</map>

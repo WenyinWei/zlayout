@@ -1,0 +1,7 @@
+<map id="zlayout.component_interface.ComponentManager.connect_components" name="zlayout.component_interface.ComponentManager.connect_components">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,30,221,85"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1component__db_1_1_component_database.html#a6571f2afb883c27065a077e099336354" title=" " alt="" coords="274,5,523,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="221,43,260,38,261,44,222,48"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1component__interface_1_1_component_manager.html#a3aebee5b753c0e49589c11d97ef1db5c" title=" " alt="" coords="269,69,528,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="222,67,256,71,255,76,221,72"/>
+</map>

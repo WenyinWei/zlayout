@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Polygon::get_sharp_angles" name="zlayout::geometry::Polygon::get_sharp_angles">
+<area shape="rect" id="Node000001" title="Find vertices with sharp angles." alt="" coords="5,5,201,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a57f40414d59dfef8b8550c614954f831" title="Calculate angle at a specific vertex." alt="" coords="249,5,416,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="201,23,236,23,236,28,201,28"/>
+</map>

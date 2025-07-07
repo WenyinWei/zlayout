@@ -1,0 +1,16 @@
+<map id="minimal_example._print_design_rule_results" name="minimal_example._print_design_rule_results">
+<area shape="rect" id="Node000001" title=" " alt="" coords="676,69,857,109"/>
+<area shape="rect" id="Node000002" href="$namespaceminimal__example.html#ad45374be0333266d5fd32a3f8a755de5" title=" " alt="" coords="448,5,628,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="681,68,609,48,611,43,682,63"/>
+<area shape="rect" id="Node000005" href="$namespaceminimal__example.html#aba8ab2eef21992c684686932cbe5d1b5" title=" " alt="" coords="450,69,626,109"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="662,92,626,92,626,87,662,87"/>
+<area shape="rect" id="Node000006" href="$namespaceminimal__example.html#ad25612867dde4aabea59e787330d8fec" title=" " alt="" coords="450,133,626,173"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="682,116,611,136,609,131,681,110"/>
+<area shape="rect" id="Node000003" href="$namespaceminimal__example.html#a0f470bb186d2ddc165a57b41f2b3ef8c" title=" " alt="" coords="231,69,400,109"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="455,52,386,72,385,67,454,47"/>
+<area shape="rect" id="Node000004" href="$namespaceminimal__example.html#af9f93780530aca81d9c063565e3c46fc" title=" " alt="" coords="5,77,183,102"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="217,92,183,92,183,87,217,87"/>
+<area shape="poly" id="edge4_Node000004_Node000004" title=" " alt="" coords="134,67,123,59,94,55,70,57,58,62,55,68,62,75,58,78,50,68,54,58,69,52,94,50,125,54,137,63"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="436,92,400,92,400,87,436,87"/>
+<area shape="poly" id="edge8_Node000006_Node000003" title=" " alt="" coords="454,132,385,112,386,107,455,127"/>
+</map>

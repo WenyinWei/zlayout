@@ -1,0 +1,5 @@
+<map id="zlayout::spatial::IPBlock::intersects" name="zlayout::spatial::IPBlock::intersects">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,5,184,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#acdd06b57300970e25e0db2aa9cd6fda3" title="Check if this rectangle intersects with another rectangle." alt="" coords="232,5,391,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="184,23,218,23,218,28,184,28"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Polygon::all_vertex_angles" name="zlayout::geometry::Polygon::all_vertex_angles">
+<area shape="rect" id="Node000001" title="Get all vertex angles." alt="" coords="5,5,153,60"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a57f40414d59dfef8b8550c614954f831" title="Calculate angle at a specific vertex." alt="" coords="201,13,368,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,30,187,30,187,35,154,35"/>
+</map>

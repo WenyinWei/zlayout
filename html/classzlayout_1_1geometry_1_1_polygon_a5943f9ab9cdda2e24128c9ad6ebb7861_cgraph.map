@@ -1,0 +1,15 @@
+<map id="zlayout::geometry::Polygon::distance_to" name="zlayout::geometry::Polygon::distance_to">
+<area shape="rect" id="Node000001" title="Calculate minimum distance to a point." alt="" coords="5,69,163,109"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#af2e2fa5545fe444a0ed8dc1c4195972a" title="Check if point is inside polygon (ray casting algorithm)" alt="" coords="211,5,388,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,67,217,47,219,52,153,72"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_point.html#a5f6db7c46e0f3e9a87f88396d2b5f658" title="Calculate distance from this point to a line segment." alt="" coords="215,69,384,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="163,87,201,87,201,92,163,92"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1geometry_1_1_polygon.html#a14debcfee816a83c208c1e9f7fa0a3c1" title="Get polygon edges as pairs of consecutive vertices." alt="" coords="225,133,373,173"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="153,107,219,127,217,132,151,112"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_point.html#ad6568652d00d88fbb767f72b76872d77" title="Calculate Euclidean distance to another point." alt="" coords="458,5,606,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="372,67,445,46,446,52,374,72"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_point.html#abc3a8583c4d3c58b983f48dcd643ab0a" title="Calculate dot product with another point (as vector)" alt="" coords="458,69,606,109"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="384,87,444,87,444,92,384,92"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_point.html#ab80a342d9f58beda1531532b1838d402" title="Calculate squared magnitude (faster, avoids sqrt)" alt="" coords="436,133,628,173"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="374,107,446,127,445,132,372,112"/>
+</map>

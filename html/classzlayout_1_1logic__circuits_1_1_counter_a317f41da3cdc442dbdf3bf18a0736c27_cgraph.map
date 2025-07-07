@@ -1,0 +1,21 @@
+<map id="zlayout.logic_circuits.Counter.on_clock_edge" name="zlayout.logic_circuits.Counter.on_clock_edge">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,261,239,301"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1components_1_1_component.html#a60c1fe4d52c3206ecf62e257cac21f62" title=" " alt="" coords="333,5,491,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,260,151,217,185,161,230,104,256,78,285,55,318,39,321,43,288,60,260,82,234,108,189,165,156,220,134,262"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1components_1_1_d_flip_flop.html#a3c21f185ce70884e8464eba8d1934617" title=" " alt="" coords="333,69,491,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="136,259,196,190,238,152,285,119,318,105,320,109,288,124,241,156,200,194,140,263"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1components_1_1_j_k_flip_flop.html#a694181d5dc4301190522e997ee297e16" title=" " alt="" coords="333,133,491,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="151,259,211,221,286,183,318,171,320,176,288,188,214,225,154,263"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1components_1_1_s_r_latch.html#aa1e40ecc6d0665311b37f260e7de44d0" title=" " alt="" coords="333,197,491,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="213,259,319,235,320,240,214,264"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1components_1_1_binary_counter.html#a90ca1dfeacf06da8b40461c2e39db2da" title=" " alt="" coords="330,261,494,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="239,279,316,279,316,284,239,284"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1components_1_1_shift_register.html#a07ef6b03f27e851a7cc7a1ad61eb1c5b" title=" " alt="" coords="333,325,491,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="214,299,320,322,319,328,213,304"/>
+<area shape="rect" id="Node000008" href="$classzlayout_1_1logic__circuits_1_1_sequential_logic.html#aba78ae64aecdb13e7dbb970c7966259e" title=" " alt="" coords="296,389,528,429"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="154,299,214,337,288,375,308,383,306,388,286,380,211,342,151,304"/>
+<area shape="rect" id="Node000009" href="$classzlayout_1_1logic__circuits_1_1_flip_flop.html#ab6545b54e27e4d261c7a66a5a2cf8887" title=" " alt="" coords="319,453,505,493"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="140,300,200,369,241,407,288,439,307,448,304,453,285,444,238,411,196,372,136,303"/>
+<area shape="rect" id="Node000010" href="$classzlayout_1_1logic__circuits_1_1_counter.html#a82d2e2663a20dd9de4d69fc909e7bc40" title=" " alt="" coords="287,518,537,543"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="134,300,155,344,189,399,233,456,259,481,288,503,301,510,299,515,285,508,256,486,229,460,184,402,151,346,129,303"/>
+</map>

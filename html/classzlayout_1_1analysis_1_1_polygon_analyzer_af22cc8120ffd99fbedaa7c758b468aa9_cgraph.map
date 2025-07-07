@@ -1,0 +1,7 @@
+<map id="zlayout.analysis.PolygonAnalyzer.find_edge_intersections" name="zlayout.analysis.PolygonAnalyzer.find_edge_intersections">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,241,53"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1analysis_1_1_polygon_analyzer.html#a83449052c8485cee4de1854f6d189c0f" title=" " alt="" coords="289,5,473,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="241,30,276,30,276,35,241,35"/>
+<area shape="rect" id="Node000003" href="$namespacezlayout_1_1analysis.html#a976329d1a9a3004dc17687156ebc12f3" title=" " alt="" coords="521,13,677,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="473,30,507,30,507,35,473,35"/>
+</map>

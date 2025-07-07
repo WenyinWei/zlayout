@@ -1,0 +1,7 @@
+<map id="zlayout::geometry::Point::normalize" name="zlayout::geometry::Point::normalize">
+<area shape="rect" id="Node000001" title="Normalize vector to unit length." alt="" coords="423,5,571,45"/>
+<area shape="rect" id="Node000002" href="$hierarchical__component__example_8cpp.html#a63b2cd82cd00c7369a3099f329182fd0" title="Demonstrate hierarchical optimization." alt="" coords="108,13,375,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="409,28,375,28,375,23,409,23"/>
+<area shape="rect" id="Node000003" href="$hierarchical__component__example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
+</map>

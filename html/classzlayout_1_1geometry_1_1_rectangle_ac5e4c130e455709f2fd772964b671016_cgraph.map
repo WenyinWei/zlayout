@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Rectangle::distance_to" name="zlayout::geometry::Rectangle::distance_to">
+<area shape="rect" id="Node000001" title="Calculate minimum distance to a point." alt="" coords="5,5,176,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#ad6b66148b9fb0ba3139204da8241381a" title="Check if point is inside rectangle (inclusive of boundary)" alt="" coords="224,5,415,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,23,210,23,210,28,176,28"/>
+</map>

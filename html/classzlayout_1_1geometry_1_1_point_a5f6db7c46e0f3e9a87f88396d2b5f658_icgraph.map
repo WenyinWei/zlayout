@@ -1,0 +1,9 @@
+<map id="zlayout::geometry::Point::distance_to_line" name="zlayout::geometry::Point::distance_to_line">
+<area shape="rect" id="Node000001" title="Calculate distance from this point to a line segment." alt="" coords="539,37,708,77"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a5943f9ab9cdda2e24128c9ad6ebb7861" title="Calculate minimum distance to a point." alt="" coords="309,5,466,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="525,47,466,39,467,33,525,41"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_polygon.html#a2935a6abd48781079470eb39bfa7f63d" title="Check if point is on polygon boundary." alt="" coords="284,69,491,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="525,73,491,78,490,73,524,68"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_point.html#a613871727e9a040540b80bebe93bd0c8" title=" " alt="" coords="5,5,236,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="295,28,236,28,236,23,295,23"/>
+</map>

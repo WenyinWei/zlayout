@@ -1,0 +1,31 @@
+<map id="zlayout::components::DigitalComponent" name="zlayout::components::DigitalComponent">
+<area shape="rect" id="Node000001" title="Base class for digital logic components." alt="" coords="212,389,371,429"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1components_1_1_binary_counter.html" title="Binary Counter." alt="" coords="419,5,577,45"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="293,375,303,309,325,224,341,179,361,135,386,93,417,55,432,43,435,48,421,59,391,96,366,137,346,181,330,226,308,310,298,376"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1components_1_1_d_flip_flop.html" title="D Flip&#45;Flop." alt="" coords="419,69,577,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="296,375,310,321,333,253,368,182,391,149,417,119,433,107,436,112,420,123,395,152,373,185,338,255,315,322,301,377"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1components_1_1_decoder.html" title="Decoder." alt="" coords="419,133,577,173"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="301,375,318,332,343,281,376,229,417,183,434,171,437,176,420,187,380,232,347,284,323,334,306,377"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1components_1_1_demultiplexer.html" title="Demultiplexer." alt="" coords="419,197,577,237"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="309,376,353,312,383,277,417,247,437,235,440,240,420,251,387,281,357,315,313,379"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1components_1_1_encoder.html" title="Encoder." alt="" coords="419,261,577,301"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="324,378,367,344,417,311,441,299,444,304,420,316,370,348,328,382"/>
+<area shape="rect" id="Node000008" href="$classzlayout_1_1components_1_1_full_adder.html" title="Full Adder." alt="" coords="419,325,577,365"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="369,383,432,363,434,368,370,388"/>
+<area shape="rect" id="Node000009" href="$classzlayout_1_1components_1_1_j_k_flip_flop.html" title="JK Flip&#45;Flop." alt="" coords="419,389,577,429"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="385,407,419,407,419,412,385,412"/>
+<area shape="rect" id="Node000010" href="$classzlayout_1_1components_1_1_logic_gate.html" title="Basic Logic Gates." alt="" coords="419,453,577,493"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="370,431,434,451,432,456,369,436"/>
+<area shape="rect" id="Node000011" href="$classzlayout_1_1components_1_1_memory.html" title="Memory component (RAM/ROM)" alt="" coords="419,517,577,557"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="328,437,370,470,420,503,444,515,441,520,417,508,367,475,324,441"/>
+<area shape="rect" id="Node000012" href="$classzlayout_1_1components_1_1_multiplexer.html" title="Multiplexer." alt="" coords="419,581,577,621"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="313,440,357,504,387,538,420,567,440,579,437,584,417,571,383,541,353,507,309,443"/>
+<area shape="rect" id="Node000013" href="$classzlayout_1_1components_1_1_ripple_carry_adder.html" title="Ripple Carry Adder." alt="" coords="419,645,577,685"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="306,442,323,484,347,535,380,586,420,631,437,643,434,647,417,635,376,589,343,537,318,486,301,444"/>
+<area shape="rect" id="Node000014" href="$classzlayout_1_1components_1_1_s_r_latch.html" title="SR Latch." alt="" coords="419,709,577,749"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="301,442,315,496,338,564,373,634,395,666,420,695,436,707,433,711,417,699,391,670,368,637,333,566,310,498,296,443"/>
+<area shape="rect" id="Node000015" href="$classzlayout_1_1components_1_1_shift_register.html" title="Shift Register." alt="" coords="419,773,577,813"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="298,443,308,508,330,593,346,637,366,681,391,723,421,759,435,771,432,775,417,763,386,726,361,684,341,639,325,594,303,509,293,443"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1components_1_1_component.html" title="Base class for all EDA components." alt="" coords="5,389,164,429"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="178,407,212,407,212,412,178,412"/>
+</map>

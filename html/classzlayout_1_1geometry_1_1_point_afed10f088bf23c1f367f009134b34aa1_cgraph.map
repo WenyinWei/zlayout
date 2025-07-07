@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Point::is_zero" name="zlayout::geometry::Point::is_zero">
+<area shape="rect" id="Node000001" title="Check if point is approximately zero." alt="" coords="5,5,153,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_point.html#a1b4ec9d17235a64db98d26320c521415" title="Calculate vector magnitude (length)" alt="" coords="201,5,349,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,23,187,23,187,28,154,28"/>
+</map>

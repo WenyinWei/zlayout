@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['2_20制造约束检查_0',['2. 制造约束检查',['../md_docs_2tutorials_2zh_2algorithms_2edge__intersection__detection.html#autotoc_md188',1,'']]],
+  ['2_20多线程范围查询_1',['2. 多线程范围查询',['../md_docs_2tutorials_2zh_2algorithms_2range__query.html#autotoc_md246',1,'']]],
+  ['2_20寄生提取指导_2',['2. 寄生提取指导',['../md_docs_2tutorials_2zh_2algorithms_2narrow__spacing__detection.html#autotoc_md214',1,'']]],
+  ['2_20碰撞检测系统_3',['2. 碰撞检测系统',['../md_docs_2tutorials_2zh_2algorithms_2range__query.html#autotoc_md242',1,'']]],
+  ['2_20collision_20detection_20system_4',['2. Collision Detection System',['../md_docs_2tutorials_2en_2algorithms_2range__query.html#autotoc_md76',1,'']]],
+  ['2_20layout_20optimization_5',['2. Layout Optimization',['../index.html#autotoc_md391',1,'']]],
+  ['2_20manufacturing_20constraint_20checking_6',['2. Manufacturing Constraint Checking',['../md_docs_2tutorials_2en_2algorithms_2edge__intersection__detection.html#autotoc_md22',1,'']]],
+  ['2_20manufacturing_20constraints_7',['2. Manufacturing Constraints',['../md_docs_2examples_2eda__circuit__analysis.html#autotoc_md337',1,'']]],
+  ['2_20multi_20threaded_20range_20queries_8',['2. Multi-threaded Range Queries',['../md_docs_2tutorials_2en_2algorithms_2range__query.html#autotoc_md80',1,'']]],
+  ['2_20parasitic_20extraction_20guidance_9',['2. Parasitic Extraction Guidance',['../md_docs_2tutorials_2en_2algorithms_2narrow__spacing__detection.html#autotoc_md48',1,'']]],
+  ['2_20pcb布局优化_10',['2. PCB布局优化',['../md_docs_2tutorials_2zh_2algorithms_2sharp__angle__detection.html#autotoc_md286',1,'']]],
+  ['2_20pcb_20layout_20optimization_11',['2. PCB Layout Optimization',['../md_docs_2tutorials_2en_2algorithms_2sharp__angle__detection.html#autotoc_md120',1,'']]],
+  ['2_20r树分析_12',['2. R树分析',['../md_docs_2tutorials_2zh_2algorithms_2spatial__index__comparison.html#autotoc_md303',1,'']]],
+  ['2_20r树实现_13',['2. R树实现',['../md_docs_2tutorials_2zh_2algorithms_2range__query.html#autotoc_md229',1,'']]],
+  ['2_20r_20tree_20analysis_14',['2. R-tree Analysis',['../md_docs_2tutorials_2en_2algorithms_2spatial__index__comparison.html#autotoc_md137',1,'']]],
+  ['2_20r_20tree_20implementation_15',['2. R-tree Implementation',['../md_docs_2tutorials_2en_2algorithms_2range__query.html#autotoc_md63',1,'']]],
+  ['2_3a_20cross_20product_20method_20more_20robust_16',['Approach 2: Cross Product Method (More Robust)',['../md_docs_2tutorials_2en_2algorithms_2sharp__angle__detection.html#autotoc_md97',1,'']]],
+  ['2_3a_20manufacturing_20process_20validation_17',['Tutorial 2: Manufacturing Process Validation',['../md_docs_2tutorials_2en_2algorithms_2sharp__angle__detection.html#autotoc_md107',1,'']]],
+  ['2_3a_20performance_20comparison_18',['Tutorial 2: Performance Comparison',['../md_docs_2tutorials_2en_2algorithms_2range__query.html#autotoc_md72',1,'']]],
+  ['2_3a_20process_20node_20validation_19',['Tutorial 2: Process Node Validation',['../md_docs_2tutorials_2en_2algorithms_2narrow__spacing__detection.html#autotoc_md44',1,'']]],
+  ['2_3a_20self_20intersection_20validation_20',['Tutorial 2: Self-Intersection Validation',['../md_docs_2tutorials_2en_2algorithms_2edge__intersection__detection.html#autotoc_md18',1,'']]],
+  ['2_3a_20spatial_20index_20optimization_20o_20n_20log_20n_21',['Approach 2: Spatial Index Optimization O(n log n)',['../md_docs_2tutorials_2en_2algorithms_2narrow__spacing__detection.html#autotoc_md36',1,'']]],
+  ['2_3a_20sweep_20line_20o_20n_20k_20log_20n_22',['Algorithm 2: Sweep Line O((n+k) log n)',['../md_docs_2tutorials_2en_2algorithms_2edge__intersection__detection.html#autotoc_md8',1,'']]]
+];

@@ -1,0 +1,32 @@
+<map id="include/zlayout/components/passive_components.hpp" name="include/zlayout/components/passive_components.hpp">
+<area shape="rect" id="Node000001" title="Passive Electronic Components Implementation." alt="" coords="84,5,290,45"/>
+<area shape="rect" id="Node000002" href="$component_8hpp.html" title="Hierarchical EDA Component System." alt="" coords="168,93,323,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,44,227,81,223,84,198,47"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="30,181,107,207"/>
+<area shape="poly" id="edge16_Node000001_Node000003" title=" " alt="" coords="175,47,86,172,82,169,171,44"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="182,255,245,280"/>
+<area shape="poly" id="edge18_Node000001_Node000004" title=" " alt="" coords="146,48,92,77,41,116,22,137,11,160,9,182,20,205,34,221,51,233,89,251,131,260,169,264,168,269,130,266,88,256,48,238,30,225,15,208,4,183,6,158,18,134,37,112,90,73,143,43"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="747,255,806,280"/>
+<area shape="poly" id="edge17_Node000001_Node000005" title=" " alt="" coords="290,36,423,56,569,86,638,105,699,127,747,152,780,180,787,194,790,210,787,241,782,241,785,211,782,196,775,183,744,156,697,132,637,110,568,91,422,61,289,41"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="204,136,108,178,106,173,202,131"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="242,134,229,182,219,241,214,240,224,181,237,133"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="323,112,434,116,561,126,621,135,676,146,721,161,753,179,764,193,772,209,778,240,773,241,766,210,759,196,749,183,719,166,674,151,621,140,560,131,434,121,323,118"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="539,181,590,207"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="324,129,526,179,525,184,322,134"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="614,181,738,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="323,126,601,176,600,182,323,131"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="165,328,252,353"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="234,135,201,187,185,220,173,255,171,267,173,279,181,298,192,316,188,318,177,301,168,281,166,267,168,254,180,218,197,185,229,132"/>
+<area shape="rect" id="Node000009" href="$rectangle_8hpp.html" title="Axis&#45;aligned rectangle class for bounding boxes and simple components." alt="" coords="284,181,514,207"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="283,131,365,173,363,177,281,136"/>
+<area shape="rect" id="Node000010" href="$point_8hpp.html" title="2D Point class for geometric calculations" alt="" coords="270,255,472,280"/>
+<area shape="poly" id="edge15_Node000002_Node000010" title=" " alt="" coords="250,133,257,169,264,188,274,205,300,229,329,246,326,251,296,233,270,208,259,190,252,170,244,134"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="370,209,257,252,255,247,368,204"/>
+<area shape="poly" id="edge14_Node000009_Node000005" title=" " alt="" coords="460,204,734,255,733,261,459,209"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="397,208,383,243,378,241,392,206"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="346,282,248,325,246,320,344,278"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="292,328,354,353"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="365,282,340,318,336,315,361,279"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="379,328,459,353"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="381,279,406,315,401,318,377,282"/>
+</map>

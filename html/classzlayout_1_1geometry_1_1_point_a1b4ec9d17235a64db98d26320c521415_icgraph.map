@@ -1,0 +1,14 @@
+<map id="zlayout::geometry::Point::magnitude" name="zlayout::geometry::Point::magnitude">
+<area shape="rect" id="Node000001" title="Calculate vector magnitude (length)" alt="" coords="639,92,787,132"/>
+<area shape="rect" id="Node000002" href="$namespacezlayout_1_1geometry.html#aef6beeed9483a904b7977753a6449928" title="Calculate angle between three points (p1&#45;p2&#45;p3)" alt="" coords="423,5,591,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="651,89,554,48,556,43,653,84"/>
+<area shape="rect" id="Node000003" href="$hierarchical__component__example_8cpp.html#a63b2cd82cd00c7369a3099f329182fd0" title="Demonstrate hierarchical optimization." alt="" coords="108,131,375,157"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="625,111,591,111,507,107,423,111,355,121,293,134,292,129,354,116,422,105,507,102,591,105,625,106"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_point.html#afed10f088bf23c1f367f009134b34aa1" title="Check if point is approximately zero." alt="" coords="433,120,581,160"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="625,127,581,133,580,127,625,121"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_point.html#a0c0c537fad79f8a9c8ff19b2b6f51f50" title="Normalize vector to unit length." alt="" coords="433,184,581,224"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="662,141,592,174,563,186,561,181,590,170,660,136"/>
+<area shape="rect" id="Node000004" href="$hierarchical__component__example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,131,60,157"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,147,60,147,60,141,94,141"/>
+<area shape="poly" id="edge6_Node000006_Node000003" title=" " alt="" coords="419,187,298,159,299,154,420,182"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="eda_circuit_example.demonstrate_design_rule_checking" name="eda_circuit_example.demonstrate_design_rule_checking">
+<area shape="rect" id="Node000001" title=" " alt="" coords="248,22,492,62"/>
+<area shape="rect" id="Node000002" href="$namespaceeda__circuit__example.html#af52498263059426cce3cd9da3acc2c5e" title=" " alt="" coords="5,29,200,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="234,45,200,45,200,39,234,39"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="150,20,148,16,139,12,103,8,74,10,59,15,56,20,63,27,60,31,50,21,55,11,73,5,103,3,141,7,151,12,155,18"/>
+</map>

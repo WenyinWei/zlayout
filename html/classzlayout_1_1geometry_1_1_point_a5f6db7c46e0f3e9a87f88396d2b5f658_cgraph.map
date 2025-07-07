@@ -1,0 +1,9 @@
+<map id="zlayout::geometry::Point::distance_to_line" name="zlayout::geometry::Point::distance_to_line">
+<area shape="rect" id="Node000001" title="Calculate distance from this point to a line segment." alt="" coords="5,69,175,109"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_point.html#ad6568652d00d88fbb767f72b76872d77" title="Calculate Euclidean distance to another point." alt="" coords="245,5,393,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="161,67,233,46,235,52,163,72"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_point.html#abc3a8583c4d3c58b983f48dcd643ab0a" title="Calculate dot product with another point (as vector)" alt="" coords="245,69,393,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="175,87,231,87,231,92,175,92"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_point.html#ab80a342d9f58beda1531532b1838d402" title="Calculate squared magnitude (faster, avoids sqrt)" alt="" coords="223,133,415,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="163,107,235,127,233,132,161,112"/>
+</map>

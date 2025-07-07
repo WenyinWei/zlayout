@@ -1,0 +1,13 @@
+<map id="UltraLargeScaleDemo::generate_components" name="UltraLargeScaleDemo::generate_components">
+<area shape="rect" id="Node000001" title="Generate random components for testing." alt="" coords="349,69,524,109"/>
+<area shape="rect" id="Node000002" href="$class_ultra_large_scale_demo.html#a7d905ebe14b9400c8e4da56225566a09" title="Compare different spatial indexing algorithms." alt="" coords="117,5,293,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="350,68,277,48,278,43,351,63"/>
+<area shape="rect" id="Node000004" href="$class_ultra_large_scale_demo.html#a177765abff30b3c72fe81c2da4846d37" title="Demonstrate design rule checking at scale." alt="" coords="119,69,290,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="336,92,290,92,290,87,336,87"/>
+<area shape="rect" id="Node000005" href="$class_ultra_large_scale_demo.html#a26a6a64b2741af266757534fc00b0d47" title="Test performance with different scales." alt="" coords="108,133,301,173"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="351,116,278,136,277,131,350,110"/>
+<area shape="rect" id="Node000003" href="$ultra__large__scale__example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,77,60,102"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="129,52,109,60,61,80,59,75,107,55,127,47"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="106,92,60,92,60,87,106,87"/>
+<area shape="poly" id="edge6_Node000005_Node000003" title=" " alt="" coords="127,131,107,124,59,104,61,99,109,119,129,126"/>
+</map>

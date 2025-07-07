@@ -1,0 +1,8 @@
+<map id="BM_PolygonArea" name="BM_PolygonArea">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,137,38"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#afad1c3ff21d330f9135519b7e4a063e5" title="Calculate polygon area using shoelace formula." alt="" coords="185,5,333,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="137,23,172,23,172,28,137,28"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#acfc546b1c685fc7915402727f88e0ab6" title="Calculate signed area (preserves orientation)" alt="" coords="381,5,543,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="333,31,368,32,368,37,333,37"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="381,19,347,19,347,14,381,14"/>
+</map>

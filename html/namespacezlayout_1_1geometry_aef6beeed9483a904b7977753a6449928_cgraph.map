@@ -1,0 +1,7 @@
+<map id="zlayout::geometry::angle_between_points" name="zlayout::geometry::angle_between_points">
+<area shape="rect" id="Node000001" title="Calculate angle between three points (p1&#45;p2&#45;p3)" alt="" coords="5,37,173,77"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_point.html#abc3a8583c4d3c58b983f48dcd643ab0a" title="Calculate dot product with another point (as vector)" alt="" coords="221,5,369,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="173,42,207,36,208,42,174,47"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_point.html#a1b4ec9d17235a64db98d26320c521415" title="Calculate vector magnitude (length)" alt="" coords="221,69,369,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="174,68,208,73,207,78,173,73"/>
+</map>

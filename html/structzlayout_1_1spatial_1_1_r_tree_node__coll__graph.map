@@ -1,0 +1,11 @@
+<map id="zlayout::spatial::RTreeNode&lt; T &gt;" name="zlayout::spatial::RTreeNode&lt; T &gt;">
+<area shape="rect" id="Node000001" title="R&#45;tree node for efficient rectangle indexing." alt="" coords="607,85,844,110"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html" title="Axis&#45;aligned rectangle for bounding boxes and simple EDA components." alt="" coords="338,5,486,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="500,43,670,82,668,87,499,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="326,70,498,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="512,95,607,95,607,100,512,100"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="323,149,501,203"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="514,148,673,107,675,113,515,153"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,156,209,196"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="223,173,322,173,322,179,223,179"/>
+</map>

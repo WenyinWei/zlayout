@@ -1,0 +1,5 @@
+<map id="zlayout::spatial::QuadTreeNode::query_range" name="zlayout::spatial::QuadTreeNode::query_range">
+<area shape="rect" id="Node000001" title="Query objects in a rectangular range." alt="" coords="5,5,196,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#acdd06b57300970e25e0db2aa9cd6fda3" title="Check if this rectangle intersects with another rectangle." alt="" coords="244,5,403,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="197,23,230,23,230,28,197,28"/>
+</map>

@@ -1,0 +1,16 @@
+<map id="zlayout::geometry::Polygon::vertex_angle" name="zlayout::geometry::Polygon::vertex_angle">
+<area shape="rect" id="Node000001" title="Calculate angle at a specific vertex." alt="" coords="591,49,757,89"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a45d14a8f336dd0d467cd460b546697da" title="Get all vertex angles." alt="" coords="371,5,519,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="577,56,519,47,519,42,577,51"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#a53a71b0f467d296bfe25b3b5052c8480" title="Find vertices with sharp angles." alt="" coords="347,85,543,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="577,87,543,92,543,87,576,81"/>
+<area shape="rect" id="Node000004" href="$bench__geometry_8cpp.html#aae0c02c757b108e1af6650c884c97cb9" title=" " alt="" coords="110,35,297,60"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="346,84,257,63,258,57,347,79"/>
+<area shape="rect" id="Node000005" href="$basic__usage_8cpp.html#a8b33018ce2c09981114db213959dbc41" title=" " alt="" coords="110,85,297,125"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="333,107,297,107,297,102,333,102"/>
+<area shape="rect" id="Node000007" href="$basic__usage_8cpp.html#ac19929b7e9973e1b75d17f2d7b8013c0" title=" " alt="" coords="108,149,299,189"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="356,131,280,151,279,146,355,126"/>
+<area shape="rect" id="Node000006" href="$basic__usage_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,124,60,149"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="97,127,61,134,60,129,96,122"/>
+<area shape="poly" id="edge7_Node000007_Node000006" title=" " alt="" coords="94,151,60,144,61,139,95,146"/>
+</map>

@@ -1,0 +1,13 @@
+<map id="zlayout::geometry::Point::dot" name="zlayout::geometry::Point::dot">
+<area shape="rect" id="Node000001" title="Calculate dot product with another point (as vector)" alt="" coords="756,37,904,77"/>
+<area shape="rect" id="Node000002" href="$namespacezlayout_1_1geometry.html#aef6beeed9483a904b7977753a6449928" title="Calculate angle between three points (p1&#45;p2&#45;p3)" alt="" coords="539,5,707,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="742,46,707,41,708,36,743,41"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_point.html#a5f6db7c46e0f3e9a87f88396d2b5f658" title="Calculate distance from this point to a line segment." alt="" coords="539,69,708,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="743,74,709,79,708,74,742,68"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_polygon.html#a5943f9ab9cdda2e24128c9ad6ebb7861" title="Calculate minimum distance to a point." alt="" coords="309,37,466,77"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="525,79,466,71,467,65,525,73"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_polygon.html#a2935a6abd48781079470eb39bfa7f63d" title="Check if point is on polygon boundary." alt="" coords="284,101,491,141"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="525,105,491,110,490,105,524,100"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_point.html#a613871727e9a040540b80bebe93bd0c8" title=" " alt="" coords="5,37,236,77"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="295,60,236,60,236,55,295,55"/>
+</map>

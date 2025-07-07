@@ -1,0 +1,16 @@
+<map id="zlayout::spatial::IPBlock" name="zlayout::spatial::IPBlock">
+<area shape="rect" id="Node000001" title="IP Block represents a hierarchical design block." alt="" coords="504,70,683,95"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="753,25,936,65"/>
+<area shape="poly" id="edge6_Node000006_Node000001" title=" " alt="" coords="692,65,753,56,753,62,693,71"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="229,13,316,38"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="330,33,522,67,521,73,329,38"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,5,144,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="158,23,229,23,229,28,158,28"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_rectangle.html" title="Axis&#45;aligned rectangle for bounding boxes and simple EDA components." alt="" coords="199,63,347,103"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="360,80,504,80,504,85,360,85"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="1049,55,1228,110"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="1036,91,936,95,753,95,683,91,683,86,753,89,936,89,1036,86"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="950,56,1049,69,1049,74,949,61"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="193,127,352,153"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="357,122,521,93,522,98,358,127"/>
+</map>

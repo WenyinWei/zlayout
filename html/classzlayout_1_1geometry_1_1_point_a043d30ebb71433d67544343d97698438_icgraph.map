@@ -1,0 +1,7 @@
+<map id="zlayout::geometry::Point::cross" name="zlayout::geometry::Point::cross">
+<area shape="rect" id="Node000001" title="Calculate cross product magnitude (2D cross product)" alt="" coords="201,37,349,77"/>
+<area shape="rect" id="Node000002" href="$namespacezlayout_1_1geometry.html#abf41fa94128c4f248591ead696596bce" title="Check if three points are collinear." alt="" coords="5,5,153,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,46,153,40,154,35,188,40"/>
+<area shape="rect" id="Node000003" href="$namespacezlayout_1_1geometry.html#a78fffb114607057219363771dd402fb8" title="Calculate orientation of three points." alt="" coords="5,69,153,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="188,74,154,80,153,75,187,69"/>
+</map>

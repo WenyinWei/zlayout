@@ -1,0 +1,12 @@
+<map id="zlayout::geometry::Polygon::get_sharp_angles" name="zlayout::geometry::Polygon::get_sharp_angles">
+<area shape="rect" id="Node000001" title="Find vertices with sharp angles." alt="" coords="347,55,543,95"/>
+<area shape="rect" id="Node000002" href="$bench__geometry_8cpp.html#aae0c02c757b108e1af6650c884c97cb9" title=" " alt="" coords="110,5,297,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="346,55,257,33,258,28,347,49"/>
+<area shape="rect" id="Node000003" href="$basic__usage_8cpp.html#a8b33018ce2c09981114db213959dbc41" title=" " alt="" coords="110,55,297,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="333,78,297,78,297,73,333,73"/>
+<area shape="rect" id="Node000005" href="$basic__usage_8cpp.html#ac19929b7e9973e1b75d17f2d7b8013c0" title=" " alt="" coords="108,119,299,159"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="356,101,280,122,279,117,355,96"/>
+<area shape="rect" id="Node000004" href="$basic__usage_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,95,60,120"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="97,98,61,105,60,100,96,93"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="94,121,60,115,61,110,95,116"/>
+</map>

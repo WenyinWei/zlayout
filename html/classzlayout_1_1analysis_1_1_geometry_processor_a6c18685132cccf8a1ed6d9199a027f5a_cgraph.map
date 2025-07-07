@@ -1,0 +1,7 @@
+<map id="zlayout.analysis.GeometryProcessor.optimize_layout" name="zlayout.analysis.GeometryProcessor.optimize_layout">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,37,203,77"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1analysis_1_1_geometry_processor.html#a00cb87d5dd22b1af1dc4c9342c698b6c" title=" " alt="" coords="251,5,536,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="202,44,237,40,238,45,203,49"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1analysis_1_1_geometry_processor.html#ab7767c2ac9efd23af2199b9368375eb7" title=" " alt="" coords="295,69,492,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,66,281,74,281,80,202,71"/>
+</map>

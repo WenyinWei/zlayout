@@ -1,0 +1,7 @@
+<map id="zlayout::geometry::Rectangle::intersection" name="zlayout::geometry::Rectangle::intersection">
+<area shape="rect" id="Node000001" title="Calculate intersection rectangle with another rectangle." alt="" coords="5,37,177,77"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#acdd06b57300970e25e0db2aa9cd6fda3" title="Check if this rectangle intersects with another rectangle." alt="" coords="226,5,385,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="177,42,212,37,213,42,178,47"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_rectangle.html#a8fd7816288a954083cafe4d217b863d1" title="Default constructor &#45; creates empty rectangle at origin." alt="" coords="225,69,385,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="178,68,212,73,211,78,177,73"/>
+</map>

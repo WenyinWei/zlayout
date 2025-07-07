@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Rectangle::bounding_box" name="zlayout::geometry::Rectangle::bounding_box">
+<area shape="rect" id="Node000001" title="Create bounding rectangle for a set of points." alt="" coords="5,5,192,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#a8fd7816288a954083cafe4d217b863d1" title="Default constructor &#45; creates empty rectangle at origin." alt="" coords="240,5,400,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,23,226,23,226,28,192,28"/>
+</map>

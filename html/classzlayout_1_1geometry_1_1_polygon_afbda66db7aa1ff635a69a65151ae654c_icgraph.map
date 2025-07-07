@@ -1,0 +1,7 @@
+<map id="zlayout::geometry::Polygon::segment_to_segment_distance" name="zlayout::geometry::Polygon::segment_to_segment_distance">
+<area shape="rect" id="Node000001" title="Helper function to calculate distance between two line segments." alt="" coords="281,41,440,96"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#aa57863b6ef381de427dd2889c6e95d4e" title="Find narrow regions where edges are too close." alt="" coords="40,5,199,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="268,58,199,47,199,42,268,52"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#abb44ceb037b0d08d0266434062e08d82" title="Calculate minimum distance between this polygon&#39;s edges and another polygon&#39;s edges." alt="" coords="5,85,233,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="268,85,234,90,233,85,267,80"/>
+</map>

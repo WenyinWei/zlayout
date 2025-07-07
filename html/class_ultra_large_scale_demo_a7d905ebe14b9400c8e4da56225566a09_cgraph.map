@@ -1,0 +1,15 @@
+<map id="UltraLargeScaleDemo::algorithm_comparison" name="UltraLargeScaleDemo::algorithm_comparison">
+<area shape="rect" id="Node000001" title="Compare different spatial indexing algorithms." alt="" coords="5,165,181,205"/>
+<area shape="rect" id="Node000002" href="$class_ultra_large_scale_demo.html#aee1a3f829683afc4d6b7af6aa0a45131" title="Generate random components for testing." alt="" coords="237,5,412,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,163,159,110,192,81,228,55,240,49,242,53,231,60,195,85,162,114,113,167"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a6d1b343093c7e1cea1d886d8fe928377" title="Calculate tree statistics." alt="" coords="229,69,420,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="133,163,228,119,247,112,249,117,230,124,135,167"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a0db2b853a5be70c9b33b81d0d49308d1" title="Insert object into quadtree." alt="" coords="229,133,420,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="181,171,216,166,216,171,182,176"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1spatial_1_1_r_tree.html#a0ccd5e03571947d4246d82b77969ce37" title=" " alt="" coords="242,197,407,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="182,195,229,201,228,207,181,200"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1spatial_1_1_r_tree.html#aaf5ed2110ad64b996db80dd6537fbb96" title=" " alt="" coords="242,261,407,301"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="135,203,230,247,249,254,247,259,228,252,133,208"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a4b08e635ce5512f0dadad09660ea6a59" title="Query objects in rectangular range." alt="" coords="229,325,420,365"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="113,204,162,257,195,286,231,311,242,317,240,322,228,316,192,290,159,261,109,207"/>
+</map>

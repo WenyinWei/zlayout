@@ -1,0 +1,13 @@
+<map id="demonstrate_eda_design_rules" name="demonstrate_eda_design_rules">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,69,192,109"/>
+<area shape="rect" id="Node000002" href="$namespacezlayout_1_1geometry.html#a7dc38ebd1457896efd64fa823c75b05f" title="Calculate distance between two points." alt="" coords="264,5,412,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="174,67,250,46,252,51,175,72"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_polygon.html#a53a71b0f467d296bfe25b3b5052c8480" title="Find vertices with sharp angles." alt="" coords="240,69,436,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="192,87,226,87,226,92,192,92"/>
+<area shape="rect" id="Node000006" href="$basic__usage_8cpp.html#aa2967ca69f9e60346ef7dac2e053dd98" title=" " alt="" coords="277,134,399,159"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="183,107,272,128,271,133,182,112"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_point.html#ad6568652d00d88fbb767f72b76872d77" title="Calculate Euclidean distance to another point." alt="" coords="493,5,641,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="412,23,480,23,480,28,412,28"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_polygon.html#a57f40414d59dfef8b8550c614954f831" title="Calculate angle at a specific vertex." alt="" coords="484,69,651,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="436,87,470,87,470,92,436,92"/>
+</map>

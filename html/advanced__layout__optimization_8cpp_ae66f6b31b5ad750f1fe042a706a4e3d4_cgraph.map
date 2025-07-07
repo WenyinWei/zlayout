@@ -1,0 +1,23 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,173,60,199"/>
+<area shape="rect" id="Node000002" href="$class_e_d_a_layout_demo.html#af1d4ef95148c2609018eecba6f8fa671" title="Algorithm performance comparison." alt="" coords="121,98,318,138"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="59,172,107,152,139,140,141,145,109,156,61,176"/>
+<area shape="rect" id="Node000006" href="$class_e_d_a_layout_demo.html#ae2253946a48ef80d4b01b56800f45157" title="Create a realistic CPU design example." alt="" coords="108,166,331,206"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="60,183,94,183,94,189,60,189"/>
+<area shape="rect" id="Node000007" href="$class_e_d_a_layout_demo.html#a04db079389ffe1a9f6e3b788a8c1b2c6" title="Demonstrate force&#45;directed placement." alt="" coords="108,23,331,63"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="38,172,64,129,84,105,106,84,135,67,137,71,110,88,87,109,69,132,43,175"/>
+<area shape="rect" id="Node000008" href="$class_e_d_a_layout_demo.html#a46e21dffb160a2529d033b4958192231" title="Demonstrate hierarchical optimization for billion&#45;scale designs." alt="" coords="108,230,331,270"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="61,196,109,216,132,223,130,228,107,220,59,201"/>
+<area shape="rect" id="Node000010" href="$class_e_d_a_layout_demo.html#a404fe4484b621d332a0a618a58a18f4c" title="Show why GPU acceleration isn&#39;t suitable for layout optimization." alt="" coords="125,294,313,334"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="43,198,69,239,87,261,110,280,119,286,116,290,106,284,84,265,64,242,38,201"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1optimization_1_1_optimizer_factory.html#ac9281ed1202c175e2a7a9a8f943ad8cb" title=" " alt="" coords="397,5,587,60"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="283,95,390,62,392,67,285,101"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1optimization_1_1_optimizer_factory.html#ab6ea40ea8b3f4fa0f76365be87b7a5dd" title=" " alt="" coords="397,163,587,217"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="297,135,385,159,383,164,295,141"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1optimization_1_1_optimizer_factory.html#ada9454420647f35dc5645f7751c9c169" title="Choose optimal algorithm based on problem characteristics." alt="" coords="379,84,605,139"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="318,113,365,112,365,117,318,118"/>
+<area shape="poly" id="edge6_Node000006_Node000004" title=" " alt="" coords="331,185,384,186,383,191,331,190"/>
+<area shape="poly" id="edge8_Node000007_Node000003" title=" " alt="" coords="331,36,383,34,384,40,331,42"/>
+<area shape="rect" id="Node000009" href="$classzlayout_1_1optimization_1_1_optimizer_factory.html#a899cb247eef69427b375faad30fdea83" title=" " alt="" coords="397,241,587,296"/>
+<area shape="poly" id="edge10_Node000008_Node000009" title=" " alt="" coords="331,255,384,259,383,264,331,260"/>
+</map>

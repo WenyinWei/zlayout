@@ -1,0 +1,45 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,301,60,326"/>
+<area shape="rect" id="Node000002" href="$class_ultra_large_scale_demo.html#a7d905ebe14b9400c8e4da56225566a09" title="Compare different spatial indexing algorithms." alt="" coords="117,197,293,237"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="55,298,154,242,157,247,58,303"/>
+<area shape="rect" id="Node000009" href="$class_ultra_large_scale_demo.html#ab2ae5739a927ad935b4e801dab1bbba9" title="Demonstrate hierarchical IP block creation." alt="" coords="114,389,295,429"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="58,324,157,380,154,385,55,328"/>
+<area shape="rect" id="Node000013" href="$class_ultra_large_scale_demo.html#a177765abff30b3c72fe81c2da4846d37" title="Demonstrate design rule checking at scale." alt="" coords="119,21,290,61"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="32,300,37,261,49,205,71,144,87,114,106,88,132,66,135,70,110,91,91,117,76,146,54,206,42,262,38,301"/>
+<area shape="rect" id="Node000014" href="$class_ultra_large_scale_demo.html#a72c4fff03cebf5eb754c8002e435c4ed" title="Demonstrate memory pool efficiency." alt="" coords="123,517,287,557"/>
+<area shape="poly" id="edge14_Node000001_Node000014" title=" " alt="" coords="42,325,70,377,110,440,141,475,172,506,168,510,137,479,106,443,65,380,38,328"/>
+<area shape="rect" id="Node000017" href="$class_ultra_large_scale_demo.html#a26a6a64b2741af266757534fc00b0d47" title="Test performance with different scales." alt="" coords="108,101,301,141"/>
+<area shape="poly" id="edge17_Node000001_Node000017" title=" " alt="" coords="37,299,62,246,82,214,106,184,128,164,152,147,155,151,131,168,110,187,87,217,67,249,41,302"/>
+<area shape="rect" id="Node000018" href="$class_ultra_large_scale_demo.html#a39fed17c3221323d8c28a4c868a20b9f" title="Demonstrate Z&#45;order curve spatial hashing." alt="" coords="123,645,287,685"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="38,326,45,369,58,430,79,500,110,568,137,604,168,634,165,638,133,608,106,571,74,502,52,432,39,370,33,327"/>
+<area shape="rect" id="Node000003" href="$class_ultra_large_scale_demo.html#aee1a3f829683afc4d6b7af6aa0a45131" title="Generate random components for testing." alt="" coords="369,5,543,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="244,195,273,176,299,152,315,127,321,103,329,79,347,55,355,50,358,54,351,59,333,82,326,104,319,129,303,155,276,180,247,199"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a6d1b343093c7e1cea1d886d8fe928377" title="Calculate tree statistics." alt="" coords="361,69,551,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="234,195,348,119,365,112,367,117,351,124,237,200"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a0db2b853a5be70c9b33b81d0d49308d1" title="Insert object into quadtree." alt="" coords="361,133,551,173"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="283,195,363,174,365,179,285,200"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1spatial_1_1_r_tree.html#a0ccd5e03571947d4246d82b77969ce37" title=" " alt="" coords="373,197,539,237"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="293,215,360,215,360,220,293,220"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1spatial_1_1_r_tree.html#aaf5ed2110ad64b996db80dd6537fbb96" title=" " alt="" coords="373,261,539,301"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="285,235,365,255,363,261,283,240"/>
+<area shape="rect" id="Node000008" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a4b08e635ce5512f0dadad09660ea6a59" title="Query objects in rectangular range." alt="" coords="361,325,551,365"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="233,235,285,273,351,311,367,318,365,323,348,316,282,278,229,240"/>
+<area shape="rect" id="Node000010" href="$classzlayout_1_1spatial_1_1_hierarchical_spatial_index.html#a1000facf571c29ca9c2c39545048f0bc" title=" " alt="" coords="349,389,563,429"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="295,407,336,407,336,412,295,412"/>
+<area shape="rect" id="Node000012" href="$classzlayout_1_1spatial_1_1_hierarchical_spatial_index.html#a837082843e1ab033aa551794d4a33740" title=" " alt="" coords="352,453,560,493"/>
+<area shape="poly" id="edge11_Node000009_Node000012" title=" " alt="" coords="285,427,365,447,363,453,283,432"/>
+<area shape="rect" id="Node000011" href="$structzlayout_1_1spatial_1_1_i_p_block.html#a92e3cc91eaa286657d454250f771e1dd" title=" " alt="" coords="611,389,789,429"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="563,407,597,407,597,412,563,412"/>
+<area shape="poly" id="edge13_Node000013_Node000003" title=" " alt="" coords="290,33,354,29,355,34,290,39"/>
+<area shape="rect" id="Node000015" href="$classzlayout_1_1spatial_1_1_memory_pool.html#aea7f2075a08b83da8614188bf9d372e0" title=" " alt="" coords="364,517,548,557"/>
+<area shape="poly" id="edge15_Node000014_Node000015" title=" " alt="" coords="287,535,350,535,350,540,287,540"/>
+<area shape="rect" id="Node000016" href="$classzlayout_1_1spatial_1_1_memory_pool.html#a5db3c63dd09c05b2704d76e67911f8f4" title=" " alt="" coords="364,581,548,621"/>
+<area shape="poly" id="edge16_Node000014_Node000016" title=" " alt="" coords="285,555,365,575,363,581,283,560"/>
+<area shape="poly" id="edge18_Node000017_Node000003" title=" " alt="" coords="246,99,348,55,370,47,372,52,350,60,249,104"/>
+<area shape="rect" id="Node000019" href="$classzlayout_1_1spatial_1_1_z_order_curve.html#a4553198244fd8b9f18738a8094738d55" title=" " alt="" coords="369,645,543,685"/>
+<area shape="poly" id="edge20_Node000018_Node000019" title=" " alt="" coords="287,663,354,663,354,668,287,668"/>
+<area shape="rect" id="Node000020" href="$classzlayout_1_1spatial_1_1_z_order_curve.html#a94bf03ce80b7ae753dd0c7154ce7f23b" title=" " alt="" coords="369,709,543,749"/>
+<area shape="poly" id="edge21_Node000018_Node000020" title=" " alt="" coords="285,683,365,703,363,709,283,688"/>
+<area shape="rect" id="Node000021" href="$classzlayout_1_1spatial_1_1_z_order_curve.html#a931a0307ce41988286f58d5254f07f93" title=" " alt="" coords="613,709,787,749"/>
+<area shape="poly" id="edge22_Node000020_Node000021" title=" " alt="" coords="543,727,599,727,599,732,543,732"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="zlayout::spatial::QuadTreeNode&lt; T &gt;" name="zlayout::spatial::QuadTreeNode&lt; T &gt;">
+<area shape="rect" id="Node000001" title="A node in the quadtree structure." alt="" coords="5,313,196,353"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html" title="Axis&#45;aligned rectangle for bounding boxes and simple EDA components." alt="" coords="27,5,175,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,59,103,313,98,313,98,59"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1spatial_1_1_quad_tree_node.html" title="A node in the quadtree structure." alt="" coords="117,108,308,148"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="134,52,193,106,190,110,130,56"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="117,211,348,251"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="198,261,127,315,124,311,195,257"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="224,198,214,149,219,148,229,197"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="199,161,197,174,199,186,214,209,210,212,194,188,192,174,194,160"/>
+</map>

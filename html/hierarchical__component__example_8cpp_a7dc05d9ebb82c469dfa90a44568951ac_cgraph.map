@@ -1,0 +1,7 @@
+<map id="createALUBlock" name="createALUBlock">
+<area shape="rect" id="Node000001" title="Create a simple functional block (ALU) from basic components." alt="" coords="5,60,131,85"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1components_1_1_digital_component_factory.html#a5076a558e73b9bba76e772916b50d396" title=" " alt="" coords="179,5,373,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="130,58,165,51,166,57,131,63"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1components_1_1_digital_component_factory.html#aa745b71af0236c89685fcc7942d0fef2" title=" " alt="" coords="179,84,373,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="131,82,166,88,165,93,130,87"/>
+</map>

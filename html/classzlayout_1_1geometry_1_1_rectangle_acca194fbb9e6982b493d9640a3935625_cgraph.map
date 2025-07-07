@@ -1,0 +1,7 @@
+<map id="zlayout::geometry::Rectangle::from_center" name="zlayout::geometry::Rectangle::from_center">
+<area shape="rect" id="Node000001" title="Create rectangle from center point and dimensions." alt="" coords="5,37,180,77"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#a5e22f5a62d21284234b9d480bdaeeae8" title="Get center point of rectangle." alt="" coords="234,5,382,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="180,42,220,36,221,41,181,47"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_rectangle.html#a8fd7816288a954083cafe4d217b863d1" title="Default constructor &#45; creates empty rectangle at origin." alt="" coords="228,69,388,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="181,68,215,73,214,78,180,73"/>
+</map>

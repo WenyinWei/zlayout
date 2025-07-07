@@ -1,0 +1,16 @@
+<map id="zlayout::geometry::Polygon::signed_area" name="zlayout::geometry::Polygon::signed_area">
+<area shape="rect" id="Node000001" title="Calculate signed area (preserves orientation)" alt="" coords="584,43,745,83"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#afad1c3ff21d330f9135519b7e4a063e5" title="Calculate polygon area using shoelace formula." alt="" coords="380,43,528,83"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="570,75,528,75,528,69,570,70"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_polygon.html#ab6cf7675fb690552837857aacde2abcc" title="Check if polygon is clockwise oriented." alt="" coords="372,107,536,147"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="586,90,521,110,520,105,584,85"/>
+<area shape="poly" id="edge5_Node000002_Node000001" title=" " alt="" coords="542,52,584,52,584,57,542,57"/>
+<area shape="rect" id="Node000003" href="$bench__geometry_8cpp.html#afbe4c9d84a965ce76eb594e042478279" title=" " alt="" coords="150,5,282,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="366,49,282,33,283,28,367,44"/>
+<area shape="rect" id="Node000004" href="$basic__usage_8cpp.html#a4bb1a10b46fa1385b60781eade265dd6" title=" " alt="" coords="108,55,324,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="366,67,324,68,324,63,366,62"/>
+<area shape="rect" id="Node000005" href="$basic__usage_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="94,70,60,70,60,65,94,65"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1geometry_1_1_polygon.html#abd7233371eb8c36925653f6a75888c69" title="Check if polygon is counterclockwise oriented." alt="" coords="109,107,323,147"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="358,130,323,130,323,125,358,125"/>
+</map>

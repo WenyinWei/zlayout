@@ -1,0 +1,9 @@
+<map id="zlayout::geometry::Polygon::min_edge_distance_to" name="zlayout::geometry::Polygon::min_edge_distance_to">
+<area shape="rect" id="Node000001" title="Calculate minimum distance between this polygon&#39;s edges and another polygon&#39;s edges." alt="" coords="5,41,233,81"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a14debcfee816a83c208c1e9f7fa0a3c1" title="Get polygon edges as pairs of consecutive vertices." alt="" coords="287,5,435,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,42,273,36,274,41,234,47"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#afbda66db7aa1ff635a69a65151ae654c" title="Helper function to calculate distance between two line segments." alt="" coords="281,70,440,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="234,76,268,81,267,86,233,81"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_point.html#ad6568652d00d88fbb767f72b76872d77" title="Calculate Euclidean distance to another point." alt="" coords="488,77,636,117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="441,95,474,95,474,100,441,100"/>
+</map>

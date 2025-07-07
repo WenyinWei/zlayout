@@ -1,0 +1,11 @@
+<map id="zlayout::geometry::Rectangle::center" name="zlayout::geometry::Rectangle::center">
+<area shape="rect" id="Node000001" title="Get center point of rectangle." alt="" coords="244,101,392,141"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#acca194fbb9e6982b493d9640a3935625" title="Create rectangle from center point and dimensions." alt="" coords="13,5,188,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="269,97,195,60,165,48,167,43,197,55,271,92"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1spatial_1_1_quad_tree.html#ab201f2a0e77d56589909f938fcdd25d4" title="Get objects within circular range." alt="" coords="5,69,196,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,111,196,106,197,101,231,106"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_rectangle.html#a58d9ef3e476096824a6189a95b3f3ef8" title="Scale rectangle by given factor (around center)" alt="" coords="27,133,175,173"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="231,137,175,145,175,140,230,132"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_rectangle.html#ac490015980134f4cde860e3593e0d0e4" title="Scale rectangle by different factors in X and Y." alt="" coords="27,197,175,237"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="271,151,197,188,167,200,165,195,195,183,269,146"/>
+</map>

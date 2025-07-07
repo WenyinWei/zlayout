@@ -1,0 +1,25 @@
+var classzlayout_1_1components_1_1_i_p_block_factory =
+[
+    [ "createAdreno640", "classzlayout_1_1components_1_1_i_p_block_factory.html#a16ab6d1cc3cf57299a1e5494a4d10b25", null ],
+    [ "createAdreno730", "classzlayout_1_1components_1_1_i_p_block_factory.html#af373eb3407b0c3a4f13dc1148d5c370a", null ],
+    [ "createAppleM1", "classzlayout_1_1components_1_1_i_p_block_factory.html#a0c12f1555307bcadac811ab12ebcc5e5", null ],
+    [ "createCortexA53", "classzlayout_1_1components_1_1_i_p_block_factory.html#ae40f877605ff96f9543c8ce697b23b3f", null ],
+    [ "createCortexA72", "classzlayout_1_1components_1_1_i_p_block_factory.html#a7987a9426f70b6ca159fdfc8575f52dc", null ],
+    [ "createCortexA78", "classzlayout_1_1components_1_1_i_p_block_factory.html#a40bf503347df82a65d54f48a8a631c5a", null ],
+    [ "createCortexM4", "classzlayout_1_1components_1_1_i_p_block_factory.html#a9ccd346c19ff3dfa4d7338251e341543", null ],
+    [ "createCortexM7", "classzlayout_1_1components_1_1_i_p_block_factory.html#af31ba2e71a7eb5faf20e34fcb3a686ce", null ],
+    [ "createDDR4Controller", "classzlayout_1_1components_1_1_i_p_block_factory.html#a2bccc7b9cd5240003a0fd217430d42f4", null ],
+    [ "createDDR5Controller", "classzlayout_1_1components_1_1_i_p_block_factory.html#aecc42e3b86a05bc358c2570f3a8bd2d5", null ],
+    [ "createEthernetInterface", "classzlayout_1_1components_1_1_i_p_block_factory.html#a4e9b91cb5307664cf17d4419a10b713d", null ],
+    [ "createExynos2200", "classzlayout_1_1components_1_1_i_p_block_factory.html#aaa9c7c26ca763053c59c55fc6275bbaa", null ],
+    [ "createHexagonDSP", "classzlayout_1_1components_1_1_i_p_block_factory.html#aecb19373d0a0e075ca36ca866eb1873c", null ],
+    [ "createLPDDR5Controller", "classzlayout_1_1components_1_1_i_p_block_factory.html#ad5b48e132b1250821961e34036a4367e", null ],
+    [ "createMaliG78", "classzlayout_1_1components_1_1_i_p_block_factory.html#af94ba58ddd3ee7fda9dc9573d3eb30ab", null ],
+    [ "createMediaTekDimensity9000", "classzlayout_1_1components_1_1_i_p_block_factory.html#a404de38b23923734c4c1843d5ac71a29", null ],
+    [ "createPCIe4Interface", "classzlayout_1_1components_1_1_i_p_block_factory.html#acf2d9f3265d6b75ec3184fb8b043ae9a", null ],
+    [ "createRISCVCore", "classzlayout_1_1components_1_1_i_p_block_factory.html#a2a1f993f99ffbf27bde643ca592a78f3", null ],
+    [ "createSnapdragon8Gen1", "classzlayout_1_1components_1_1_i_p_block_factory.html#a9f21724ae7506edd21e5c954ae26ff41", null ],
+    [ "createTIC6000", "classzlayout_1_1components_1_1_i_p_block_factory.html#aa091e4e480002f6671d84117ba5366f2", null ],
+    [ "createUSB3Interface", "classzlayout_1_1components_1_1_i_p_block_factory.html#a2f4248f84302b21260c74ba24f0f28d8", null ],
+    [ "registerStandardIPBlocks", "classzlayout_1_1components_1_1_i_p_block_factory.html#a2cc42cf237aea5ffcf8e7c27021fdf9e", null ]
+];

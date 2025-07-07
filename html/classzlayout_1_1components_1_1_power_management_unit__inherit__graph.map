@@ -1,0 +1,5 @@
+<map id="zlayout::components::PowerManagementUnit" name="zlayout::components::PowerManagementUnit">
+<area shape="rect" id="Node000001" title="Power Management Unit (PMU) IP Block." alt="" coords="5,93,188,133"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1components_1_1_component.html" title="Base class for all EDA components." alt="" coords="17,5,176,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="99,59,99,93,94,93,94,59"/>
+</map>

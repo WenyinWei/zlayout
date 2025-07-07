@@ -1,0 +1,8 @@
+<map id="zlayout.spatial.QuadTree._collect_object_bbox_pairs" name="zlayout.spatial.QuadTree._collect_object_bbox_pairs">
+<area shape="rect" id="Node000001" title=" " alt="" coords="511,29,708,69"/>
+<area shape="poly" id="edge1_Node000001_Node000001" title=" " alt="" coords="651,18,636,11,609,8,586,10,571,15,566,21,569,28,564,30,561,20,568,10,585,5,609,3,638,6,653,13"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a12a930e957713e55bd8ec6591f02ba93" title=" " alt="" coords="264,29,463,69"/>
+<area shape="poly" id="edge2_Node000001_Node000002" title=" " alt="" coords="497,52,463,52,463,47,497,47"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1spatial_1_1_quad_tree.html#ae77671737154aa9dade50cebe5c03293" title=" " alt="" coords="5,29,216,69"/>
+<area shape="poly" id="edge3_Node000002_Node000003" title=" " alt="" coords="250,52,216,52,216,47,250,47"/>
+</map>

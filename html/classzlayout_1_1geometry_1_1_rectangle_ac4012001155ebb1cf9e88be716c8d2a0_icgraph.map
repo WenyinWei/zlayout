@@ -1,0 +1,11 @@
+<map id="zlayout::geometry::Rectangle::is_empty" name="zlayout::geometry::Rectangle::is_empty">
+<area shape="rect" id="Node000001" title="Check if rectangle is empty (zero area)" alt="" coords="797,37,952,77"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#ac6e7589795ab2bbf83354da71fd9c907" title="Calculate union rectangle that contains both rectangles." alt="" coords="583,37,749,77"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="784,60,749,60,749,55,784,55"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_rectangle.html#a7ada517c7cfd9e50a1c40e7aba5b5df0" title="Create rectangle that bounds multiple rectangles." alt="" coords="342,5,529,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="568,47,529,41,529,36,569,41"/>
+<area shape="rect" id="Node000005" href="$structzlayout_1_1spatial_1_1_r_tree_node.html#a997916f23c0ed163956a70f507ea5314" title=" " alt="" coords="336,69,535,109"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="569,73,535,78,534,73,568,68"/>
+<area shape="rect" id="Node000004" href="$classhierarchical__demo__simple_1_1_component.html#a8d943d24e0746058db6dd1fea9bea07d" title=" " alt="" coords="5,5,288,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="328,28,288,28,288,23,328,23"/>
+</map>

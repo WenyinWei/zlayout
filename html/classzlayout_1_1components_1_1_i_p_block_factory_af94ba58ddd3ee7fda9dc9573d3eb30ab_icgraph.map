@@ -1,0 +1,10 @@
+<map id="zlayout::components::IPBlockFactory::createMaliG78" name="zlayout::components::IPBlockFactory::createMaliG78">
+<area shape="rect" id="Node000001" title=" " alt="" coords="637,23,864,63"/>
+<area shape="rect" id="Node000002" href="$hierarchical__component__example_8cpp.html#a4d362aff109ef53db398425aac9cc958" title="Create a complete SoC with multiple IP blocks." alt="" coords="423,31,589,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="624,46,589,46,589,41,624,41"/>
+<area shape="rect" id="Node000003" href="$hierarchical__component__example_8cpp.html#a63b2cd82cd00c7369a3099f329182fd0" title="Demonstrate hierarchical optimization." alt="" coords="108,5,375,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="409,37,374,33,374,28,409,31"/>
+<area shape="rect" id="Node000004" href="$hierarchical__component__example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,56"/>
+<area shape="poly" id="edge4_Node000002_Node000004" title=" " alt="" coords="409,46,60,46,60,41,409,41"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="123,35,61,43,60,37,122,30"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="zlayout::components::RippleCarryAdder" name="zlayout::components::RippleCarryAdder">
+<area shape="rect" id="Node000001" title="Ripple Carry Adder." alt="" coords="5,181,164,221"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1components_1_1_digital_component.html" title="Base class for digital logic components." alt="" coords="5,93,164,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,147,87,181,82,181,82,147"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1components_1_1_component.html" title="Base class for all EDA components." alt="" coords="5,5,164,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,59,87,93,82,93,82,59"/>
+</map>

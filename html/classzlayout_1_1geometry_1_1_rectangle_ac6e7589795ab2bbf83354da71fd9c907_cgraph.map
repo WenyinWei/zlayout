@@ -1,0 +1,7 @@
+<map id="zlayout::geometry::Rectangle::union_with" name="zlayout::geometry::Rectangle::union_with">
+<area shape="rect" id="Node000001" title="Calculate union rectangle that contains both rectangles." alt="" coords="5,37,172,77"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#ac4012001155ebb1cf9e88be716c8d2a0" title="Check if rectangle is empty (zero area)" alt="" coords="223,5,377,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,42,209,36,209,42,173,47"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_rectangle.html#a8fd7816288a954083cafe4d217b863d1" title="Default constructor &#45; creates empty rectangle at origin." alt="" coords="220,69,380,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="173,67,207,73,206,78,172,73"/>
+</map>

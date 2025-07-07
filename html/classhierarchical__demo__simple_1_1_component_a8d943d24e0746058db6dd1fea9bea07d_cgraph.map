@@ -1,0 +1,19 @@
+<map id="hierarchical_demo_simple.Component.calculate_hierarchical_bbox" name="hierarchical_demo_simple.Component.calculate_hierarchical_bbox">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,92,288,132"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a304ef16a934395bb0c7e2f7785c8e246" title="Calculate axis&#45;aligned bounding box." alt="" coords="393,5,566,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="224,89,387,46,389,52,225,94"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_rectangle.html#ab02f2e9e79cace702d966c757d5519bd" title="Create bounding rectangle for a set of points." alt="" coords="671,63,857,103"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="288,103,657,85,657,90,288,108"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_rectangle.html#a7ada517c7cfd9e50a1c40e7aba5b5df0" title="Create rectangle that bounds multiple rectangles." alt="" coords="386,120,573,160"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="289,121,373,128,372,134,288,127"/>
+<area shape="rect" id="Node000008" href="$classzlayout_1_1geometry_1_1_polygon.html#a7688d7f3662c2dcfc20dbbe371151c5b" title=" " alt="" coords="336,185,623,210"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="205,130,337,169,384,180,382,185,335,175,203,135"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_rectangle.html#a8fd7816288a954083cafe4d217b863d1" title="Default constructor &#45; creates empty rectangle at origin." alt="" coords="905,116,1065,156"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="848,100,892,111,891,116,847,105"/>
+<area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="573,137,891,134,892,139,573,142"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_rectangle.html#ac6e7589795ab2bbf83354da71fd9c907" title="Calculate union rectangle that contains both rectangles." alt="" coords="681,177,847,217"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="574,156,668,175,667,181,572,161"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="836,175,899,157,900,162,838,180"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1geometry_1_1_rectangle.html#ac4012001155ebb1cf9e88be716c8d2a0" title="Check if rectangle is empty (zero area)" alt="" coords="908,180,1063,220"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="847,196,895,196,894,202,847,201"/>
+</map>

@@ -1,0 +1,55 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classzlayout_1_1components_1_1_component.html" title="Base class for all EDA components." alt="" coords="5,517,164,557"/>
+<area shape="rect" id="Node000001" href="$classzlayout_1_1components_1_1_capacitor.html" title="Capacitor component." alt="" coords="228,133,387,173"/>
+<area shape="poly" id="edge21_Node000000_Node000001" title=" " alt="" coords="86,503,95,437,116,351,132,306,153,262,179,220,210,183,226,171,229,176,214,187,183,223,158,264,137,308,121,353,101,438,91,504"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1components_1_1_communication_interface.html" title="Communication Interface IP Block." alt="" coords="212,197,403,237"/>
+<area shape="poly" id="edge22_Node000000_Node000002" title=" " alt="" coords="89,503,102,448,125,379,160,309,183,276,210,247,227,235,230,240,214,251,187,280,165,312,130,381,107,449,94,504"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1components_1_1_crystal.html" title="Crystal/Oscillator component." alt="" coords="228,261,387,301"/>
+<area shape="poly" id="edge23_Node000000_Node000003" title=" " alt="" coords="94,503,110,459,135,408,168,356,210,311,229,299,231,304,214,315,172,360,140,411,115,462,99,505"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1components_1_1_d_s_p_core.html" title="Digital Signal Processor (DSP) IP Block." alt="" coords="228,325,387,365"/>
+<area shape="poly" id="edge24_Node000000_Node000004" title=" " alt="" coords="101,504,146,439,176,405,210,375,232,363,234,368,214,380,180,409,150,442,106,507"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1components_1_1_digital_component.html" title="Base class for digital logic components." alt="" coords="228,389,387,429"/>
+<area shape="poly" id="edge25_Node000000_Node000005" title=" " alt="" coords="116,506,160,472,211,439,237,427,239,432,213,444,163,476,120,510"/>
+<area shape="rect" id="Node000019" href="$classzlayout_1_1components_1_1_g_p_u_core.html" title="GPU Core IP Block." alt="" coords="228,453,387,493"/>
+<area shape="poly" id="edge39_Node000000_Node000019" title=" " alt="" coords="167,511,236,491,238,496,169,516"/>
+<area shape="rect" id="Node000020" href="$classzlayout_1_1components_1_1_inductor.html" title="Inductor component." alt="" coords="228,517,387,557"/>
+<area shape="poly" id="edge40_Node000000_Node000020" title=" " alt="" coords="178,535,228,535,228,540,178,540"/>
+<area shape="rect" id="Node000021" href="$classzlayout_1_1components_1_1_memory_controller.html" title="Memory Controller IP Block." alt="" coords="228,581,387,621"/>
+<area shape="poly" id="edge41_Node000000_Node000021" title=" " alt="" coords="169,559,238,579,236,584,167,564"/>
+<area shape="rect" id="Node000022" href="$classzlayout_1_1components_1_1_power_management_unit.html" title="Power Management Unit (PMU) IP Block." alt="" coords="216,645,399,685"/>
+<area shape="poly" id="edge42_Node000000_Node000022" title=" " alt="" coords="120,564,163,599,213,631,239,643,237,648,211,636,160,603,116,569"/>
+<area shape="rect" id="Node000023" href="$classzlayout_1_1components_1_1_processor_core.html" title="Processor Core IP Block." alt="" coords="228,709,387,749"/>
+<area shape="poly" id="edge43_Node000000_Node000023" title=" " alt="" coords="106,568,150,632,180,666,214,695,234,707,232,712,210,700,176,670,146,636,101,571"/>
+<area shape="rect" id="Node000024" href="$classzlayout_1_1components_1_1_resistor.html" title="Resistor component." alt="" coords="228,773,387,813"/>
+<area shape="poly" id="edge44_Node000000_Node000024" title=" " alt="" coords="99,570,115,613,140,664,172,715,214,759,231,771,229,775,210,763,168,718,135,667,110,615,94,572"/>
+<area shape="rect" id="Node000025" href="$classzlayout_1_1components_1_1_so_c.html" title="System&#45;on&#45;Chip (SoC) IP Block." alt="" coords="212,838,403,863"/>
+<area shape="poly" id="edge45_Node000000_Node000025" title=" " alt="" coords="94,571,106,626,129,694,164,764,187,796,214,823,234,836,231,840,210,827,183,799,159,767,124,696,101,627,88,572"/>
+<area shape="rect" id="Node000026" href="$classzlayout_1_1components_1_1_transformer.html" title="Transformer component." alt="" coords="228,888,387,928"/>
+<area shape="poly" id="edge46_Node000000_Node000026" title=" " alt="" coords="92,571,102,635,123,716,139,759,159,801,184,840,214,874,229,886,226,890,210,878,180,843,155,803,134,761,118,718,97,636,86,572"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1components_1_1_binary_counter.html" title="Binary Counter." alt="" coords="451,5,609,45"/>
+<area shape="poly" id="edge26_Node000005_Node000006" title=" " alt="" coords="396,381,401,376,425,336,434,296,432,258,425,219,418,180,416,139,424,98,449,56,462,43,465,47,453,59,429,100,421,140,423,179,431,218,438,257,439,297,430,338,405,379,400,384"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1components_1_1_d_flip_flop.html" title="D Flip&#45;Flop." alt="" coords="451,69,609,109"/>
+<area shape="poly" id="edge27_Node000005_Node000007" title=" " alt="" coords="396,381,401,376,421,344,429,313,429,282,425,251,421,219,420,187,428,154,449,120,462,108,465,112,453,123,433,156,426,187,426,219,430,250,435,281,435,313,426,346,405,379,400,384"/>
+<area shape="rect" id="Node000008" href="$classzlayout_1_1components_1_1_decoder.html" title="Decoder." alt="" coords="451,133,609,173"/>
+<area shape="poly" id="edge28_Node000005_Node000008" title=" " alt="" coords="396,380,401,376,417,352,425,329,426,306,425,282,425,234,432,209,449,184,463,172,466,176,453,187,437,211,430,235,430,282,432,306,430,330,422,354,405,379,400,384"/>
+<area shape="rect" id="Node000009" href="$classzlayout_1_1components_1_1_demultiplexer.html" title="Demultiplexer." alt="" coords="451,197,609,237"/>
+<area shape="poly" id="edge29_Node000005_Node000009" title=" " alt="" coords="396,379,401,375,413,360,420,345,425,313,429,281,436,264,449,247,464,235,467,240,453,251,441,267,434,282,430,314,425,346,418,363,405,379,400,383"/>
+<area shape="rect" id="Node000010" href="$classzlayout_1_1components_1_1_encoder.html" title="Encoder." alt="" coords="451,261,609,301"/>
+<area shape="poly" id="edge30_Node000005_Node000010" title=" " alt="" coords="393,381,401,375,416,360,425,344,433,328,449,311,468,299,471,304,452,315,438,331,429,347,420,363,404,379,396,385"/>
+<area shape="rect" id="Node000011" href="$classzlayout_1_1components_1_1_full_adder.html" title="Full Adder." alt="" coords="451,325,609,365"/>
+<area shape="poly" id="edge31_Node000005_Node000011" title=" " alt="" coords="390,383,459,363,461,368,392,388"/>
+<area shape="rect" id="Node000012" href="$classzlayout_1_1components_1_1_j_k_flip_flop.html" title="JK Flip&#45;Flop." alt="" coords="451,389,609,429"/>
+<area shape="poly" id="edge32_Node000005_Node000012" title=" " alt="" coords="401,407,450,407,450,412,401,412"/>
+<area shape="rect" id="Node000013" href="$classzlayout_1_1components_1_1_logic_gate.html" title="Basic Logic Gates." alt="" coords="451,453,609,493"/>
+<area shape="poly" id="edge33_Node000005_Node000013" title=" " alt="" coords="392,431,461,451,459,456,390,436"/>
+<area shape="rect" id="Node000014" href="$classzlayout_1_1components_1_1_memory.html" title="Memory component (RAM/ROM)" alt="" coords="451,517,609,557"/>
+<area shape="poly" id="edge34_Node000005_Node000014" title=" " alt="" coords="396,433,404,439,420,455,429,472,438,488,452,503,471,515,468,519,449,507,433,491,425,474,416,459,401,443,393,438"/>
+<area shape="rect" id="Node000015" href="$classzlayout_1_1components_1_1_multiplexer.html" title="Multiplexer." alt="" coords="451,581,609,621"/>
+<area shape="poly" id="edge35_Node000005_Node000015" title=" " alt="" coords="400,435,405,439,418,456,425,472,430,504,434,536,441,552,453,567,467,579,464,583,449,571,436,554,429,538,425,505,420,474,413,459,401,443,396,439"/>
+<area shape="rect" id="Node000016" href="$classzlayout_1_1components_1_1_ripple_carry_adder.html" title="Ripple Carry Adder." alt="" coords="451,645,609,685"/>
+<area shape="poly" id="edge36_Node000005_Node000016" title=" " alt="" coords="400,435,405,440,422,464,430,489,432,513,430,537,430,584,437,608,453,632,466,643,463,647,449,635,432,610,425,585,425,537,426,513,425,490,417,467,401,443,396,439"/>
+<area shape="rect" id="Node000017" href="$classzlayout_1_1components_1_1_s_r_latch.html" title="SR Latch." alt="" coords="451,709,609,749"/>
+<area shape="poly" id="edge37_Node000005_Node000017" title=" " alt="" coords="400,434,405,440,426,473,435,505,435,537,430,569,426,600,426,631,433,663,453,696,465,707,462,711,449,699,428,665,420,632,421,600,425,568,429,537,429,506,421,475,401,443,396,438"/>
+<area shape="rect" id="Node000018" href="$classzlayout_1_1components_1_1_shift_register.html" title="Shift Register." alt="" coords="451,773,609,813"/>
+<area shape="poly" id="edge38_Node000005_Node000018" title=" " alt="" coords="400,434,405,440,430,481,439,522,438,562,431,601,423,640,421,679,429,719,453,760,465,771,462,775,449,763,424,721,416,679,418,639,425,600,432,561,434,522,425,483,401,443,396,438"/>
+</map>

@@ -1,0 +1,34 @@
+<map id="benchmarks/bench_quadtree.cpp" name="benchmarks/bench_quadtree.cpp">
+<area shape="rect" id="Node000001" title="Benchmark tests for QuadTree performance." alt="" coords="222,5,460,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="49,79,233,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="310,33,188,76,186,71,308,28"/>
+<area shape="rect" id="Node000003" href="$quadtree_8hpp.html" title="QuadTree spatial indexing for efficient geometric queries." alt="" coords="308,79,516,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="355,29,392,67,389,71,351,33"/>
+<area shape="rect" id="Node000008" href="$rectangle_8hpp.html" title="Axis&#45;aligned rectangle class for bounding boxes and simple components." alt="" coords="23,152,254,177"/>
+<area shape="poly" id="edge17_Node000001_Node000008" title=" " alt="" coords="331,33,295,67,247,106,176,148,173,143,243,102,291,63,327,29"/>
+<area shape="rect" id="Node000014" title=" " alt="" coords="540,79,612,104"/>
+<area shape="poly" id="edge18_Node000001_Node000014" title=" " alt="" coords="379,28,527,73,526,78,378,33"/>
+<area shape="rect" id="Node000004" href="$point_8hpp.html" title="2D Point class for geometric calculations" alt="" coords="364,225,566,251"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="491,102,533,119,552,133,567,151,572,162,572,173,560,193,538,209,512,222,510,218,536,205,556,189,567,172,567,163,563,153,548,137,530,124,489,107"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="618,299,704,324"/>
+<area shape="poly" id="edge13_Node000003_Node000007" title=" " alt="" coords="492,101,553,119,584,133,613,150,634,166,649,181,659,200,669,225,673,256,670,285,665,285,668,256,664,226,655,202,645,185,631,170,610,154,582,138,552,124,490,107"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="368,107,196,151,195,146,367,101"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="591,225,654,251"/>
+<area shape="poly" id="edge11_Node000003_Node000009" title=" " alt="" coords="487,102,539,119,564,133,587,150,608,179,620,211,615,213,603,182,583,154,561,137,537,124,485,107"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="33,225,92,251"/>
+<area shape="poly" id="edge14_Node000003_Node000010" title=" " alt="" coords="307,104,125,125,51,139,26,146,14,154,8,168,12,184,23,200,38,214,34,218,19,203,7,186,3,168,10,150,24,141,50,134,124,119,307,98"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="278,152,356,177"/>
+<area shape="poly" id="edge12_Node000003_Node000011" title=" " alt="" coords="398,106,345,146,342,141,395,102"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="380,152,444,177"/>
+<area shape="poly" id="edge15_Node000003_Node000012" title=" " alt="" coords="414,104,414,138,409,138,409,104"/>
+<area shape="rect" id="Node000013" title=" " alt="" coords="468,152,553,177"/>
+<area shape="poly" id="edge16_Node000003_Node000013" title=" " alt="" coords="429,102,485,142,482,146,426,106"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="367,299,430,324"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="456,253,420,290,417,287,452,249"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="454,299,534,324"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="472,250,487,285,482,287,467,252"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="497,248,617,291,615,296,496,253"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="191,175,399,220,398,225,190,180"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="250,175,401,194,578,223,577,228,401,199,249,180"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="128,179,87,218,83,214,124,175"/>
+</map>

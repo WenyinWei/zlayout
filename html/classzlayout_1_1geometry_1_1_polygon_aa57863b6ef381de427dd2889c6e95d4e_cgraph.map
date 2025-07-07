@@ -1,0 +1,9 @@
+<map id="zlayout::geometry::Polygon::find_narrow_regions" name="zlayout::geometry::Polygon::find_narrow_regions">
+<area shape="rect" id="Node000001" title="Find narrow regions where edges are too close." alt="" coords="5,34,164,89"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a14debcfee816a83c208c1e9f7fa0a3c1" title="Get polygon edges as pairs of consecutive vertices." alt="" coords="217,5,365,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="164,45,203,38,204,43,165,50"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#afbda66db7aa1ff635a69a65151ae654c" title="Helper function to calculate distance between two line segments." alt="" coords="212,70,371,125"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,73,199,79,198,84,164,78"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_point.html#ad6568652d00d88fbb767f72b76872d77" title="Calculate Euclidean distance to another point." alt="" coords="419,77,567,117"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="371,95,405,95,405,100,371,100"/>
+</map>

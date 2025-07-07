@@ -1,0 +1,17 @@
+<map id="zlayout.analysis.EdgeIntersectionResult.__init__" name="zlayout.analysis.EdgeIntersectionResult.__init__">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,69,247,109"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a0c3c10d3601416809f96108e7ea43306" title="Find intersection points between polygon edges." alt="" coords="295,62,453,117"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="247,87,281,87,281,92,247,92"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#a14debcfee816a83c208c1e9f7fa0a3c1" title="Get polygon edges as pairs of consecutive vertices." alt="" coords="729,5,877,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="453,65,501,55,612,39,714,29,715,34,612,44,502,60,454,70"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_polygon.html#a798d9faa3daf559487e4c717f9040c42" title="Check if this polygon intersects with another polygon." alt="" coords="501,69,649,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="454,87,488,87,488,92,454,92"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_polygon.html#a156a60e04ce269b522b49f223aca3b46" title="Helper function to find intersection point of two line segments." alt="" coords="956,119,1127,174"/>
+<area shape="poly" id="edge9_Node000002_Node000006" title=" " alt="" coords="454,108,502,119,599,136,697,145,803,148,908,145,942,145,942,150,908,151,803,153,697,151,598,141,501,124,453,113"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="646,67,717,47,718,52,648,72"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_polygon.html#a580fd3da25019265ac2139f09d9c33e8" title="Helper function to check if two line segments intersect." alt="" coords="697,69,908,109"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="650,95,683,96,683,101,650,100"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="697,83,663,83,663,78,697,78"/>
+<area shape="poly" id="edge7_Node000005_Node000006" title=" " alt="" coords="887,107,943,120,942,126,886,112"/>
+<area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="956,147,833,140,697,124,656,115,657,110,698,119,833,135,956,142"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Point::rotate" name="zlayout::geometry::Point::rotate">
+<area shape="rect" id="Node000001" title="Rotate point around origin by angle (radians)" alt="" coords="208,5,356,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_point.html#a668266c8fac8d4173f9f0e02f31d9dea" title="Rotate point around another point by angle (radians)" alt="" coords="5,5,160,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,28,160,28,160,23,194,23"/>
+</map>

@@ -1,0 +1,23 @@
+<map id="zlayout::geometry::Rectangle::intersects" name="zlayout::geometry::Rectangle::intersects">
+<area shape="rect" id="Node000001" title="Check if this rectangle intersects with another rectangle." alt="" coords="548,119,707,159"/>
+<area shape="rect" id="Node000002" href="$basic__usage_8cpp.html#a4bb1a10b46fa1385b60781eade265dd6" title=" " alt="" coords="284,5,500,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="594,112,550,77,499,46,464,33,466,28,501,41,554,73,597,108"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_rectangle.html#aea88d42a3d54042fb66a0c6c2a6da670" title="Calculate minimum distance to another rectangle." alt="" coords="307,55,477,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="539,118,465,98,467,93,541,113"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_rectangle.html#a766ca012cf2f02e1695540586aa213d2" title="Calculate intersection rectangle with another rectangle." alt="" coords="306,119,478,159"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="535,142,478,142,478,137,535,137"/>
+<area shape="rect" id="Node000007" href="$structzlayout_1_1spatial_1_1_i_p_block.html#a89b4cd3e5472a48322f24a596d2d9eb0" title=" " alt="" coords="303,183,481,223"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="541,166,467,186,465,181,539,160"/>
+<area shape="rect" id="Node000009" href="$classzlayout_1_1spatial_1_1_quad_tree_node.html#a50d7ee50077507c102e9e1763f0c5289" title="Query objects in a rectangular range." alt="" coords="297,251,487,291"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="596,171,552,205,501,238,465,254,462,249,499,233,549,201,592,166"/>
+<area shape="rect" id="Node000003" href="$basic__usage_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="93,5,148,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="270,21,148,21,148,15,270,15"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_point.html#a613871727e9a040540b80bebe93bd0c8" title=" " alt="" coords="5,55,236,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="293,78,236,78,236,73,293,73"/>
+<area shape="rect" id="Node000008" href="$classzlayout_1_1spatial_1_1_hierarchical_spatial_index.html#a30eb31c001a40b548e4d2a3fb71a19f4" title=" " alt="" coords="17,172,225,227"/>
+<area shape="poly" id="edge7_Node000007_Node000008" title=" " alt="" coords="289,204,225,204,225,198,289,199"/>
+<area shape="rect" id="Node000010" href="$classzlayout_1_1spatial_1_1_quad_tree.html#ae77671737154aa9dade50cebe5c03293" title=" " alt="" coords="15,251,226,291"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="283,274,226,274,226,269,283,269"/>
+<area shape="rect" id="Node000011" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a3485741e6b3acf46c948c40a884ec2ea" title=" " alt="" coords="15,315,226,355"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="294,297,207,318,205,313,292,292"/>
+</map>

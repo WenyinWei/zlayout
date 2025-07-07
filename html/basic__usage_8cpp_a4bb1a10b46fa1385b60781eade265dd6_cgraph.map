@@ -1,0 +1,16 @@
+<map id="demonstrate_basic_geometry" name="demonstrate_basic_geometry">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,141,221,166"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#afad1c3ff21d330f9135519b7e4a063e5" title="Calculate polygon area using shoelace formula." alt="" coords="291,5,439,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,138,190,98,268,55,284,48,286,53,271,60,193,103,134,143"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_rectangle.html#ad6b66148b9fb0ba3139204da8241381a" title="Check if point is inside rectangle (inclusive of boundary)" alt="" coords="269,69,460,109"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="164,138,271,110,273,115,165,143"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_point.html#ad6568652d00d88fbb767f72b76872d77" title="Calculate Euclidean distance to another point." alt="" coords="291,133,439,173"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="222,151,277,151,277,156,222,156"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_rectangle.html#acdd06b57300970e25e0db2aa9cd6fda3" title="Check if this rectangle intersects with another rectangle." alt="" coords="285,197,444,237"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="165,164,273,191,271,196,164,169"/>
+<area shape="rect" id="Node000007" href="$basic__usage_8cpp.html#aa2967ca69f9e60346ef7dac2e053dd98" title=" " alt="" coords="304,262,425,287"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="133,164,192,204,270,247,293,255,291,260,268,252,189,209,130,168"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#acfc546b1c685fc7915402727f88e0ab6" title="Calculate signed area (preserves orientation)" alt="" coords="508,5,669,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="439,31,494,32,494,37,439,37"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="508,19,453,19,453,14,508,14"/>
+</map>

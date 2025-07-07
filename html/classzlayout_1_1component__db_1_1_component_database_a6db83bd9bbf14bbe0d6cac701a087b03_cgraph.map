@@ -1,0 +1,17 @@
+<map id="zlayout.component_db.ComponentDatabase.create_custom_component" name="zlayout.component_db.ComponentDatabase.create_custom_component">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,249,269,289"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1optimization_1_1_force_directed_placer.html#adbd0117eef8de2f3ce87ae0197900be7" title=" " alt="" coords="362,5,522,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="150,247,176,209,214,161,262,112,316,69,348,53,350,58,319,74,265,116,218,165,180,212,154,250"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1optimization_1_1_simulated_annealing_optimizer.html#adbb0a2d32d26430b8b7c42bff7f33bf5" title=" " alt="" coords="329,84,555,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="162,246,230,198,316,148,330,141,332,146,319,152,233,202,165,251"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1optimization_1_1_analytical_placer.html#a0b81f1087d87048b3641490add5a2a61" title=" " alt="" coords="359,163,525,217"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="215,246,345,212,346,217,216,251"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1optimization_1_1_timing_driven_optimizer.html#ac098d5395fe4690c144fd290447cabde" title=" " alt="" coords="351,241,533,296"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="269,266,337,266,337,271,269,271"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1component__db_1_1_component_database.html#a731247d51a2494acaf1ae29ae873a03b" title=" " alt="" coords="317,321,567,361"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="223,286,344,315,342,320,222,291"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1analysis_1_1_geometry_processor.html#a16854aeec04d1fb4b264edd4a715118e" title=" " alt="" coords="343,385,541,425"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="169,287,236,329,318,370,339,378,337,383,316,375,233,333,166,291"/>
+<area shape="rect" id="Node000008" href="$structzlayout_1_1spatial_1_1_i_p_block.html#ae1781f080d644a086b22d187c858d6a5" title=" " alt="" coords="353,449,531,489"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="156,287,222,360,268,400,319,434,340,444,338,449,316,439,265,404,218,364,153,291"/>
+</map>

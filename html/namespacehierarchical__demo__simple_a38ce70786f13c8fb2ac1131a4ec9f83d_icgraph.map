@@ -1,0 +1,6 @@
+<map id="hierarchical_demo_simple.demonstrate_scalability" name="hierarchical_demo_simple.demonstrate_scalability">
+<area shape="rect" id="Node000001" title=" " alt="" coords="284,22,564,62"/>
+<area shape="rect" id="Node000002" href="$namespacehierarchical__demo__simple.html#ad46cf4238b1c4c3ae7cb40bb829e5fd1" title=" " alt="" coords="5,29,236,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="270,45,236,45,236,39,270,39"/>
+<area shape="poly" id="edge2_Node000002_Node000002" title=" " alt="" coords="175,21,173,16,164,12,121,8,88,10,71,15,67,20,76,27,72,31,62,21,67,11,87,5,121,3,165,7,176,13,179,19"/>
+</map>

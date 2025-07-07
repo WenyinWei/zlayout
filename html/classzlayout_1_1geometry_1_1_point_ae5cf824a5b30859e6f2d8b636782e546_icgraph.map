@@ -1,0 +1,21 @@
+<map id="zlayout::geometry::Point::Point" name="zlayout::geometry::Point::Point">
+<area shape="rect" id="Node000001" title="Default constructor &#45; creates point at origin." alt="" coords="619,165,767,205"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_point.html#a0c0c537fad79f8a9c8ff19b2b6f51f50" title="Normalize vector to unit length." alt="" coords="423,5,571,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,156,624,107,569,59,549,48,552,43,572,55,627,104,670,153"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_point.html#ae9dbe2221df074c157a3b207682e11d9" title="Scalar multiplication." alt="" coords="423,69,571,109"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="642,161,569,124,544,112,546,107,572,119,644,156"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_point.html#ad58e6c94b74940bad60143c80510d810" title="Addition operator." alt="" coords="423,133,571,173"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="605,174,571,168,572,163,606,168"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1geometry_1_1_point.html#a5afa56bb196f03a740af4f3dc92d3b37" title="Subtraction operator." alt="" coords="423,197,571,237"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="606,202,572,208,571,203,605,197"/>
+<area shape="rect" id="Node000008" href="$classzlayout_1_1geometry_1_1_point.html#a4586792071bca6364035166c967fcf76" title="Scalar division." alt="" coords="423,261,571,301"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="644,214,572,252,546,264,544,259,569,247,642,210"/>
+<area shape="rect" id="Node000009" href="$classzlayout_1_1geometry_1_1_point.html#a807f2cc6109882c379255918c9163bf1" title="Rotate point around origin by angle (radians)" alt="" coords="423,325,571,365"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="670,218,627,267,572,315,552,328,549,323,569,311,624,263,666,215"/>
+<area shape="rect" id="Node000003" href="$hierarchical__component__example_8cpp.html#a63b2cd82cd00c7369a3099f329182fd0" title="Demonstrate hierarchical optimization." alt="" coords="108,13,375,38"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="409,28,375,28,375,23,409,23"/>
+<area shape="rect" id="Node000004" href="$hierarchical__component__example_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,60,38"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="94,28,60,28,60,23,94,23"/>
+<area shape="rect" id="Node000010" href="$classzlayout_1_1geometry_1_1_point.html#a668266c8fac8d4173f9f0e02f31d9dea" title="Rotate point around another point by angle (radians)" alt="" coords="164,325,319,365"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="409,348,319,348,319,343,409,343"/>
+</map>

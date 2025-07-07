@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['parameters_0',['parameters',['../classzlayout_1_1component__interface_1_1_component_interface.html#a7391acd6631d33145d12c0183834ec57',1,'zlayout.component_interface.ComponentInterface.parameters'],['../classzlayout_1_1component__interface_1_1_database_component.html#ab5aaffdeb850209df4c3a26fac6027a2',1,'zlayout.component_interface.DatabaseComponent.parameters'],['../classzlayout_1_1component__interface_1_1_logic_component.html#adbba8d21c41a7f77a2aa46f2a6666fb8',1,'zlayout.component_interface.LogicComponent.parameters'],['../classzlayout_1_1component__db_1_1_component_spec.html#a9410c41aba190c8d294f1b65a2fb526f',1,'zlayout.component_db.ComponentSpec.parameters']]],
+  ['parent_5f_1',['parent_',['../classzlayout_1_1components_1_1_component.html#a60cad4ba81dae4a2b6a65789b927182a',1,'zlayout::components::Component']]],
+  ['part_5fnumber_2',['part_number',['../classhierarchical__demo__simple_1_1_so_c.html#a4113d0598938d165fd21b745fbd0eff3',1,'hierarchical_demo_simple::SoC']]],
+  ['passive_3',['passive',['../classzlayout_1_1component__interface_1_1_component_category.html#a9c3c9f6209884ccc01a292ce36cb6b56',1,'zlayout.component_interface.ComponentCategory.PASSIVE'],['../classhierarchical__demo__simple_1_1_component_category.html#aa613fe460f69ebb0584806b82e9b26a9',1,'hierarchical_demo_simple.ComponentCategory.PASSIVE']]],
+  ['passive_5fcomponents_4',['passive_components',['../namespacezlayout_1_1component__db.html#ae61cfeb76b6b14c36f74a720a43dfccc',1,'zlayout::component_db']]],
+  ['patch_5',['PATCH',['../structzlayout_1_1_version.html#a61093432d9dedab39c9e9056bda82255',1,'zlayout::Version']]],
+  ['patches_6',['patches',['../namespacezlayout_1_1visualization.html#a83afe677cc3c02d4afa1740ec55fa511',1,'zlayout::visualization']]],
+  ['peak_5fbytes_7',['peak_bytes',['../structzlayout_1_1_memory_info.html#aabcd929d620ff215283c85f35bfb8606',1,'zlayout::MemoryInfo']]],
+  ['physical_5fparams_8',['physical_params',['../classzlayout_1_1component__db_1_1_component_spec.html#abc425d50fdd50ce69b17b641750952b5',1,'zlayout::component_db::ComponentSpec']]],
+  ['pin_5fmap_5f_9',['pin_map_',['../classzlayout_1_1components_1_1_component.html#adf0c737c1f824a66fee80463aaf97171',1,'zlayout::components::Component']]],
+  ['pins_10',['pins',['../classeda__circuit__example_1_1_circuit_component.html#a4790181624676c579aa816fec751b439',1,'eda_circuit_example::CircuitComponent']]],
+  ['pins_5f_11',['pins_',['../classzlayout_1_1components_1_1_component.html#af80d332c68d12e990e34619131fb984c',1,'zlayout::components::Component']]],
+  ['platform_12',['platform',['../structzlayout_1_1_system_info.html#a758f02ab265e656b7fe0ece3a0788c9d',1,'zlayout::SystemInfo']]],
+  ['plt_13',['plt',['../namespacezlayout_1_1visualization.html#aacc9df134b3c6dce329db0ff1f32e88f',1,'zlayout::visualization']]],
+  ['polygons_14',['polygons',['../classzlayout_1_1analysis_1_1_polygon_analyzer.html#abbbb0fde570c7d3d9b3255ff9ac8416d',1,'zlayout::analysis::PolygonAnalyzer']]],
+  ['position_15',['position',['../classhierarchical__demo__simple_1_1_component.html#ac9ede204594a5ce9551199cff56bf01e',1,'hierarchical_demo_simple.Component.position'],['../structzlayout_1_1optimization_1_1_component.html#ac267ce66a8705288ee5230013a4e0b77',1,'zlayout::optimization::Component::position']]],
+  ['position_5f_16',['position_',['../classzlayout_1_1components_1_1_component.html#aae268a44aea76d34c3b48d36265a0611',1,'zlayout::components::Component']]],
+  ['power_5f_17',['power_',['../classzlayout_1_1components_1_1_component.html#a716020af30b72b6dc8b1532530b918f4',1,'zlayout::components::Component']]],
+  ['power_5fconsumption_18',['power_consumption',['../structzlayout_1_1optimization_1_1_component.html#ab26941c012f916d9974d673bd2c23115',1,'zlayout::optimization::Component']]],
+  ['power_5fcost_19',['power_cost',['../structzlayout_1_1optimization_1_1_cost_result.html#a1105d1dcac880db7aa0b78abf2d87a57',1,'zlayout::optimization::CostResult']]],
+  ['power_5fweight_20',['power_weight',['../structzlayout_1_1optimization_1_1_optimization_config.html#ad11863079cf2c58f48b2a171fb7f2232',1,'zlayout::optimization::OptimizationConfig']]],
+  ['processor_21',['PROCESSOR',['../classhierarchical__demo__simple_1_1_component_category.html#ae51014be935d694fdd3140bf4c2dedea',1,'hierarchical_demo_simple::ComponentCategory']]],
+  ['propagation_5fdelay_22',['propagation_delay',['../structzlayout_1_1components_1_1_timing_info.html#a1d2d342a45b143f571ffd1974333305b',1,'zlayout::components::TimingInfo::propagation_delay'],['../classzlayout_1_1logic__circuits_1_1_sequential_logic.html#afed79f5fe9aa2edd21e7397fbe7ae2ae',1,'zlayout.logic_circuits.SequentialLogic.propagation_delay']]],
+  ['properties_5f_23',['properties_',['../classzlayout_1_1components_1_1_component.html#afa8b2f184cfe30a395624cc8461106f4',1,'zlayout::components::Component']]]
+];

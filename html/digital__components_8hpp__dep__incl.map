@@ -1,0 +1,8 @@
+<map id="include/zlayout/components/digital_components.hpp" name="include/zlayout/components/digital_components.hpp">
+<area shape="rect" id="Node000001" title="Digital Logic Circuit Components." alt="" coords="5,5,211,45"/>
+<area shape="rect" id="Node000002" href="$hierarchical__component__example_8cpp.html" title="Hierarchical EDA Component System Example." alt="" coords="11,181,205,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="85,58,67,94,63,113,67,133,78,158,93,180,89,183,74,161,61,134,57,113,61,92,81,55"/>
+<area shape="rect" id="Node000003" href="$ip__blocks_8hpp.html" title="Standard IP Blocks and Complex Digital Systems." alt="" coords="76,93,281,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="134,54,165,91,161,95,130,58"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="157,146,126,183,122,179,152,142"/>
+</map>

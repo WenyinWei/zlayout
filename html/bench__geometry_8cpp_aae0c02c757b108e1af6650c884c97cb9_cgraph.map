@@ -1,0 +1,7 @@
+<map id="BM_SharpAngleDetection" name="BM_SharpAngleDetection">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,13,192,38"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a53a71b0f467d296bfe25b3b5052c8480" title="Find vertices with sharp angles." alt="" coords="240,5,436,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,23,226,23,226,28,192,28"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#a57f40414d59dfef8b8550c614954f831" title="Calculate angle at a specific vertex." alt="" coords="484,5,651,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="436,23,470,23,470,28,436,28"/>
+</map>

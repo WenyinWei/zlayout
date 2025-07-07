@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Polygon::closest_point_to" name="zlayout::geometry::Polygon::closest_point_to">
+<area shape="rect" id="Node000001" title="Find closest point on polygon boundary to given point." alt="" coords="5,5,193,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_point.html#ad6568652d00d88fbb767f72b76872d77" title="Calculate Euclidean distance to another point." alt="" coords="241,5,389,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="194,23,228,23,228,28,194,28"/>
+</map>

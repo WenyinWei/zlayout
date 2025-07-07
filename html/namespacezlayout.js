@@ -1,0 +1,28 @@
+var namespacezlayout =
+[
+    [ "analysis", "namespacezlayout_1_1analysis.html", "namespacezlayout_1_1analysis" ],
+    [ "component_db", "namespacezlayout_1_1component__db.html", "namespacezlayout_1_1component__db" ],
+    [ "component_interface", "namespacezlayout_1_1component__interface.html", "namespacezlayout_1_1component__interface" ],
+    [ "components", "namespacezlayout_1_1components.html", "namespacezlayout_1_1components" ],
+    [ "geometry", "namespacezlayout_1_1geometry.html", "namespacezlayout_1_1geometry" ],
+    [ "logic_circuits", "namespacezlayout_1_1logic__circuits.html", "namespacezlayout_1_1logic__circuits" ],
+    [ "optimization", "namespacezlayout_1_1optimization.html", "namespacezlayout_1_1optimization" ],
+    [ "spatial", "namespacezlayout_1_1spatial.html", "namespacezlayout_1_1spatial" ],
+    [ "visualization", "namespacezlayout_1_1visualization.html", "namespacezlayout_1_1visualization" ],
+    [ "MemoryInfo", "structzlayout_1_1_memory_info.html", "structzlayout_1_1_memory_info" ],
+    [ "PerformanceTimer", "structzlayout_1_1_performance_timer.html", "structzlayout_1_1_performance_timer" ],
+    [ "SystemInfo", "structzlayout_1_1_system_info.html", "structzlayout_1_1_system_info" ],
+    [ "Version", "structzlayout_1_1_version.html", "structzlayout_1_1_version" ],
+    [ "ZLayoutException", "classzlayout_1_1_z_layout_exception.html", "classzlayout_1_1_z_layout_exception" ],
+    [ "assert_initialized", "namespacezlayout.html#a229bf6fe217cd215ad8112e77490d5e1", null ],
+    [ "cleanup", "namespacezlayout.html#a127850cb0a7aca4fdc15e404b875d7b6", null ],
+    [ "get_memory_info", "namespacezlayout.html#aba195bb8650539bec0da12ca42645cf2", null ],
+    [ "get_system_info", "namespacezlayout.html#a6ca106fe4870c7b318ebab9231177049", null ],
+    [ "get_version", "namespacezlayout.html#a2dbb3b22f35e88d5db5031ee6e895a34", null ],
+    [ "initialize", "namespacezlayout.html#a0a9410e74d4230914f05315b9ab329f2", null ],
+    [ "is_initialized", "namespacezlayout.html#a337be97ff45eaf4e779bb4784bf2b94c", null ],
+    [ "is_openmp_enabled", "namespacezlayout.html#a9e746e6e8108e562e1558c2ff42df328", null ],
+    [ "print_system_info", "namespacezlayout.html#afd862292f73c8c080b58e5bb9c2cb296", null ],
+    [ "_has_visualization", "namespacezlayout.html#afd6af2401ccec064f6ab837b57752bed", null ],
+    [ "LayoutVisualizer", "namespacezlayout.html#a87d7857811c10613625da21cac698f6b", null ]
+];

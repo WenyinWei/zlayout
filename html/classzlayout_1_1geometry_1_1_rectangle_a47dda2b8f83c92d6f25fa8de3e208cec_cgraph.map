@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Rectangle::to_polygon" name="zlayout::geometry::Rectangle::to_polygon">
+<area shape="rect" id="Node000001" title="Convert rectangle to polygon representation." alt="" coords="5,5,172,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#a4b3235e59f8d4ea0807217253340a044" title="Get all four corner points." alt="" coords="220,5,368,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="172,23,206,23,206,28,172,28"/>
+</map>

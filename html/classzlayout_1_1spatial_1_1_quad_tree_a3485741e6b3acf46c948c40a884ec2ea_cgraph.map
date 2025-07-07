@@ -1,0 +1,16 @@
+<map id="zlayout.spatial.QuadTree.find_nearby_objects" name="zlayout.spatial.QuadTree.find_nearby_objects">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,127,216,167"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1spatial_1_1_r_tree.html#aaf5ed2110ad64b996db80dd6537fbb96" title=" " alt="" coords="293,5,459,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="140,124,196,89,263,55,282,47,284,52,265,60,198,94,143,129"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a4b08e635ce5512f0dadad09660ea6a59" title="Query objects in rectangular range." alt="" coords="536,191,727,231"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="217,145,347,153,488,169,555,184,553,190,488,175,346,158,216,151"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1spatial_1_1_quad_tree_node.html#a50d7ee50077507c102e9e1763f0c5289" title="Query objects in a rectangular range." alt="" coords="281,69,471,109"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="203,124,269,110,270,115,204,129"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1spatial_1_1_quad_tree_node.html#a76fb7038e340adf6d365fd9e82aa81d4" title=" " alt="" coords="285,184,467,224"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="204,164,272,179,270,184,203,169"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1spatial_1_1_quad_tree.html#a0e98a9fb7b58c44b8634b316437365a1" title=" " alt="" coords="264,248,488,288"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="143,165,198,199,265,234,284,241,282,246,263,238,196,204,140,169"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_rectangle.html#acdd06b57300970e25e0db2aa9cd6fda3" title="Check if this rectangle intersects with another rectangle." alt="" coords="552,69,711,109"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="471,87,539,87,539,92,471,92"/>
+<area shape="poly" id="edge7_Node000007_Node000003" title=" " alt="" coords="465,245,528,231,529,236,466,251"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Polygon::is_clockwise" name="zlayout::geometry::Polygon::is_clockwise">
+<area shape="rect" id="Node000001" title="Check if polygon is clockwise oriented." alt="" coords="267,5,431,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#abd7233371eb8c36925653f6a75888c69" title="Check if polygon is counterclockwise oriented." alt="" coords="5,5,219,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,28,219,28,219,23,253,23"/>
+</map>

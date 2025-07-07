@@ -1,0 +1,10 @@
+<map id="zlayout::geometry::Polygon::is_counterclockwise" name="zlayout::geometry::Polygon::is_counterclockwise">
+<area shape="rect" id="Node000001" title="Check if polygon is counterclockwise oriented." alt="" coords="5,5,219,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#ab6cf7675fb690552837857aacde2abcc" title="Check if polygon is clockwise oriented." alt="" coords="267,5,431,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="219,23,253,23,253,28,219,28"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#acfc546b1c685fc7915402727f88e0ab6" title="Calculate signed area (preserves orientation)" alt="" coords="479,5,640,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="431,23,465,23,465,28,431,28"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_polygon.html#afad1c3ff21d330f9135519b7e4a063e5" title="Calculate polygon area using shoelace formula." alt="" coords="688,5,836,45"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="640,31,674,32,674,37,640,37"/>
+<area shape="poly" id="edge4_Node000004_Node000003" title=" " alt="" coords="688,19,654,19,654,14,688,14"/>
+</map>

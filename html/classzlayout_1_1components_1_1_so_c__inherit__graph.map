@@ -1,0 +1,5 @@
+<map id="zlayout::components::SoC" name="zlayout::components::SoC">
+<area shape="rect" id="Node000001" title="System&#45;on&#45;Chip (SoC) IP Block." alt="" coords="5,93,196,119"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1components_1_1_component.html" title="Base class for all EDA components." alt="" coords="21,5,180,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="103,59,103,93,98,93,98,59"/>
+</map>

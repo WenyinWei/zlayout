@@ -1,0 +1,7 @@
+<map id="zlayout::geometry::Rectangle::scale" name="zlayout::geometry::Rectangle::scale">
+<area shape="rect" id="Node000001" title="Scale rectangle by different factors in X and Y." alt="" coords="5,37,153,77"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#a5e22f5a62d21284234b9d480bdaeeae8" title="Get center point of rectangle." alt="" coords="207,5,355,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,43,193,37,194,42,154,48"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_rectangle.html#a8fd7816288a954083cafe4d217b863d1" title="Default constructor &#45; creates empty rectangle at origin." alt="" coords="201,69,361,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,66,188,72,187,77,153,72"/>
+</map>

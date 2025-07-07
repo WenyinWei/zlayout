@@ -1,0 +1,48 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,341,60,367"/>
+<area shape="rect" id="Node000002" href="$hierarchical__component__example_8cpp.html#adc0b0d08dfeb9c2d6a3099d4c2637104" title="Benchmark different optimization approaches." alt="" coords="114,207,369,232"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="36,340,61,291,81,264,106,241,116,235,119,240,110,245,85,267,65,294,41,342"/>
+<area shape="rect" id="Node000003" href="$hierarchical__component__example_8cpp.html#a4d362aff109ef53db398425aac9cc958" title="Create a complete SoC with multiple IP blocks." alt="" coords="440,559,607,584"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="61,363,482,551,480,556,59,368"/>
+<area shape="rect" id="Node000014" href="$hierarchical__component__example_8cpp.html#a69484e4d3b2713b9995c04d9330b43f5" title="Demonstrate basic component creation and hierarchy." alt="" coords="130,256,353,281"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="59,341,195,284,197,289,61,346"/>
+<area shape="rect" id="Node000019" href="$hierarchical__component__example_8cpp.html#a63b2cd82cd00c7369a3099f329182fd0" title="Demonstrate hierarchical optimization." alt="" coords="108,607,375,632"/>
+<area shape="poly" id="edge19_Node000001_Node000019" title=" " alt="" coords="39,366,46,400,59,445,80,495,110,540,129,559,150,574,194,599,192,604,147,579,125,563,106,544,76,497,54,447,41,401,33,367"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1components_1_1_i_p_block_factory.html#aecb19373d0a0e075ca36ca866eb1873c" title=" " alt="" coords="672,371,929,411"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="532,557,585,492,625,453,671,421,684,414,687,419,673,426,628,458,589,495,536,560"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1components_1_1_i_p_block_factory.html#ad5b48e132b1250821961e34036a4367e" title=" " alt="" coords="688,436,913,491"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="549,556,671,501,694,493,695,498,673,506,551,561"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1components_1_1_i_p_block_factory.html#af94ba58ddd3ee7fda9dc9573d3eb30ab" title=" " alt="" coords="687,515,914,555"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="606,558,674,549,674,554,607,563"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1components_1_1_i_p_block_factory.html#acf2d9f3265d6b75ec3184fb8b043ae9a" title=" " alt="" coords="695,580,906,635"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="607,579,682,589,681,595,606,585"/>
+<area shape="rect" id="Node000008" href="$hierarchical__component__example_8cpp.html#a1cea46b70328c76f6efa62192ebad4c7" title="Create a processor core from functional blocks." alt="" coords="723,659,879,684"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="547,582,602,613,673,643,710,654,708,659,671,649,600,618,544,586"/>
+<area shape="rect" id="Node000013" href="$classzlayout_1_1components_1_1_i_p_block_factory.html#a2f4248f84302b21260c74ba24f0f28d8" title=" " alt="" coords="697,708,905,763"/>
+<area shape="poly" id="edge12_Node000003_Node000013" title=" " alt="" coords="538,582,593,635,632,666,673,693,688,700,685,705,671,698,629,670,590,639,535,586"/>
+<area shape="rect" id="Node000009" href="$hierarchical__component__example_8cpp.html#a7dc05d9ebb82c469dfa90a44568951ac" title="Create a simple functional block (ALU) from basic components." alt="" coords="1035,501,1161,527"/>
+<area shape="poly" id="edge8_Node000008_Node000009" title=" " alt="" coords="878,660,928,644,971,619,1012,590,1074,535,1077,538,1015,594,974,624,930,648,880,665"/>
+<area shape="rect" id="Node000012" href="$classzlayout_1_1components_1_1_i_p_block_factory.html#ae40f877605ff96f9543c8ce697b23b3f" title=" " alt="" coords="977,651,1219,691"/>
+<area shape="poly" id="edge11_Node000008_Node000012" title=" " alt="" coords="879,669,964,669,964,674,879,674"/>
+<area shape="rect" id="Node000010" href="$classzlayout_1_1components_1_1_digital_component_factory.html#a5076a558e73b9bba76e772916b50d396" title=" " alt="" coords="1267,487,1461,541"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="1161,511,1253,511,1253,517,1161,517"/>
+<area shape="rect" id="Node000011" href="$classzlayout_1_1components_1_1_digital_component_factory.html#aa745b71af0236c89685fcc7942d0fef2" title=" " alt="" coords="1267,357,1461,412"/>
+<area shape="poly" id="edge10_Node000009_Node000011" title=" " alt="" coords="1124,499,1293,416,1296,420,1127,504"/>
+<area shape="poly" id="edge17_Node000014_Node000011" title=" " alt="" coords="294,279,423,305,589,323,817,343,1253,375,1253,380,817,348,589,329,422,310,293,284"/>
+<area shape="rect" id="Node000015" href="$classzlayout_1_1components_1_1_passive_component_factory.html#a46bbc6136074c27c0b9b1dd55d973888" title=" " alt="" coords="423,5,624,60"/>
+<area shape="poly" id="edge14_Node000014_Node000015" title=" " alt="" coords="352,255,373,241,389,222,397,202,398,159,398,115,405,92,421,70,423,67,427,71,425,73,410,95,404,116,403,159,402,203,394,224,376,245,355,260"/>
+<area shape="rect" id="Node000016" href="$classzlayout_1_1components_1_1_digital_component_factory.html#a5cac56de15b32642feffb12816b44d94" title=" " alt="" coords="426,84,621,139"/>
+<area shape="poly" id="edge15_Node000014_Node000016" title=" " alt="" coords="351,254,373,241,384,231,391,220,397,197,403,173,421,148,425,145,428,149,425,152,408,175,402,199,395,222,388,234,376,245,354,258"/>
+<area shape="rect" id="Node000017" href="$classzlayout_1_1components_1_1_passive_component_factory.html#addc0cbce4ad509c0b23847dfefa233f2" title=" " alt="" coords="423,163,624,217"/>
+<area shape="poly" id="edge16_Node000014_Node000017" title=" " alt="" coords="319,253,374,241,440,220,441,225,375,246,321,259"/>
+<area shape="rect" id="Node000018" href="$classzlayout_1_1components_1_1_passive_component_factory.html#a08611a125de71b507be789b6ec532608" title=" " alt="" coords="423,241,624,296"/>
+<area shape="poly" id="edge18_Node000014_Node000018" title=" " alt="" coords="353,266,409,266,409,271,353,271"/>
+<area shape="poly" id="edge20_Node000019_Node000003" title=" " alt="" coords="316,604,434,584,435,589,317,609"/>
+<area shape="rect" id="Node000020" href="$classzlayout_1_1geometry_1_1_point.html#a1b4ec9d17235a64db98d26320c521415" title="Calculate vector magnitude (length)" alt="" coords="727,787,875,827"/>
+<area shape="poly" id="edge21_Node000019_Node000020" title=" " alt="" coords="276,630,445,694,673,771,714,783,713,789,671,777,443,699,274,635"/>
+<area shape="rect" id="Node000021" href="$classzlayout_1_1geometry_1_1_point.html#a0c0c537fad79f8a9c8ff19b2b6f51f50" title="Normalize vector to unit length." alt="" coords="449,787,597,827"/>
+<area shape="poly" id="edge22_Node000019_Node000021" title=" " alt="" coords="262,630,424,744,478,778,475,782,421,748,259,634"/>
+<area shape="poly" id="edge23_Node000021_Node000020" title=" " alt="" coords="598,805,713,805,713,810,598,810"/>
+<area shape="rect" id="Node000022" href="$classzlayout_1_1geometry_1_1_point.html#ae5cf824a5b30859e6f2d8b636782e546" title="Default constructor &#45; creates point at origin." alt="" coords="727,851,875,891"/>
+<area shape="poly" id="edge24_Node000021_Node000022" title=" " alt="" coords="598,822,714,849,713,854,597,827"/>
+</map>

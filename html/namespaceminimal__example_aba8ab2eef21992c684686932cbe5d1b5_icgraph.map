@@ -1,0 +1,8 @@
+<map id="minimal_example._test_prototype_process" name="minimal_example._test_prototype_process">
+<area shape="rect" id="Node000001" title=" " alt="" coords="448,22,624,62"/>
+<area shape="rect" id="Node000002" href="$namespaceminimal__example.html#a0f470bb186d2ddc165a57b41f2b3ef8c" title=" " alt="" coords="231,22,400,62"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="435,45,400,45,400,39,435,39"/>
+<area shape="rect" id="Node000003" href="$namespaceminimal__example.html#af9f93780530aca81d9c063565e3c46fc" title=" " alt="" coords="5,29,183,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="217,45,183,45,183,39,217,39"/>
+<area shape="poly" id="edge3_Node000003_Node000003" title=" " alt="" coords="134,20,123,11,94,8,70,10,58,15,55,20,62,28,58,31,50,21,54,11,69,5,94,3,125,6,137,15"/>
+</map>

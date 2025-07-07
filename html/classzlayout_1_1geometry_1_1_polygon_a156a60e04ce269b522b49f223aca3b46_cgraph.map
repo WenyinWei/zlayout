@@ -1,0 +1,11 @@
+<map id="zlayout::geometry::Polygon::line_segment_intersection" name="zlayout::geometry::Polygon::line_segment_intersection">
+<area shape="rect" id="Node000001" title="Helper function to find intersection point of two line segments." alt="" coords="5,62,176,117"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a798d9faa3daf559487e4c717f9040c42" title="Check if this polygon intersects with another polygon." alt="" coords="224,40,372,80"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="176,75,210,70,210,75,177,80"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#a14debcfee816a83c208c1e9f7fa0a3c1" title="Get polygon edges as pairs of consecutive vertices." alt="" coords="451,5,599,45"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="372,46,437,36,438,41,373,51"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_polygon.html#a580fd3da25019265ac2139f09d9c33e8" title="Helper function to check if two line segments intersect." alt="" coords="420,69,631,109"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="373,75,406,80,406,86,372,81"/>
+<area shape="poly" id="edge5_Node000004_Node000001" title=" " alt="" coords="420,94,372,95,224,95,190,94,190,89,224,89,372,89,420,89"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="437,72,385,65,386,60,438,67"/>
+</map>

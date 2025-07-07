@@ -1,0 +1,13 @@
+<map id="zlayout::geometry::Rectangle::contains_point" name="zlayout::geometry::Rectangle::contains_point">
+<area shape="rect" id="Node000001" title="Check if point is inside rectangle (inclusive of boundary)" alt="" coords="548,55,739,95"/>
+<area shape="rect" id="Node000002" href="$basic__usage_8cpp.html#a4bb1a10b46fa1385b60781eade265dd6" title=" " alt="" coords="284,5,500,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="541,55,448,33,449,28,543,50"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_rectangle.html#ac5e4c130e455709f2fd772964b671016" title="Calculate minimum distance to a point." alt="" coords="307,55,477,95"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="534,78,478,78,478,73,534,73"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1spatial_1_1_quad_tree_node.html#a9496b86d297f759092c546c95f8f6b5e" title="Query objects containing a specific point." alt="" coords="297,119,487,159"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="552,101,472,122,470,117,550,96"/>
+<area shape="rect" id="Node000003" href="$basic__usage_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="93,5,148,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="270,21,148,21,148,15,270,15"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_point.html#a613871727e9a040540b80bebe93bd0c8" title=" " alt="" coords="5,55,236,95"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="293,78,236,78,236,73,293,73"/>
+</map>

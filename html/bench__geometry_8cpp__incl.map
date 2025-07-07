@@ -1,0 +1,32 @@
+<map id="benchmarks/bench_geometry.cpp" name="benchmarks/bench_geometry.cpp">
+<area shape="rect" id="Node000001" title="Benchmark tests for geometry operations performance." alt="" coords="361,5,601,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,79,189,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="420,33,173,79,173,73,419,28"/>
+<area shape="rect" id="Node000003" href="$polygon_8hpp.html" title="Polygon class for complex geometric shapes and EDA components." alt="" coords="521,79,743,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="507,28,596,70,594,75,504,33"/>
+<area shape="rect" id="Node000004" href="$point_8hpp.html" title="2D Point class for geometric calculations" alt="" coords="635,225,837,251"/>
+<area shape="poly" id="edge14_Node000001_Node000004" title=" " alt="" coords="593,28,690,47,730,60,757,77,773,100,779,124,776,149,769,178,754,215,749,212,764,177,771,148,773,124,768,103,753,81,728,65,689,52,592,33"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="450,299,513,324"/>
+<area shape="poly" id="edge18_Node000001_Node000005" title=" " alt="" coords="448,33,406,52,366,81,320,122,284,163,274,183,269,203,273,225,286,249,300,265,317,277,356,295,398,304,436,308,436,313,397,310,355,300,315,282,297,269,282,252,268,227,264,203,269,181,280,159,317,119,362,77,404,48,446,28"/>
+<area shape="rect" id="Node000008" href="$rectangle_8hpp.html" title="Axis&#45;aligned rectangle class for bounding boxes and simple components." alt="" coords="366,152,597,177"/>
+<area shape="poly" id="edge15_Node000001_Node000008" title=" " alt="" coords="484,31,484,138,479,138,479,31"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="297,225,359,251"/>
+<area shape="poly" id="edge17_Node000001_Node000009" title=" " alt="" coords="462,33,432,52,397,79,362,113,336,153,328,182,327,211,322,211,323,182,331,151,358,110,393,75,429,48,459,28"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="859,79,931,104"/>
+<area shape="poly" id="edge16_Node000001_Node000012" title=" " alt="" coords="556,28,840,76,846,77,845,82,840,81,555,33"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="679,102,717,120,734,134,748,151,754,166,755,183,749,213,744,212,749,182,748,167,743,153,730,137,714,124,676,106"/>
+<area shape="poly" id="edge7_Node000003_Node000008" title=" " alt="" coords="609,106,520,148,517,144,607,102"/>
+<area shape="poly" id="edge11_Node000003_Node000009" title=" " alt="" coords="526,107,424,125,382,138,355,154,345,166,338,181,332,212,326,211,333,179,341,164,352,150,380,134,423,120,525,101"/>
+<area shape="rect" id="Node000010" title=" " alt="" coords="485,225,544,251"/>
+<area shape="poly" id="edge12_Node000003_Node000010" title=" " alt="" coords="634,105,629,140,622,160,611,179,587,203,558,221,555,217,583,199,607,176,617,158,624,138,629,104"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="673,152,733,177"/>
+<area shape="poly" id="edge13_Node000003_Node000011" title=" " alt="" coords="646,102,684,140,680,144,642,106"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="696,253,527,300,525,295,694,248"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="749,299,829,324"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="747,249,775,286,770,289,743,253"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="638,299,725,324"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="729,253,701,289,696,286,725,249"/>
+<area shape="poly" id="edge8_Node000008_Node000004" title=" " alt="" coords="523,175,683,219,681,224,522,180"/>
+<area shape="poly" id="edge9_Node000008_Node000009" title=" " alt="" coords="458,180,366,222,364,217,456,175"/>
+<area shape="poly" id="edge10_Node000008_Node000010" title=" " alt="" coords="489,177,506,212,501,214,484,179"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="zlayout.logic_circuits.Signal" name="zlayout.logic_circuits.Signal">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,183,208,208"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1logic__circuits_1_1_logic_state.html" title=" " alt="" coords="8,80,205,120"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="109,134,109,182,104,182,104,134"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="77,5,136,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="109,44,109,80,104,80,104,44"/>
+</map>

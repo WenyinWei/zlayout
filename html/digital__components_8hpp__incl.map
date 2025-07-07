@@ -1,0 +1,34 @@
+<map id="include/zlayout/components/digital_components.hpp" name="include/zlayout/components/digital_components.hpp">
+<area shape="rect" id="Node000001" title="Digital Logic Circuit Components." alt="" coords="521,5,726,45"/>
+<area shape="rect" id="Node000002" href="$component_8hpp.html" title="Hierarchical EDA Component System." alt="" coords="413,93,568,133"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="596,48,533,88,530,84,593,43"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="24,181,101,207"/>
+<area shape="poly" id="edge16_Node000001_Node000003" title=" " alt="" coords="561,48,115,180,113,175,560,43"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="594,255,656,280"/>
+<area shape="poly" id="edge18_Node000001_Node000004" title=" " alt="" coords="668,43,722,72,774,111,793,134,806,158,807,183,797,208,770,234,738,251,703,261,670,267,669,261,702,256,736,246,767,230,792,205,802,182,800,159,789,137,770,115,719,77,665,48"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="109,255,168,280"/>
+<area shape="poly" id="edge17_Node000001_Node000005" title=" " alt="" coords="521,40,383,58,230,88,158,107,95,129,45,155,27,168,14,183,9,195,10,206,17,216,28,225,60,241,97,253,95,258,58,246,25,230,13,219,5,207,3,194,10,180,24,164,43,150,93,124,156,102,228,83,382,53,521,34"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="732,181,782,207"/>
+<area shape="poly" id="edge20_Node000001_Node000006" title=" " alt="" coords="641,44,741,169,737,172,637,47"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="651,328,738,353"/>
+<area shape="poly" id="edge19_Node000001_Node000008" title=" " alt="" coords="709,43,752,62,790,91,806,113,813,133,820,181,820,204,815,226,792,265,760,298,728,322,724,318,756,294,788,262,810,224,815,203,814,182,808,134,801,115,786,95,749,67,706,48"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="413,131,120,184,115,185,114,180,119,179,413,126"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="556,131,592,151,621,180,631,211,632,241,627,241,626,211,616,183,589,155,554,136"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="413,120,362,126,307,138,251,157,200,183,171,212,151,244,147,241,167,209,197,179,249,152,305,133,361,121,412,115"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="555,131,719,179,718,184,554,136"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="227,181,351,207"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="443,136,332,179,331,174,441,131"/>
+<area shape="poly" id="edge7_Node000002_Node000008" title=" " alt="" coords="563,131,606,151,643,179,666,212,681,248,690,284,695,314,690,314,685,285,676,250,661,214,639,183,603,155,561,136"/>
+<area shape="rect" id="Node000009" href="$rectangle_8hpp.html" title="Axis&#45;aligned rectangle class for bounding boxes and simple components." alt="" coords="375,181,606,207"/>
+<area shape="poly" id="edge8_Node000002_Node000009" title=" " alt="" coords="493,134,493,167,488,167,488,134"/>
+<area shape="rect" id="Node000010" href="$point_8hpp.html" title="2D Point class for geometric calculations" alt="" coords="366,255,569,280"/>
+<area shape="poly" id="edge15_Node000002_Node000010" title=" " alt="" coords="413,125,355,134,296,147,247,163,229,173,217,183,207,201,208,215,218,227,236,238,289,252,353,260,352,265,288,257,234,242,215,231,203,217,202,200,212,180,225,168,244,158,295,141,354,129,413,120"/>
+<area shape="poly" id="edge13_Node000009_Node000004" title=" " alt="" coords="513,204,592,246,590,250,511,209"/>
+<area shape="poly" id="edge14_Node000009_Node000005" title=" " alt="" coords="434,209,182,260,181,255,433,204"/>
+<area shape="poly" id="edge9_Node000009_Node000010" title=" " alt="" coords="489,208,478,242,473,241,484,206"/>
+<area shape="poly" id="edge12_Node000010_Node000008" title=" " alt="" coords="505,277,645,321,644,326,503,283"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="388,328,451,353"/>
+<area shape="poly" id="edge10_Node000010_Node000011" title=" " alt="" coords="462,282,437,318,433,315,458,279"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="476,328,556,353"/>
+<area shape="poly" id="edge11_Node000010_Node000012" title=" " alt="" coords="478,279,503,315,498,318,473,282"/>
+</map>

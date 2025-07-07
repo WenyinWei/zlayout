@@ -1,0 +1,7 @@
+<map id="zlayout.logic_circuits.SequentialLogic" name="zlayout.logic_circuits.SequentialLogic">
+<area shape="rect" id="Node000001" title=" " alt="" coords="115,5,347,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1logic__circuits_1_1_counter.html" title=" " alt="" coords="5,93,220,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="192,55,132,95,129,91,189,51"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1logic__circuits_1_1_flip_flop.html" title=" " alt="" coords="244,93,459,119"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="273,51,335,91,332,95,270,55"/>
+</map>

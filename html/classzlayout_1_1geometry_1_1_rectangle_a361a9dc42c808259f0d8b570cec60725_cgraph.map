@@ -1,0 +1,19 @@
+<map id="zlayout.geometry.Rectangle.contains_point" name="zlayout.geometry.Rectangle.contains_point">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,207,268,247"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#af87b32b64185bb48db51fbb9360bf3f4" title="Get bottom edge Y coordinate." alt="" coords="369,5,517,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="151,205,217,131,263,90,315,55,355,38,357,43,317,60,266,94,220,135,155,208"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_rectangle.html#ac4f76e0389166ef59443bd79c2acfc78" title=" " alt="" coords="316,70,571,95"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="160,204,227,154,270,128,315,106,341,96,343,101,317,110,272,133,230,159,163,209"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_rectangle.html#a22daae96461e68a665d4f13f2d1f1d31" title="Get left edge X coordinate." alt="" coords="369,120,517,160"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="200,204,315,169,355,159,357,164,317,175,202,209"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_rectangle.html#aabddc9547b43c944ed0ad09f200fa07d" title=" " alt="" coords="329,185,558,210"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="268,211,315,207,315,212,269,217"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_rectangle.html#a9b2643f1e174ecee9c085f2b8b6541e1" title="Get right edge X coordinate." alt="" coords="369,235,517,275"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="268,236,356,244,355,249,268,241"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1geometry_1_1_rectangle.html#a28974a7f31cb019a8de0926408e7aae3" title=" " alt="" coords="324,299,563,325"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="192,244,317,284,358,294,357,299,315,289,191,249"/>
+<area shape="rect" id="Node000008" href="$classzlayout_1_1geometry_1_1_rectangle.html#a08f52eca565d22b168040c227271d23c" title="Get top edge Y coordinate." alt="" coords="369,349,517,389"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="166,245,233,289,317,334,357,348,355,353,315,338,230,294,164,249"/>
+<area shape="rect" id="Node000009" href="$classzlayout_1_1geometry_1_1_rectangle.html#acfd1ac1dbd0ae4573174b1fe55d00a00" title=" " alt="" coords="329,414,558,439"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="155,246,181,280,219,322,265,364,317,399,335,407,333,412,315,404,262,368,215,326,177,283,150,249"/>
+</map>

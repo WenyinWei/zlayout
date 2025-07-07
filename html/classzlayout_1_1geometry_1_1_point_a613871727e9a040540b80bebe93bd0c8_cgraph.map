@@ -1,0 +1,33 @@
+<map id="zlayout.geometry.Point.distance_to_line" name="zlayout.geometry.Point.distance_to_line">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,264,236,304"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_point.html#ad6568652d00d88fbb767f72b76872d77" title="Calculate Euclidean distance to another point." alt="" coords="843,5,991,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="131,262,155,226,189,181,232,136,283,98,351,64,423,40,498,23,573,13,646,7,714,6,829,12,829,17,714,12,646,13,573,18,499,28,425,45,353,69,285,102,236,140,193,185,159,229,136,265"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_polygon.html#a5943f9ab9cdda2e24128c9ad6ebb7861" title="Calculate minimum distance to a point." alt="" coords="331,112,488,152"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="142,262,202,212,241,185,283,162,316,149,318,154,285,166,244,189,205,216,145,266"/>
+<area shape="rect" id="Node000009" href="$classzlayout_1_1geometry_1_1_rectangle.html#ac5e4c130e455709f2fd772964b671016" title="Calculate minimum distance to a point." alt="" coords="324,176,495,216"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="176,261,283,225,313,217,314,222,285,231,177,267"/>
+<area shape="rect" id="Node000011" href="$classzlayout_1_1geometry_1_1_polygon.html#a29d16e2f647d217c6e293093de1d9f56" title="Calculate minimum distance to another polygon." alt="" coords="331,264,488,304"/>
+<area shape="poly" id="edge11_Node000001_Node000011" title=" " alt="" coords="236,281,317,281,317,287,236,287"/>
+<area shape="rect" id="Node000012" href="$classzlayout_1_1geometry_1_1_rectangle.html#aea88d42a3d54042fb66a0c6c2a6da670" title="Calculate minimum distance to another rectangle." alt="" coords="324,328,495,368"/>
+<area shape="poly" id="edge13_Node000001_Node000012" title=" " alt="" coords="212,301,311,324,310,329,211,307"/>
+<area shape="rect" id="Node000014" href="$classhierarchical__demo__simple_1_1_point.html#acb2dffc0f01dd6a87c5850ff7d02ad91" title=" " alt="" coords="311,392,508,432"/>
+<area shape="poly" id="edge15_Node000001_Node000014" title=" " alt="" coords="152,302,212,340,285,378,306,385,304,390,283,382,209,345,149,307"/>
+<area shape="rect" id="Node000015" href="$classzlayout_1_1geometry_1_1_point.html#a2839a06289b2ced057898f16051b80eb" title=" " alt="" coords="284,457,535,482"/>
+<area shape="poly" id="edge16_Node000001_Node000015" title=" " alt="" coords="138,303,197,372,239,410,285,442,303,450,301,455,283,446,235,414,193,376,134,306"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_polygon.html#af2e2fa5545fe444a0ed8dc1c4195972a" title="Check if point is inside polygon (ray casting algorithm)" alt="" coords="589,48,767,88"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="488,111,580,89,581,94,489,116"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_point.html#a5f6db7c46e0f3e9a87f88396d2b5f658" title="Calculate distance from this point to a line segment." alt="" coords="593,112,763,152"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="488,129,579,129,579,135,488,135"/>
+<area shape="rect" id="Node000008" href="$classzlayout_1_1geometry_1_1_polygon.html#a14debcfee816a83c208c1e9f7fa0a3c1" title="Get polygon edges as pairs of consecutive vertices." alt="" coords="604,176,752,216"/>
+<area shape="poly" id="edge8_Node000003_Node000008" title=" " alt="" coords="489,148,591,173,590,178,488,153"/>
+<area shape="poly" id="edge5_Node000005_Node000002" title=" " alt="" coords="742,109,772,98,868,50,870,55,774,102,744,114"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_point.html#abc3a8583c4d3c58b983f48dcd643ab0a" title="Calculate dot product with another point (as vector)" alt="" coords="843,97,991,137"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="763,124,830,120,830,125,763,129"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1geometry_1_1_point.html#ab80a342d9f58beda1531532b1838d402" title="Calculate squared magnitude (faster, avoids sqrt)" alt="" coords="821,161,1013,201"/>
+<area shape="poly" id="edge7_Node000005_Node000007" title=" " alt="" coords="763,147,808,156,807,161,762,152"/>
+<area shape="rect" id="Node000010" href="$classzlayout_1_1geometry_1_1_rectangle.html#ad6b66148b9fb0ba3139204da8241381a" title="Check if point is inside rectangle (inclusive of boundary)" alt="" coords="583,240,773,280"/>
+<area shape="poly" id="edge10_Node000009_Node000010" title=" " alt="" coords="495,213,581,234,580,239,493,219"/>
+<area shape="poly" id="edge12_Node000011_Node000011" title=" " alt="" coords="360,264,357,254,365,245,382,239,409,237,440,240,457,247,455,252,439,245,409,243,383,245,368,249,362,255,365,263"/>
+<area shape="rect" id="Node000013" href="$classzlayout_1_1geometry_1_1_rectangle.html#acdd06b57300970e25e0db2aa9cd6fda3" title="Check if this rectangle intersects with another rectangle." alt="" coords="599,328,757,368"/>
+<area shape="poly" id="edge14_Node000012_Node000013" title=" " alt="" coords="495,345,585,345,585,351,495,351"/>
+</map>

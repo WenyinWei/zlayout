@@ -1,0 +1,16 @@
+<map id="zlayout::geometry::Polygon::area" name="zlayout::geometry::Polygon::area">
+<area shape="rect" id="Node000001" title="Calculate polygon area using shoelace formula." alt="" coords="743,77,891,117"/>
+<area shape="rect" id="Node000002" href="$bench__geometry_8cpp.html#afbe4c9d84a965ce76eb594e042478279" title=" " alt="" coords="521,5,653,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="763,73,694,45,652,33,654,28,696,39,765,68"/>
+<area shape="rect" id="Node000003" href="$basic__usage_8cpp.html#a4bb1a10b46fa1385b60781eade265dd6" title=" " alt="" coords="479,55,695,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="728,88,686,83,687,77,729,83"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_polygon.html#acfc546b1c685fc7915402727f88e0ab6" title="Calculate signed area (preserves orientation)" alt="" coords="506,105,667,145"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="729,119,668,126,667,121,728,113"/>
+<area shape="rect" id="Node000004" href="$basic__usage_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="321,55,376,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="465,70,376,70,376,65,465,65"/>
+<area shape="poly" id="edge5_Node000005_Node000001" title=" " alt="" coords="681,102,742,95,742,100,681,107"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_polygon.html#ab6cf7675fb690552837857aacde2abcc" title="Check if polygon is clockwise oriented." alt="" coords="267,105,431,145"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="492,127,431,127,431,122,492,122"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1geometry_1_1_polygon.html#abd7233371eb8c36925653f6a75888c69" title="Check if polygon is counterclockwise oriented." alt="" coords="5,105,219,145"/>
+<area shape="poly" id="edge7_Node000006_Node000007" title=" " alt="" coords="253,127,219,127,219,122,253,122"/>
+</map>

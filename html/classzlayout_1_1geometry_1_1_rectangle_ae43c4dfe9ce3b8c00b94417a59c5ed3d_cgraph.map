@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Rectangle::expand" name="zlayout::geometry::Rectangle::expand">
+<area shape="rect" id="Node000001" title="Expand rectangle by given margin in all directions." alt="" coords="5,5,153,45"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_rectangle.html#a8fd7816288a954083cafe4d217b863d1" title="Default constructor &#45; creates empty rectangle at origin." alt="" coords="201,5,361,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="154,23,188,23,188,28,154,28"/>
+</map>

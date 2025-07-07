@@ -1,0 +1,15 @@
+<map id="include/zlayout/components/component.hpp" name="include/zlayout/components/component.hpp">
+<area shape="rect" id="Node000001" title="Hierarchical EDA Component System." alt="" coords="99,5,305,45"/>
+<area shape="rect" id="Node000002" href="$hierarchical__component__example_8cpp.html" title="Hierarchical EDA Component System Example." alt="" coords="16,269,209,309"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="88,47,50,66,34,79,20,95,10,117,9,141,15,165,26,189,59,233,93,267,89,271,55,237,22,191,10,166,4,141,5,116,16,92,30,75,47,62,85,43"/>
+<area shape="rect" id="Node000003" href="$digital__components_8hpp.html" title="Digital Logic Circuit Components." alt="" coords="30,93,235,133"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="180,58,150,95,146,91,176,55"/>
+<area shape="rect" id="Node000004" href="$ip__blocks_8hpp.html" title="Standard IP Blocks and Complex Digital Systems." alt="" coords="81,181,286,221"/>
+<area shape="poly" id="edge6_Node000001_Node000004" title=" " alt="" coords="230,55,250,92,254,113,250,134,233,161,211,183,208,179,229,158,245,132,248,113,245,94,226,58"/>
+<area shape="rect" id="Node000005" href="$passive__components_8hpp.html" title="Passive Electronic Components Implementation." alt="" coords="310,181,515,221"/>
+<area shape="poly" id="edge7_Node000001_Node000005" title=" " alt="" coords="237,52,391,179,388,183,234,56"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="98,145,83,162,71,182,68,205,74,228,85,249,98,268,93,271,80,252,69,230,63,205,66,180,78,159,94,141"/>
+<area shape="poly" id="edge4_Node000003_Node000004" title=" " alt="" coords="153,144,174,180,170,182,149,147"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="161,234,130,271,126,267,157,230"/>
+<area shape="poly" id="edge8_Node000005_Node000002" title=" " alt="" coords="334,228,179,272,178,267,333,223"/>
+</map>

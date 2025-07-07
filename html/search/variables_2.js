@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['bit_5fwidth_0',['bit_width',['../classhierarchical__demo__simple_1_1_a_l_u.html#a9e9b2e168187bdd85241b9e18926485a',1,'hierarchical_demo_simple::ALU']]],
+  ['both_1',['BOTH',['../classzlayout_1_1logic__circuits_1_1_clock_edge.html#a17f7a9a74a3a3a73644b3a2e0b560618',1,'zlayout::logic_circuits::ClockEdge']]],
+  ['bottom_2',['bottom',['../classzlayout_1_1geometry_1_1_rectangle.html#aa08b7b45d7d237242f9f7020f643a2d4',1,'zlayout::geometry::Rectangle']]],
+  ['boundary_3',['boundary',['../structzlayout_1_1spatial_1_1_i_p_block.html#a390731d738ab42ec866410eb06690c66',1,'zlayout::spatial::IPBlock::boundary'],['../classzlayout_1_1spatial_1_1_quad_tree_node.html#ab85e83a38b22c233de7bbe9fb1a28481',1,'zlayout::spatial::QuadTreeNode::boundary'],['../classzlayout_1_1spatial_1_1_quad_tree_node.html#ac83b134a7fb7f05a0e0b88b9f1f745e4',1,'zlayout::spatial::QuadTreeNode.boundary']]],
+  ['bounding_5fbox_4',['bounding_box',['../classhierarchical__demo__simple_1_1_component.html#a9e24df1aed148a3c85465141dcbb2f8f',1,'hierarchical_demo_simple.Component.bounding_box'],['../classhierarchical__demo__simple_1_1_digital_gate.html#a157f13cd0f1af6afc0b2ebef4bc3c1b4',1,'hierarchical_demo_simple.DigitalGate.bounding_box'],['../classhierarchical__demo__simple_1_1_a_l_u.html#a996a04605c4909a7836f5be2f183f6a8',1,'hierarchical_demo_simple.ALU.bounding_box'],['../classhierarchical__demo__simple_1_1_processor_core.html#a1c9c4cbce688d101b4c61c89f5d41ae1',1,'hierarchical_demo_simple.ProcessorCore.bounding_box'],['../classhierarchical__demo__simple_1_1_g_p_u.html#a11c6a094801bc4ff2cdb7d782fd083dd',1,'hierarchical_demo_simple.GPU.bounding_box'],['../classhierarchical__demo__simple_1_1_so_c.html#afd384a919f8915a1bcb0a39e4988c52a',1,'hierarchical_demo_simple.SoC.bounding_box']]],
+  ['bounding_5fbox_5f_5',['bounding_box_',['../classzlayout_1_1components_1_1_component.html#ae63d83b0493b6be0a7502eb8ce71a491',1,'zlayout::components::Component']]],
+  ['build_5ftype_6',['build_type',['../structzlayout_1_1_system_info.html#ab6543633618edeed9ff909c9d97d50e7',1,'zlayout::SystemInfo']]]
+];

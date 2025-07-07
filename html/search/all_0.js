@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['1_20交互式选择工具_0',['1. 交互式选择工具',['../md_docs_2tutorials_2zh_2algorithms_2range__query.html#autotoc_md241',1,'']]],
+  ['1_20先进工艺drc_1',['1. 先进工艺DRC',['../md_docs_2tutorials_2zh_2algorithms_2narrow__spacing__detection.html#autotoc_md213',1,'']]],
+  ['1_20四叉树分析_2',['1. 四叉树分析',['../md_docs_2tutorials_2zh_2algorithms_2spatial__index__comparison.html#autotoc_md297',1,'']]],
+  ['1_20四叉树实现_3',['1. 四叉树实现',['../md_docs_2tutorials_2zh_2algorithms_2range__query.html#autotoc_md228',1,'']]],
+  ['1_20布局验证_4',['1. 布局验证',['../md_docs_2tutorials_2zh_2algorithms_2edge__intersection__detection.html#autotoc_md187',1,'']]],
+  ['1_20查询结果缓存_5',['1. 查询结果缓存',['../md_docs_2tutorials_2zh_2algorithms_2range__query.html#autotoc_md245',1,'']]],
+  ['1_20advanced_20process_20drc_6',['1. Advanced Process DRC',['../md_docs_2tutorials_2en_2algorithms_2narrow__spacing__detection.html#autotoc_md47',1,'']]],
+  ['1_20asic设计规则检查_7',['1. ASIC设计规则检查',['../md_docs_2tutorials_2zh_2algorithms_2sharp__angle__detection.html#autotoc_md285',1,'']]],
+  ['1_20asic_20design_20rule_20checking_8',['1. ASIC Design Rule Checking',['../md_docs_2tutorials_2en_2algorithms_2sharp__angle__detection.html#autotoc_md119',1,'']]],
+  ['1_20design_20rule_20checking_20drc_9',['1. Design Rule Checking (DRC)',['../index.html#autotoc_md390',1,'']]],
+  ['1_20interactive_20selection_20tool_10',['1. Interactive Selection Tool',['../md_docs_2tutorials_2en_2algorithms_2range__query.html#autotoc_md75',1,'']]],
+  ['1_20layout_20verification_11',['1. Layout Verification',['../md_docs_2tutorials_2en_2algorithms_2edge__intersection__detection.html#autotoc_md21',1,'']]],
+  ['1_20quadtree_20analysis_12',['1. QuadTree Analysis',['../md_docs_2tutorials_2en_2algorithms_2spatial__index__comparison.html#autotoc_md131',1,'']]],
+  ['1_20quadtree_20implementation_13',['1. QuadTree Implementation',['../md_docs_2tutorials_2en_2algorithms_2range__query.html#autotoc_md62',1,'']]],
+  ['1_20query_20result_20caching_14',['1. Query Result Caching',['../md_docs_2tutorials_2en_2algorithms_2range__query.html#autotoc_md79',1,'']]],
+  ['1_20realistic_20component_20modeling_15',['1. Realistic Component Modeling',['../md_docs_2examples_2eda__circuit__analysis.html#autotoc_md336',1,'']]],
+  ['1_3a_20basic_20intersection_20detection_16',['Tutorial 1: Basic Intersection Detection',['../md_docs_2tutorials_2en_2algorithms_2edge__intersection__detection.html#autotoc_md17',1,'']]],
+  ['1_3a_20basic_20range_20queries_17',['Tutorial 1: Basic Range Queries',['../md_docs_2tutorials_2en_2algorithms_2range__query.html#autotoc_md71',1,'']]],
+  ['1_3a_20basic_20sharp_20angle_20detection_18',['Tutorial 1: Basic Sharp Angle Detection',['../md_docs_2tutorials_2en_2algorithms_2sharp__angle__detection.html#autotoc_md106',1,'']]],
+  ['1_3a_20basic_20spacing_20check_19',['Tutorial 1: Basic Spacing Check',['../md_docs_2tutorials_2en_2algorithms_2narrow__spacing__detection.html#autotoc_md43',1,'']]],
+  ['1_3a_20basic_20vector_20mathematics_20',['Approach 1: Basic Vector Mathematics',['../md_docs_2tutorials_2en_2algorithms_2sharp__angle__detection.html#autotoc_md96',1,'']]],
+  ['1_3a_20brute_20force_20o_20n²_21',['1: brute force o n²',['../md_docs_2tutorials_2en_2algorithms_2edge__intersection__detection.html#autotoc_md7',1,'Algorithm 1: Brute Force O(n²)'],['../md_docs_2tutorials_2en_2algorithms_2narrow__spacing__detection.html#autotoc_md35',1,'Approach 1: Brute Force O(n²)']]]
+];

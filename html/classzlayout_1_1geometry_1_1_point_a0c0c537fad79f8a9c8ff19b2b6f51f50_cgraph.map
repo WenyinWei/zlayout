@@ -1,0 +1,7 @@
+<map id="zlayout::geometry::Point::normalize" name="zlayout::geometry::Point::normalize">
+<area shape="rect" id="Node000001" title="Normalize vector to unit length." alt="" coords="5,37,153,77"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_point.html#a1b4ec9d17235a64db98d26320c521415" title="Calculate vector magnitude (length)" alt="" coords="201,5,349,45"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="153,43,187,37,188,42,154,48"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1geometry_1_1_point.html#ae5cf824a5b30859e6f2d8b636782e546" title="Default constructor &#45; creates point at origin." alt="" coords="201,69,349,109"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="154,67,188,72,187,78,153,72"/>
+</map>

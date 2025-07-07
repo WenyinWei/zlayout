@@ -1,0 +1,20 @@
+<map id="zlayout::geometry::Polygon::intersects" name="zlayout::geometry::Polygon::intersects">
+<area shape="rect" id="Node000001" title="Check if this polygon intersects with another polygon." alt="" coords="772,109,920,149"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_polygon.html#a0c3c10d3601416809f96108e7ea43306" title="Find intersection points between polygon edges." alt="" coords="321,5,479,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="810,102,770,75,723,53,661,37,597,29,535,27,480,28,480,23,535,22,597,24,662,32,725,47,773,70,813,98"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1geometry_1_1_polygon.html#a156a60e04ce269b522b49f223aca3b46" title="Helper function to find intersection point of two line segments." alt="" coords="553,63,724,117"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="758,115,724,108,725,103,759,110"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1geometry_1_1_polygon.html#a580fd3da25019265ac2139f09d9c33e8" title="Helper function to check if two line segments intersect." alt="" coords="295,147,505,187"/>
+<area shape="poly" id="edge10_Node000001_Node000005" title=" " alt="" coords="759,146,506,169,505,163,758,141"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1analysis_1_1_edge_intersection_result.html#a9caf5620c7317020767645273a8c1508" title=" " alt="" coords="5,13,247,53"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="307,35,247,35,247,30,307,30"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="539,69,479,54,480,49,540,64"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="541,124,464,150,462,145,540,119"/>
+<area shape="poly" id="edge7_Node000005_Node000001" title=" " alt="" coords="519,146,772,125,772,131,519,152"/>
+<area shape="rect" id="Node000006" href="$classzlayout_1_1geometry_1_1_polygon.html#ac0f2dbf9a33d07bd15f792bc111d502c" title="Check if polygon edges intersect (for self&#45;intersection detection)" alt="" coords="13,83,239,123"/>
+<area shape="poly" id="edge6_Node000005_Node000006" title=" " alt="" coords="300,147,212,126,213,121,301,142"/>
+<area shape="rect" id="Node000007" href="$classzlayout_1_1geometry_1_1_polygon.html#a807f622fbce5e357d901762d6d26c1b2" title="Check if polygon is simple (no self&#45;intersections)" alt="" coords="52,147,200,187"/>
+<area shape="poly" id="edge8_Node000005_Node000007" title=" " alt="" coords="281,170,200,170,200,165,281,165"/>
+<area shape="rect" id="Node000008" href="$namespacezlayout_1_1geometry.html#ae708fbbf454d341a6acfe581894cb654" title="Check if two line segments intersect." alt="" coords="51,211,201,251"/>
+<area shape="poly" id="edge9_Node000005_Node000008" title=" " alt="" coords="301,193,202,216,201,211,300,188"/>
+</map>

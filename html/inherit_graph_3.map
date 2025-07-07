@@ -1,0 +1,13 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,141,64,166"/>
+<area shape="rect" id="Node000001" href="$classhierarchical__demo__simple_1_1_component_category.html" title=" " alt="" coords="129,5,326,45"/>
+<area shape="poly" id="edge4_Node000000_Node000001" title=" " alt="" coords="47,127,73,90,91,71,111,55,133,43,135,48,113,60,94,75,77,94,51,131"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1component__interface_1_1_component_category.html" title=" " alt="" coords="119,69,335,109"/>
+<area shape="poly" id="edge5_Node000000_Node000002" title=" " alt="" coords="75,133,111,119,149,107,150,112,113,124,77,138"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1component__interface_1_1_component_type.html" title=" " alt="" coords="119,133,335,173"/>
+<area shape="poly" id="edge6_Node000000_Node000003" title=" " alt="" coords="78,151,119,151,119,156,78,156"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1logic__circuits_1_1_clock_edge.html" title=" " alt="" coords="112,198,343,223"/>
+<area shape="poly" id="edge7_Node000000_Node000004" title=" " alt="" coords="76,169,113,183,160,195,158,200,111,188,75,174"/>
+<area shape="rect" id="Node000005" href="$classzlayout_1_1logic__circuits_1_1_logic_state.html" title=" " alt="" coords="129,248,326,288"/>
+<area shape="poly" id="edge8_Node000000_Node000005" title=" " alt="" coords="55,176,80,205,113,232,140,245,137,250,111,237,77,209,51,179"/>
+</map>

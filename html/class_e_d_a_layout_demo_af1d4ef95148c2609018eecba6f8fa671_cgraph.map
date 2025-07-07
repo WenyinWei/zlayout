@@ -1,0 +1,9 @@
+<map id="EDALayoutDemo::compare_algorithms" name="EDALayoutDemo::compare_algorithms">
+<area shape="rect" id="Node000001" title="Algorithm performance comparison." alt="" coords="5,91,203,131"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1optimization_1_1_optimizer_factory.html#ac9281ed1202c175e2a7a9a8f943ad8cb" title=" " alt="" coords="269,5,459,60"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,89,259,62,261,67,172,94"/>
+<area shape="rect" id="Node000003" href="$classzlayout_1_1optimization_1_1_optimizer_factory.html#ab6ea40ea8b3f4fa0f76365be87b7a5dd" title=" " alt="" coords="269,84,459,139"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="203,109,256,109,256,114,203,114"/>
+<area shape="rect" id="Node000004" href="$classzlayout_1_1optimization_1_1_optimizer_factory.html#ada9454420647f35dc5645f7751c9c169" title="Choose optimal algorithm based on problem characteristics." alt="" coords="251,163,477,217"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="172,129,261,156,259,161,170,134"/>
+</map>

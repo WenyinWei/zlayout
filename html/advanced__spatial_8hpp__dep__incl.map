@@ -1,0 +1,23 @@
+<map id="include/zlayout/spatial/advanced_spatial.hpp" name="include/zlayout/spatial/advanced_spatial.hpp">
+<area shape="rect" id="Node000001" title="Advanced spatial indexing for ultra&#45;large scale EDA layouts." alt="" coords="571,5,740,45"/>
+<area shape="rect" id="Node000002" href="$hierarchical__component__example_8cpp.html" title="Hierarchical EDA Component System Example." alt="" coords="5,181,199,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="558,45,456,67,348,96,233,140,140,184,138,179,231,135,347,91,455,61,557,40"/>
+<area shape="rect" id="Node000003" href="$ultra__large__scale__example_8cpp.html" title="Example demonstrating ultra&#45;large scale EDA layout optimization." alt="" coords="645,181,805,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="663,59,670,95,683,132,712,180,707,183,678,134,665,96,657,60"/>
+<area shape="rect" id="Node000004" href="$layout__optimizer_8hpp.html" title="Advanced EDA layout optimization algorithms." alt="" coords="360,93,567,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="602,53,506,96,504,91,600,49"/>
+<area shape="rect" id="Node000007" href="$zlayout_8hpp.html" title="ZLayout &#45; Advanced Electronic Design Automation Layout Library." alt="" coords="693,101,895,126"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="699,50,777,98,774,103,696,55"/>
+<area shape="rect" id="Node000010" href="$advanced__spatial_8cpp.html" title="Implementation of advanced spatial indexing for ultra&#45;large scale EDA layouts." alt="" coords="919,93,1075,133"/>
+<area shape="poly" id="edge11_Node000001_Node000010" title=" " alt="" coords="744,46,923,91,921,96,743,51"/>
+<area shape="poly" id="edge5_Node000004_Node000002" title=" " alt="" coords="372,139,182,184,180,179,370,134"/>
+<area shape="rect" id="Node000005" href="$advanced__layout__optimization_8cpp.html" title="Demonstration of advanced EDA layout optimization algorithms." alt="" coords="223,181,424,221"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="422,143,355,184,353,179,420,138"/>
+<area shape="rect" id="Node000006" href="$layout__optimizer_8cpp.html" title="Implementation of advanced EDA layout optimization algorithms." alt="" coords="448,181,620,221"/>
+<area shape="poly" id="edge6_Node000004_Node000006" title=" " alt="" coords="490,142,520,179,516,183,485,146"/>
+<area shape="poly" id="edge9_Node000007_Node000003" title=" " alt="" coords="778,138,742,183,738,179,774,135"/>
+<area shape="rect" id="Node000008" href="$basic__usage_8cpp.html" title="Basic usage example of ZLayout C++ library." alt="" coords="829,189,1026,214"/>
+<area shape="poly" id="edge8_Node000007_Node000008" title=" " alt="" coords="825,131,911,186,908,191,822,136"/>
+<area shape="rect" id="Node000009" href="$zlayout_8cpp.html" title="Main ZLayout library implementation." alt="" coords="1050,189,1170,214"/>
+<area shape="poly" id="edge10_Node000007_Node000009" title=" " alt="" coords="850,127,1068,186,1067,191,849,132"/>
+</map>

@@ -1,0 +1,15 @@
+<map id="include/zlayout/geometry/rectangle.hpp" name="include/zlayout/geometry/rectangle.hpp">
+<area shape="rect" id="Node000001" title="Axis&#45;aligned rectangle class for bounding boxes and simple components." alt="" coords="196,5,384,45"/>
+<area shape="rect" id="Node000002" href="$point_8hpp.html" title="2D Point class for geometric calculations" alt="" coords="31,93,234,119"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="253,48,169,89,167,85,251,43"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="259,93,321,119"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="293,46,293,79,287,79,287,46"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="346,93,405,119"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="312,44,354,82,351,86,309,48"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,167,68,192"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="119,121,65,160,62,156,116,117"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="93,167,173,192"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="135,119,135,153,130,153,130,119"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="197,167,284,192"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="151,116,213,157,210,161,149,121"/>
+</map>

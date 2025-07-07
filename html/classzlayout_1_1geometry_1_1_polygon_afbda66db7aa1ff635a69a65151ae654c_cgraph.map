@@ -1,0 +1,5 @@
+<map id="zlayout::geometry::Polygon::segment_to_segment_distance" name="zlayout::geometry::Polygon::segment_to_segment_distance">
+<area shape="rect" id="Node000001" title="Helper function to calculate distance between two line segments." alt="" coords="5,5,164,60"/>
+<area shape="rect" id="Node000002" href="$classzlayout_1_1geometry_1_1_point.html#ad6568652d00d88fbb767f72b76872d77" title="Calculate Euclidean distance to another point." alt="" coords="212,13,360,53"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="165,30,198,30,198,35,165,35"/>
+</map>

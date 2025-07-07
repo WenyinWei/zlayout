@@ -99,11 +99,28 @@ target("zlayout")
 -- Shared library version
 target("zlayout_shared")
     set_kind("shared")
-    add_deps("zlayout")
     add_files("src/zlayout.cpp")
     add_files("src/geometry/*.cpp")
     add_files("src/spatial/*.cpp")
-    add_defines("ZLAYOUT_SHARED")
+    add_headerfiles("include/zlayout/**.hpp")
+    
+    -- Add include directories
+    add_includedirs("include")
+    add_includedirs("include/zlayout")
+    
+    -- Math optimization (Linux/Unix only)
+    if is_plat("linux", "macosx") then
+        add_links("m")  -- Link math library
+    end
+    
+    -- Optional OpenMP support for parallel processing
+    if has_config("openmp") then
+        add_packages("openmp")
+        add_defines("ZLAYOUT_OPENMP")
+    end
+    
+    -- Export symbols for shared library
+    add_defines("ZLAYOUT_EXPORTS", "ZLAYOUT_SHARED")
 
 -- Visualization library (optional)
 if has_config("with-visualization") then

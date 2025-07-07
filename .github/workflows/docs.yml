@@ -157,11 +157,27 @@ jobs:
     - name: Build C++ library
       run: |
         Write-Host "Building C++ library..."
-        xmake build zlayout zlayout_shared basic_example
+        # Build core library first
+        xmake build zlayout
         if (-not $?) { 
-          Write-Host "C++ library build failed"
+          Write-Host "Static library build failed"
           exit 1 
         }
+        
+        # Build shared library
+        xmake build zlayout_shared
+        if (-not $?) { 
+          Write-Host "Shared library build failed"
+          exit 1 
+        }
+        
+        # Build examples
+        xmake build basic_example
+        if (-not $?) { 
+          Write-Host "Examples build failed"
+          exit 1 
+        }
+        
         Write-Host "C++ library build completed successfully"
     
     - name: Run C++ tests

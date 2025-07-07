@@ -232,3 +232,79 @@ benchmarks/*.exe
 # Additional build artifacts
 *.pdb
 *.ilk
+
+# CI/CD artifacts
+.github/workflows/logs/
+actions_cache/
+coverage.xml
+test_results.xml
+*.coverage
+.coverage.*
+
+# Windows build artifacts - extended
+*.manifest
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.rsp
+*.pgc
+*.pgd
+*.meta
+*.tlog
+*.lastbuildstate
+*.exp
+*.ipdb
+*.iobj
+
+# MSVC debug files
+*.vc.db
+*.vc.VC.opendb
+*.sdf
+*.opensdf
+*.ipch
+*.aps
+*.ncb
+*.user
+*.sln.docstates
+*.suo
+*.cachefile
+*.VC.db
+*.VC.opendb
+
+# Xmake additional artifacts
+.xmake-private/
+packages/
+.xmake-cache/
+
+# Documentation deployment artifacts
+docs/deploy/
+docs/build/
+_site/
+
+# Temporary test files
+test_*.py
+test_*.cpp
+test_*.json
+test_*.txt
+test_*.log
+*.test.*
+
+# Performance profiling files
+*.prof
+*.perf
+perf.data*
+callgrind.out*
+massif.out*
+*.gprof
+
+# Archive and compressed files
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz

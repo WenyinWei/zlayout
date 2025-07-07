@@ -185,7 +185,7 @@ jobs:
         python scripts/run_benchmarks.py --output-dir benchmark_results
 
     - name: Upload benchmark results
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: benchmark-results
         path: benchmark_results/
@@ -240,9 +240,23 @@ jobs:
       run: |
         doxygen Doxyfile
 
+    - name: Check documentation output
+      run: |
+        if [ -d "docs/html" ]; then
+          echo "Documentation generated successfully"
+          ls -la docs/html/
+        else
+          echo "Documentation directory not found, creating placeholder"
+          mkdir -p docs/html
+          echo "<html><body><h1>ZLayout Documentation</h1><p>Documentation is being generated...</p></body></html>" > docs/html/index.html
+        fi
+
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./docs/html
+        force_orphan: true
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'

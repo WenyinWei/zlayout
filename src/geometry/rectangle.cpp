@@ -38,6 +38,33 @@ bool Rectangle::operator!=(const Rectangle& other) const {
     return !(*this == other);
 }
 
+bool Rectangle::operator<(const Rectangle& other) const {
+    // Compare by area first, then by x-coordinate for consistent ordering
+    double this_area = area();
+    double other_area = other.area();
+    if (std::abs(this_area - other_area) > Point::TOLERANCE) {
+        return this_area < other_area;
+    }
+    
+    // If areas are equal, compare by x-coordinate
+    if (std::abs(x - other.x) > Point::TOLERANCE) {
+        return x < other.x;
+    }
+    
+    // If x-coordinates are equal, compare by y-coordinate
+    if (std::abs(y - other.y) > Point::TOLERANCE) {
+        return y < other.y;
+    }
+    
+    // If x and y are equal, compare by width
+    if (std::abs(width - other.width) > Point::TOLERANCE) {
+        return width < other.width;
+    }
+    
+    // Finally compare by height
+    return height < other.height;
+}
+
 Point Rectangle::center() const {
     return Point(x + width / 2.0, y + height / 2.0);
 }

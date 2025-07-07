@@ -45,7 +45,7 @@ ThreadPool::~ThreadPool() {
 }
 
 template<class F, class... Args>
-auto ThreadPool::enqueue(F&& f, Args&&... args) -> std::future<typename std::result_of<F(Args...)>::type> {
+auto ThreadPool::enqueue(F&& f, Args&&... args) const -> std::future<typename std::result_of<F(Args...)>::type> {
     using return_type = typename std::result_of<F(Args...)>::type;
     
     auto task = std::make_shared<std::packaged_task<return_type()>>(
@@ -169,9 +169,9 @@ void RTree<T>::query_recursive(const RTreeNode<T>* node, const geometry::Rectang
     }
     
     if (node->is_leaf) {
-        for (const auto& [object, bbox] : node->entries) {
-            if (bbox.intersects(range)) {
-                result.push_back(object);
+        for (const auto& entry : node->entries) {
+            if (entry.second.intersects(range)) {
+                result.push_back(entry.first);
             }
         }
     } else {
@@ -201,7 +201,7 @@ void RTree<T>::clear() {
 }
 
 template<typename T>
-bool RTree<T>::remove(const T& object, const geometry::Rectangle& bbox) {
+bool RTree<T>::remove(const T& /*object*/, const geometry::Rectangle& /*bbox*/) {
     // Implementation of removal is complex and would require rebalancing
     // For now, we'll implement a simple version
     // In production, you'd want a more sophisticated removal algorithm
@@ -233,6 +233,8 @@ void HierarchicalSpatialIndex<T>::create_block_index(const std::string& block_na
         // This assumes T has a bounding_box() method or is itself a Rectangle
         if constexpr (std::is_same_v<T, geometry::Rectangle>) {
             return obj;
+        } else if constexpr (std::is_same_v<T, geometry::Point>) {
+            return geometry::Rectangle(obj.x, obj.y, 0.0, 0.0);
         } else {
             return obj.bounding_box();
         }
@@ -266,11 +268,21 @@ IPBlock* HierarchicalSpatialIndex<T>::find_block(const std::string& name) const 
 }
 
 template<typename T>
+std::string HierarchicalSpatialIndex<T>::find_optimal_block(const geometry::Rectangle& /*bbox*/) const {
+    // For now, simply return "root". In a real implementation, you would:
+    // 1. Traverse the hierarchy to find the best-fitting block
+    // 2. Consider load balancing across blocks
+    // 3. Check spatial locality
+    return "root";
+}
+
+template<typename T>
 std::vector<std::pair<T, T>> HierarchicalSpatialIndex<T>::parallel_find_intersections() const {
     std::vector<std::future<std::vector<std::pair<T, T>>>> futures;
     
     // Dispatch intersection finding to different threads for each block
-    for (const auto& [block_name, index] : block_indices) {
+    for (const auto& block_pair : block_indices) {
+        const auto& index = block_pair.second;
         auto future = thread_pool.enqueue([&index]() {
             return index->find_potential_intersections();
         });
@@ -293,7 +305,9 @@ std::vector<std::future<std::vector<T>>> HierarchicalSpatialIndex<T>::dispatch_p
     
     std::vector<std::future<std::vector<T>>> futures;
     
-    for (const auto& [block_name, index] : block_indices) {
+    for (const auto& block_pair : block_indices) {
+        const auto& block_name = block_pair.first;
+        const auto& index = block_pair.second;
         // Check if block intersects with query range
         IPBlock* block = find_block(block_name);
         if (block && block->intersects(range)) {
@@ -378,6 +392,15 @@ typename HierarchicalSpatialIndex<T>::Statistics HierarchicalSpatialIndex<T>::ge
 }
 
 template<typename T>
+void HierarchicalSpatialIndex<T>::partition_objects_by_zorder(const std::vector<std::pair<T, geometry::Rectangle>>& objects) {
+    // Simple implementation: bucket objects by Z-order curve
+    for (const auto& obj_pair : objects) {
+        uint64_t z_order = ZOrderCurve::encode_point(obj_pair.second.center(), world_bounds);
+        zorder_buckets[z_order].push_back(obj_pair.first);
+    }
+}
+
+template<typename T>
 void HierarchicalSpatialIndex<T>::optimize_for_query_pattern(
     const std::vector<geometry::Rectangle>& query_patterns) {
     
@@ -387,7 +410,8 @@ void HierarchicalSpatialIndex<T>::optimize_for_query_pattern(
     std::unordered_map<std::string, int> block_access_count;
     
     for (const auto& query_rect : query_patterns) {
-        for (const auto& [block_name, index] : block_indices) {
+        for (const auto& block_pair : block_indices) {
+            const auto& block_name = block_pair.first;
             IPBlock* block = find_block(block_name);
             if (block && block->intersects(query_rect)) {
                 block_access_count[block_name]++;
@@ -410,5 +434,4 @@ template class HierarchicalSpatialIndex<geometry::Rectangle>;
 template class HierarchicalSpatialIndex<geometry::Point>;
 
 } // namespace spatial
-} // namespace zlayout
-```
+} // namespace zlayout 

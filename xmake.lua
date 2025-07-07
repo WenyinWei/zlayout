@@ -24,6 +24,10 @@ end
 add_includedirs("include")
 add_includedirs("include/zlayout")
 
+-- Package dependencies (must be at root scope)
+add_requires("catch2", {optional = true})
+add_requires("benchmark", {optional = true})
+
 -- Optional dependencies
 option("with-visualization")
     set_default(false)
@@ -41,6 +45,12 @@ option("with-benchmarks")
     set_default(false)
     set_showmenu(true)
     set_description("Build performance benchmarks")
+option_end()
+
+option("openmp")
+    set_default(false)
+    set_showmenu(true)
+    set_description("Enable OpenMP parallel processing support")
 option_end()
 
 -- Core library target
@@ -113,8 +123,6 @@ target("quadtree_demo")
 
 -- Unit tests
 if has_config("with-testing") then
-    add_requires("catch2")
-    
     target("test_geometry")
         set_kind("binary")
         add_deps("zlayout")
@@ -155,8 +163,6 @@ end
 
 -- Benchmarks
 if has_config("with-benchmarks") then
-    add_requires("benchmark")
-    
     target("bench_quadtree")
         set_kind("binary")
         add_deps("zlayout")

@@ -42,6 +42,7 @@
 
 # Python cache files
 __pycache__/
+zlayout/__pycache__/
 *.py[cod]
 *$py.class
 
@@ -124,3 +125,74 @@ logs/
 debug_*.py
 debug_*.json
 demo_design.json
+
+# Build directories
+build/
+.xmake/
+
+# Visual Studio files
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.tlb
+*.tlh
+*.tmp
+*.rsp
+*.pgc
+*.pgd
+*.meta
+*.tlog
+*.manifest
+*.res
+*.pdb
+*.idb
+*.ilk
+*.obj
+*.exe
+*.dll
+*.lib
+*.exp
+
+# Test outputs
+*.xml
+*.log
+
+# IDE files
+.vs/
+*.swp
+*.swo
+*~
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Package files
+*.zip
+*.tar.gz
+*.7z
+
+# Documentation generated files
+docs/html/
+docs/latex/
+*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# XMake cache and build files
+.xmake-private/
+compile_commands.json

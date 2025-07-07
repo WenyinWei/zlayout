@@ -71,6 +71,11 @@ public:
      */
     bool operator!=(const Rectangle& other) const;
 
+    /**
+     * @brief Less than operator for sorting
+     */
+    bool operator<(const Rectangle& other) const;
+
     // Boundary accessors
     /**
      * @brief Get left edge X coordinate

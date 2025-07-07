@@ -377,7 +377,8 @@ public:
      */
     static Polygon from_rectangle(const Rectangle& rect);
 
-private:
+    // Static utility functions for geometry calculations
+    
     /**
      * @brief Helper function to calculate distance between two line segments
      */
@@ -399,6 +400,8 @@ private:
     static bool segments_intersect(
         const Point& seg1_start, const Point& seg1_end,
         const Point& seg2_start, const Point& seg2_end);
+
+private:
 };
 
 /**

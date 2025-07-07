@@ -3,11 +3,17 @@
  * @brief Implementation of Polygon class with EDA-specific algorithms
  */
 
+#define _USE_MATH_DEFINES
 #include <zlayout/geometry/polygon.hpp>
 #include <algorithm>
 #include <cmath>
 #include <limits>
 #include <sstream>
+
+// Fallback for M_PI if not defined (MSVC 2012 compatibility)
+#ifndef M_PI
+#define M_PI 3.14159265358979323846
+#endif
 
 namespace zlayout {
 namespace geometry {
@@ -178,8 +184,8 @@ bool Polygon::is_simple() const {
             // Skip adjacent edges
             if (j == n - 1 && i == 0) continue;
             
-            if (segments_intersect(edge_list[i].first, edge_list[i].second,
-                                 edge_list[j].first, edge_list[j].second)) {
+            if (zlayout::geometry::segments_intersect(edge_list[i].first, edge_list[i].second,
+                                                     edge_list[j].first, edge_list[j].second)) {
                 return false;
             }
         }
@@ -358,8 +364,8 @@ Polygon::find_narrow_regions(const Polygon& other, double threshold_distance) co
                 // Find closest points on the two edges
                 Point closest1, closest2;
                 // For simplicity, use edge midpoints (could be improved)
-                closest1 = midpoint(edge1.first, edge1.second);
-                closest2 = midpoint(edge2.first, edge2.second);
+                closest1 = zlayout::geometry::midpoint(edge1.first, edge1.second);
+                closest2 = zlayout::geometry::midpoint(edge2.first, edge2.second);
                 
                 narrow_regions.emplace_back(closest1, closest2, dist);
             }
@@ -376,8 +382,8 @@ bool Polygon::intersects(const Polygon& other) const {
     
     for (const auto& edge1 : edges1) {
         for (const auto& edge2 : edges2) {
-            if (segments_intersect(edge1.first, edge1.second, 
-                                 edge2.first, edge2.second)) {
+            if (zlayout::geometry::segments_intersect(edge1.first, edge1.second, 
+                                                     edge2.first, edge2.second)) {
                 return true;
             }
         }
@@ -424,8 +430,8 @@ bool Polygon::has_self_intersections() const {
             // Skip adjacent edges and last-first edge pair
             if (j == n - 1 && i == 0) continue;
             
-            if (segments_intersect(edge_list[i].first, edge_list[i].second,
-                                 edge_list[j].first, edge_list[j].second)) {
+            if (zlayout::geometry::segments_intersect(edge_list[i].first, edge_list[i].second,
+                                                     edge_list[j].first, edge_list[j].second)) {
                 return true;
             }
         }

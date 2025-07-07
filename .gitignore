@@ -290,6 +290,9 @@ test_*.txt
 test_*.log
 *.test.*
 
+# Keep documentation test scripts
+!scripts/test_*.py
+
 # Performance profiling files
 *.prof
 *.perf

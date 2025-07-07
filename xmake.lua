@@ -56,13 +56,15 @@ option_end()
 -- Core library target
 target("zlayout")
     set_kind("static")
+    add_files("src/zlayout.cpp")
     add_files("src/geometry/*.cpp")
     add_files("src/spatial/*.cpp")
-    add_files("src/analysis/*.cpp")
     add_headerfiles("include/zlayout/**.hpp")
     
-    -- Math optimization
-    add_links("m")  -- Link math library
+    -- Math optimization (Linux/Unix only)
+    if is_plat("linux", "macosx") then
+        add_links("m")  -- Link math library
+    end
     
     -- Optional OpenMP support for parallel processing
     if has_config("openmp") then
@@ -77,9 +79,9 @@ target("zlayout")
 target("zlayout_shared")
     set_kind("shared")
     add_deps("zlayout")
+    add_files("src/zlayout.cpp")
     add_files("src/geometry/*.cpp")
-    add_files("src/spatial/*.cpp") 
-    add_files("src/analysis/*.cpp")
+    add_files("src/spatial/*.cpp")
     add_defines("ZLAYOUT_SHARED")
 
 -- Visualization library (optional)
@@ -95,12 +97,12 @@ if has_config("with-visualization") then
         add_defines("ZLAYOUT_VISUALIZATION")
 end
 
--- Command line tool
-target("zlayout_cli")
-    set_kind("binary")
-    add_deps("zlayout")
-    add_files("src/cli/*.cpp")
-    add_installfiles("bin/zlayout_cli", {prefixdir = "bin"})
+-- Command line tool (not implemented yet)
+-- target("zlayout_cli")
+--     set_kind("binary") 
+--     add_deps("zlayout")
+--     add_files("src/cli/*.cpp")
+--     add_installfiles("bin/zlayout_cli", {prefixdir = "bin"})
 
 -- Examples
 target("basic_example")
@@ -109,50 +111,31 @@ target("basic_example")
     add_files("examples/basic_usage.cpp")
     set_rundir("examples")
 
-target("eda_example")
-    set_kind("binary")
-    add_deps("zlayout")
-    add_files("examples/eda_circuit.cpp")
-    set_rundir("examples")
+-- Advanced examples (temporarily disabled due to API compatibility issues)
+-- target("advanced_layout_example")
+--     set_kind("binary")
+--     add_deps("zlayout")
+--     add_files("examples/advanced_layout_optimization.cpp")
+--     set_rundir("examples")
 
-target("quadtree_demo")
-    set_kind("binary")
-    add_deps("zlayout")
-    add_files("examples/quadtree_demo.cpp")
-    set_rundir("examples")
+-- target("hierarchical_example")
+--     set_kind("binary")
+--     add_deps("zlayout")
+--     add_files("examples/hierarchical_component_example.cpp")
+--     set_rundir("examples")
 
--- Unit tests
+-- target("ultra_large_scale_example")
+--     set_kind("binary")
+--     add_deps("zlayout")
+--     add_files("examples/ultra_large_scale_example.cpp")
+--     set_rundir("examples")
+
+-- Unit tests (Python-based)
 if has_config("with-testing") then
-    target("test_geometry")
-        set_kind("binary")
-        add_deps("zlayout")
-        add_packages("catch2")
-        add_files("tests/test_geometry.cpp")
-        add_defines("CATCH_CONFIG_MAIN")
-        set_rundir("tests")
-    
-    target("test_spatial")
-        set_kind("binary") 
-        add_deps("zlayout")
-        add_packages("catch2")
-        add_files("tests/test_spatial.cpp")
-        add_defines("CATCH_CONFIG_MAIN")
-        set_rundir("tests")
-    
-    target("test_analysis")
-        set_kind("binary")
-        add_deps("zlayout")
-        add_packages("catch2")
-        add_files("tests/test_analysis.cpp")
-        add_defines("CATCH_CONFIG_MAIN")
-        set_rundir("tests")
-    
     -- Test runner
     task("test")
         on_run(function ()
-            os.exec("xmake run test_geometry")
-            os.exec("xmake run test_spatial")
-            os.exec("xmake run test_analysis")
+            os.exec("python tests/run_tests.py")
         end)
         set_menu({
             usage = "xmake test",

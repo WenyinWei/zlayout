@@ -15,9 +15,7 @@
 #include <zlayout/geometry/rectangle.hpp>
 #include <zlayout/geometry/polygon.hpp>
 #include <zlayout/spatial/quadtree.hpp>
-#include <zlayout/spatial/spatial_index.hpp>
-#include <zlayout/analysis/polygon_analyzer.hpp>
-#include <zlayout/analysis/geometry_processor.hpp>
+#include <zlayout/spatial/advanced_spatial.hpp>
 
 /**
  * @namespace zlayout

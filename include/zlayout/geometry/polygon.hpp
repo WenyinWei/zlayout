@@ -164,7 +164,7 @@ public:
      */
     bool point_on_boundary(const Point& point, double tolerance = Point::TOLERANCE) const;
 
-    // Sharp angle detection (面试题1)
+    // Sharp angle detection (Interview Problem 1)
 
     /**
      * @brief Find vertices with sharp angles
@@ -186,7 +186,7 @@ public:
      */
     std::vector<double> all_vertex_angles() const;
 
-    // Distance calculations (面试题2)
+    // Distance calculations (Interview Problem 2)
 
     /**
      * @brief Calculate minimum distance to another polygon
@@ -235,7 +235,7 @@ public:
     std::vector<std::tuple<Point, Point, double>> find_narrow_regions(
         const Polygon& other, double threshold_distance) const;
 
-    // Intersection detection (面试题3)
+    // Intersection detection (Interview Problem 3)
 
     /**
      * @brief Check if this polygon intersects with another polygon
@@ -446,4 +446,4 @@ bool segments_intersect(const Point& seg1_start, const Point& seg1_end,
 double angle_between_vectors(const Point& v1, const Point& v2);
 
 } // namespace geometry
-} // namespace zlayout
+} // namespace zlayout 

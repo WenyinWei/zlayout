@@ -76,29 +76,6 @@ struct OptimizationObjectives {
 - **力导向算法**: 需要迭代收敛，每次迭代都依赖前一次结果
 - **分层优化**: 自顶向下的决策过程，本质上是串行的
 
-### GPU的局限性
-```cpp
-// GPU擅长的：大量独立的简单计算
-__global__ void gpu_friendly_computation() {
-    int idx = blockIdx.x * blockDim.x + threadIdx.x;
-    result[idx] = simple_calculation(data[idx]);  // 每个线程独立
-}
-
-// EDA优化需要的：全局协调的复杂决策
-bool make_layout_decision() {
-    // 需要考虑全局状态
-    // 需要复杂的启发式规则
-    // 需要序列化的决策过程
-    return complex_heuristic_with_global_state();
-}
-```
-
-### GPU有价值的应用场景
-虽然GPU不适合核心布局优化，但在以下场景中很有价值：
-- **大规模几何查询**: 空间索引的范围查询
-- **设计规则检查**: 并行检查大量几何违规
-- **时序分析**: 并行计算多条路径延迟
-
 ## 🚀 快速开始
 
 ### 系统要求

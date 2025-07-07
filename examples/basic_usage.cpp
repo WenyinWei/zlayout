@@ -318,7 +318,7 @@ void demonstrate_eda_design_rules() {
         for (size_t i = 0; i < eda_components.size(); ++i) {
             auto sharp_angles = eda_components[i].get_sharp_angles(process.sharp_angle_limit);
             if (!sharp_angles.empty()) {
-                violations += sharp_angles.size();
+                violations += static_cast<int>(sharp_angles.size());
                 std::cout << "  " << component_names[i] << ": " << sharp_angles.size() 
                          << " sharp angle violations" << std::endl;
             }

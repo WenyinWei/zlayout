@@ -7,7 +7,21 @@ set_languages("c++17")
 
 -- Configure compiler options
 add_rules("mode.debug", "mode.release")
-add_cxxflags("-Wall", "-Wextra", "-Wpedantic")
+
+-- Platform-specific compiler flags to avoid MSVC warnings
+if is_plat("windows") then
+    -- Use /W4 for MSVC instead of conflicting with default /W3
+    add_cxxflags("/W4")
+    if is_mode("release") then
+        add_cxxflags("/O2")
+    end
+else
+    -- GCC/Clang flags for Linux/macOS
+    add_cxxflags("-Wall", "-Wextra")
+    -- Only add pedantic for non-MSVC compilers
+    set_policy("check.auto_ignore_flags", false)
+    add_cxxflags("-Wpedantic", {force = true})
+end
 
 if is_mode("debug") then
     add_defines("DEBUG")

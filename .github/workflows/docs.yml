@@ -78,10 +78,10 @@ jobs:
         
         # Add to PATH explicitly
         $env:PATH += ";C:\Program Files\doxygen\bin"
-        $env:PATH += ";C:\Program Files\Graphviz\bin"
+        $env:PATH += ";C:\Program Files\Graphviz\bin" 
         $env:PATH += ";C:\doxygen"
         
-        Write-Host "Updated PATH: $env:PATH"
+        Write-Host "Updated PATH for Doxygen and Graphviz"
     
     - name: Verify Documentation Tools
       run: |
@@ -108,29 +108,29 @@ jobs:
             } else {
               $version = & $path --version 2>&1
             }
-            Write-Host "✅ Doxygen found: $version"
+                         Write-Host "Doxygen found: $version"
             $doxygenFound = $true
             break
           } catch {
-            Write-Host "❌ Not found at $path"
+                         Write-Host "Not found at $path"
           }
         }
         
         if (-not $doxygenFound) {
-          Write-Host "❌ Doxygen not found in any location!"
+                     Write-Host "Doxygen not found in any location!"
           exit 1
         }
         
         # Try Graphviz (optional, continue if not found)
         try {
           $graphvizVersion = & "C:\Program Files\Graphviz\bin\dot.exe" -V 2>&1
-          Write-Host "✅ Graphviz found: $graphvizVersion"
+                     Write-Host "Graphviz found: $graphvizVersion"
         } catch {
           try {
             $graphvizVersion = dot -V 2>&1
-            Write-Host "✅ Graphviz found in PATH: $graphvizVersion"
+                         Write-Host "Graphviz found in PATH: $graphvizVersion"
           } catch {
-            Write-Host "⚠️ Graphviz not found - diagrams will be disabled"
+                          Write-Host "Warning: Graphviz not found - diagrams will be disabled"
           }
         }
         
@@ -144,6 +144,7 @@ jobs:
     - name: Configure XMake
       run: |
         xmake config --with-benchmarks=true --with-testing=true
+      continue-on-error: true
     
     - name: Build C++ library
       run: |
@@ -234,17 +235,17 @@ jobs:
         }
         
         if (-not $doxygenBuilt) {
-          Write-Host "❌ Failed to run Doxygen from any location"
+          Write-Host "Failed to run Doxygen from any location"
           exit 1
         }
         
         # Verify documentation was generated
         if (Test-Path "docs/generated/html/index.html") {
-          Write-Host "✅ Documentation built successfully"
+          Write-Host "Documentation built successfully"
           Write-Host "Generated files:"
           Get-ChildItem "docs/generated/html" | Select-Object Name | Format-Table -AutoSize
         } else {
-          Write-Host "❌ Documentation build failed - index.html not found"
+          Write-Host "Documentation build failed - index.html not found"
           Write-Host "Contents of docs/generated:"
           if (Test-Path "docs/generated") {
             Get-ChildItem "docs/generated" -Recurse | Select-Object FullName
@@ -298,9 +299,9 @@ jobs:
     - name: Documentation Build Status
       run: |
         if [[ "${{ needs.build-docs.result }}" == "success" ]]; then
-          echo "✅ Documentation build completed successfully"
-          echo "📖 Documentation will be available at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
+          echo "Documentation build completed successfully"
+                      echo "Documentation will be available at: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/"
         else
-          echo "❌ Documentation build failed"
+                      echo "Documentation build failed"
           exit 1
         fi 

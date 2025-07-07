@@ -308,3 +308,12 @@ massif.out*
 *.gz
 *.bz2
 *.xz
+
+# Benchmark artifacts
+benchmark_results/
+*.benchmark
+*.json.bak
+benchmark_report_*.md
+benchmark_summary_*.json
+benchmarks/*.json
+benchmarks/results/

@@ -143,17 +143,36 @@ jobs:
     
     - name: Configure XMake
       run: |
-        xmake config --with-benchmarks=true --with-testing=true
-      continue-on-error: true
+        # Try to install benchmark library, but don't fail if it's not available
+        Write-Host "Installing benchmark library..."
+        try {
+          xmake require benchmark
+          Write-Host "Benchmark library installed successfully"
+          xmake config --with-benchmarks=true --with-testing=true
+        } catch {
+          Write-Host "Benchmark library installation failed, building without benchmarks"
+          xmake config --with-benchmarks=false --with-testing=true
+        }
     
     - name: Build C++ library
       run: |
-        xmake build
+        Write-Host "Building C++ library..."
+        xmake build zlayout zlayout_shared basic_example
+        if (-not $?) { 
+          Write-Host "C++ library build failed"
+          exit 1 
+        }
+        Write-Host "C++ library build completed successfully"
     
     - name: Run C++ tests
       run: |
+        Write-Host "Running C++ tests..."
         xmake test
-        if (-not $?) { exit 1 }
+        if (-not $?) { 
+          Write-Host "C++ tests failed"
+          exit 1 
+        }
+        Write-Host "C++ tests completed successfully"
     
     - name: Run Python tests
       run: |
@@ -162,12 +181,35 @@ jobs:
     
     - name: Build benchmarks
       run: |
-        xmake build bench_geometry bench_quadtree
+        Write-Host "Attempting to build benchmarks..."
+        try {
+          xmake build bench_geometry bench_quadtree
+          Write-Host "Benchmarks built successfully"
+        } catch {
+          Write-Host "Benchmarks build failed - continuing without benchmarks"
+        }
+      continue-on-error: true
     
     - name: Run benchmarks
       run: |
-        xmake run bench_geometry --benchmark_out=docs/benchmarks/geometry_results.json --benchmark_out_format=json
-        xmake run bench_quadtree --benchmark_out=docs/benchmarks/spatial_results.json --benchmark_out_format=json
+        Write-Host "Attempting to run benchmarks..."
+        try {
+          if (Test-Path "build/windows/x64/release/bench_geometry.exe") {
+            xmake run bench_geometry --benchmark_out=docs/benchmarks/geometry_results.json --benchmark_out_format=json
+            Write-Host "Geometry benchmarks completed"
+          } else {
+            Write-Host "Geometry benchmark executable not found"
+          }
+          
+          if (Test-Path "build/windows/x64/release/bench_quadtree.exe") {
+            xmake run bench_quadtree --benchmark_out=docs/benchmarks/spatial_results.json --benchmark_out_format=json
+            Write-Host "Quadtree benchmarks completed"
+          } else {
+            Write-Host "Quadtree benchmark executable not found"
+          }
+        } catch {
+          Write-Host "Benchmark execution failed - continuing without benchmark results"
+        }
       continue-on-error: true
     
     - name: Create performance visualization

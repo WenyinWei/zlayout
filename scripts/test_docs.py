@@ -34,11 +34,11 @@ def test_doxygen_generation():
     try:
         print("Generating documentation...")
         result = subprocess.run(['doxygen', 'Doxyfile'], 
-                              capture_output=True, text=True, check=True)
+                              capture_output=True, text=True, check=True, encoding='utf-8')
         print("✅ Documentation generation completed successfully")
         
         # Check if output directory was created
-        output_dir = Path("docs/html")
+        output_dir = Path("html")
         if output_dir.exists():
             print(f"✅ Output directory created: {output_dir}")
             
@@ -53,6 +53,27 @@ def test_doxygen_generation():
             files = list(output_dir.glob("*.html"))
             print(f"✅ Generated {len(files)} HTML files")
             
+            # Also check docs/html if it exists (for CI compatibility)
+            docs_html = Path("docs/html")
+            if docs_html.exists():
+                docs_files = list(docs_html.glob("*.html"))
+                print(f"✅ Found {len(docs_files)} HTML files in docs/html")
+            
+            # Copy files to docs/html for GitHub Pages deployment
+            if not docs_html.exists():
+                docs_html.mkdir(parents=True, exist_ok=True)
+            
+            # Copy all files from html/html to docs/html
+            import shutil
+            nested_html = output_dir / "html"
+            if nested_html.exists():
+                for file_path in nested_html.rglob("*"):
+                    if file_path.is_file():
+                        relative_path = file_path.relative_to(nested_html)
+                        dest_path = docs_html / relative_path
+                        dest_path.parent.mkdir(parents=True, exist_ok=True)
+                        shutil.copy2(file_path, dest_path)
+                print("✅ Copied documentation files to docs/html for GitHub Pages")
         else:
             print("❌ Output directory not created")
             return False

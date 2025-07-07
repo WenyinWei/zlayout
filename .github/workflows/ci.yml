@@ -242,9 +242,12 @@ jobs:
 
     - name: Check documentation output
       run: |
-        if [ -d "docs/html" ]; then
+        if [ -d "html" ]; then
           echo "Documentation generated successfully"
-          ls -la docs/html/
+          ls -la html/
+          # Move to docs/html for GitHub Pages
+          mkdir -p docs/html
+          cp -r html/* docs/html/
         else
           echo "Documentation directory not found, creating placeholder"
           mkdir -p docs/html

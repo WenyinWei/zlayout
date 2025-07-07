@@ -196,3 +196,17 @@ docs/latex/
 # XMake cache and build files
 .xmake-private/
 compile_commands.json
+
+# Benchmark executables
+benchmarks/*.exe
+*.exe
+
+# Visualization build artifacts
+*.dll
+*.lib
+*.a
+*.so
+
+# Additional build artifacts
+*.pdb
+*.ilk

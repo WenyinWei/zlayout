@@ -25,8 +25,15 @@ add_includedirs("include")
 add_includedirs("include/zlayout")
 
 -- Package dependencies (must be at root scope)
-add_requires("catch2", {optional = true})
-add_requires("benchmark", {optional = true})
+-- Only add dependencies when actually needed by enabled features
+if has_config("with-benchmarks") then
+    add_requires("benchmark", {optional = true})
+end
+
+if has_config("with-visualization") then
+    add_requires("glfw3", {optional = true})
+    add_requires("opengl", {optional = true})
+end
 
 -- Optional dependencies
 option("with-visualization")
@@ -89,12 +96,16 @@ if has_config("with-visualization") then
     target("zlayout_viz")
         set_kind("static")
         add_deps("zlayout")
-        add_files("src/visualization/*.cpp")
-        add_headerfiles("include/zlayout/visualization/**.hpp")
+        -- Visualization not implemented yet
+        -- add_files("src/visualization/*.cpp")
+        -- add_headerfiles("include/zlayout/visualization/**.hpp")
         
         -- OpenGL dependencies
-        add_packages("glfw", "glad", "glm")
+        add_packages("glfw3", "opengl")
         add_defines("ZLAYOUT_VISUALIZATION")
+        
+        -- Add a placeholder source file
+        add_files("src/visualization_placeholder.cpp")
 end
 
 -- Command line tool (not implemented yet)

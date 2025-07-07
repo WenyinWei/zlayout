@@ -38,15 +38,103 @@ jobs:
         pip install -r requirements.txt
         pip install matplotlib seaborn pandas
     
-    - name: Install Doxygen
+    - name: Install Doxygen and Graphviz
       run: |
-        choco install doxygen.install --no-progress
-        choco install graphviz --no-progress
+        Write-Host "Installing Doxygen and Graphviz..."
+        
+        # Try chocolatey installation first
+        try {
+          Write-Host "Attempting chocolatey installation..."
+          choco install doxygen.install -y --no-progress
+          choco install graphviz -y --no-progress
+          
+          # Refresh environment variables
+          $env:ChocolateyInstall = Convert-Path "$((Get-Command choco).Path)\..\.."
+          Import-Module "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+          refreshenv
+          
+          Write-Host "Chocolatey installation completed"
+        } catch {
+          Write-Host "Chocolatey installation failed, trying direct download..."
+          
+          # Fallback: Download Doxygen directly
+          $doxygenUrl = "https://www.doxygen.nl/files/doxygen-1.9.8.windows.x64.bin.zip"
+          $doxygenZip = "doxygen.zip"
+          $doxygenDir = "C:\doxygen"
+          
+          Write-Host "Downloading Doxygen from $doxygenUrl"
+          Invoke-WebRequest -Uri $doxygenUrl -OutFile $doxygenZip
+          
+          Write-Host "Extracting Doxygen..."
+          Expand-Archive -Path $doxygenZip -DestinationPath $doxygenDir -Force
+          
+          # Find the actual doxygen executable
+          $doxygenExe = Get-ChildItem -Path $doxygenDir -Name "doxygen.exe" -Recurse | Select-Object -First 1
+          if ($doxygenExe) {
+            $doxygenPath = Join-Path $doxygenDir $doxygenExe
+            Write-Host "Found doxygen at: $doxygenPath"
+          }
+        }
+        
+        # Add to PATH explicitly
+        $env:PATH += ";C:\Program Files\doxygen\bin"
+        $env:PATH += ";C:\Program Files\Graphviz\bin"
+        $env:PATH += ";C:\doxygen"
+        
+        Write-Host "Updated PATH: $env:PATH"
     
-    - name: Verify Doxygen installation
+    - name: Verify Documentation Tools
       run: |
-        doxygen --version
-        dot -V
+        # Final verification with updated PATH
+        $env:PATH += ";C:\Program Files\doxygen\bin"
+        $env:PATH += ";C:\Program Files\Graphviz\bin"
+        $env:PATH += ";C:\doxygen"
+        
+        Write-Host "=== Final Tool Verification ==="
+        
+        # Try multiple locations for Doxygen
+        $doxygenFound = $false
+        $doxygenPaths = @(
+          "C:\Program Files\doxygen\bin\doxygen.exe",
+          "C:\doxygen\doxygen.exe",
+          "doxygen"
+        )
+        
+        foreach ($path in $doxygenPaths) {
+          try {
+            Write-Host "Trying Doxygen at: $path"
+            if ($path -eq "doxygen") {
+              $version = doxygen --version 2>&1
+            } else {
+              $version = & $path --version 2>&1
+            }
+            Write-Host "✅ Doxygen found: $version"
+            $doxygenFound = $true
+            break
+          } catch {
+            Write-Host "❌ Not found at $path"
+          }
+        }
+        
+        if (-not $doxygenFound) {
+          Write-Host "❌ Doxygen not found in any location!"
+          exit 1
+        }
+        
+        # Try Graphviz (optional, continue if not found)
+        try {
+          $graphvizVersion = & "C:\Program Files\Graphviz\bin\dot.exe" -V 2>&1
+          Write-Host "✅ Graphviz found: $graphvizVersion"
+        } catch {
+          try {
+            $graphvizVersion = dot -V 2>&1
+            Write-Host "✅ Graphviz found in PATH: $graphvizVersion"
+          } catch {
+            Write-Host "⚠️ Graphviz not found - diagrams will be disabled"
+          }
+        }
+        
+        Write-Host "Tools verification completed"
     
     - name: Setup XMake
       uses: xmake-io/github-action-setup-xmake@v1
@@ -102,12 +190,65 @@ jobs:
     
     - name: Build documentation with Doxygen
       run: |
-        mkdir -p docs/generated
-        doxygen Doxyfile
+        # Create output directory
+        if (-not (Test-Path "docs/generated")) {
+          New-Item -ItemType Directory -Path "docs/generated" -Force
+        }
+        
+        # Update PATH for this step
+        $env:PATH += ";C:\Program Files\doxygen\bin"
+        $env:PATH += ";C:\Program Files\Graphviz\bin"
+        $env:PATH += ";C:\doxygen"
+        
+        Write-Host "Building documentation with Doxygen..."
+        
+        # Find Doxygen and build documentation
+        $doxygenBuilt = $false
+        $doxygenPaths = @(
+          "C:\Program Files\doxygen\bin\doxygen.exe",
+          "C:\doxygen\doxygen.exe"
+        )
+        
+        foreach ($path in $doxygenPaths) {
+          if (Test-Path $path) {
+            try {
+              Write-Host "Using Doxygen at: $path"
+              & $path Doxyfile
+              $doxygenBuilt = $true
+              break
+            } catch {
+              Write-Host "Failed to run Doxygen at $path"
+            }
+          }
+        }
+        
+        # Try PATH if explicit paths failed
+        if (-not $doxygenBuilt) {
+          try {
+            Write-Host "Trying doxygen from PATH..."
+            doxygen Doxyfile
+            $doxygenBuilt = $true
+          } catch {
+            Write-Host "Failed to run doxygen from PATH"
+          }
+        }
+        
+        if (-not $doxygenBuilt) {
+          Write-Host "❌ Failed to run Doxygen from any location"
+          exit 1
+        }
+        
+        # Verify documentation was generated
         if (Test-Path "docs/generated/html/index.html") {
-          Write-Host "Documentation built successfully"
+          Write-Host "✅ Documentation built successfully"
+          Write-Host "Generated files:"
+          Get-ChildItem "docs/generated/html" | Select-Object Name | Format-Table -AutoSize
         } else {
-          Write-Host "Documentation build failed"
+          Write-Host "❌ Documentation build failed - index.html not found"
+          Write-Host "Contents of docs/generated:"
+          if (Test-Path "docs/generated") {
+            Get-ChildItem "docs/generated" -Recurse | Select-Object FullName
+          }
           exit 1
         }
     

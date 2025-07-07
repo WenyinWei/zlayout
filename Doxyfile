@@ -1,20 +1,20 @@
 # Doxygen Configuration for ZLayout
 # Advanced Electronic Design Automation Layout Library
 # 
-# This configuration generates comprehensive documentation for both C++ and Python APIs
-# Optimized for GitHub Pages deployment and Windows development environment
+# This configuration generates comprehensive bilingual documentation for both C++ and Python APIs
+# Optimized for GitHub Pages deployment with enhanced navigation and tutorial integration
 
 #---------------------------------------------------------------------------
 # Project related configuration options
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = "ZLayout"
+PROJECT_NAME           = "ZLayout EDA Library"
 PROJECT_NUMBER         = "v1.0.0"
-PROJECT_BRIEF          = "Advanced Electronic Design Automation Layout Library"
+PROJECT_BRIEF          = "Advanced Electronic Design Automation Layout Library with Bilingual Documentation"
 PROJECT_LOGO           = 
 OUTPUT_DIRECTORY       = docs/generated
 CREATE_SUBDIRS         = YES
-ALLOW_UNICODE_NAMES    = NO
+ALLOW_UNICODE_NAMES    = YES
 OUTPUT_LANGUAGE        = English
 BRIEF_MEMBER_DESC      = YES
 REPEAT_BRIEF           = YES
@@ -42,15 +42,21 @@ MULTILINE_CPP_IS_BRIEF = NO
 INHERIT_DOCS           = YES
 SEPARATE_MEMBER_PAGES  = NO
 TAB_SIZE               = 4
-ALIASES                = 
+ALIASES                = "complexity=\par Complexity Analysis:\n" \
+                         "performance=\par Performance:\n" \
+                         "tutorial=\par Tutorial:\n" \
+                         "algorithm=\par Algorithm:\n" \
+                         "chinese=\par 中文:\n" \
+                         "english=\par English:\n" \
+                         "bilingual=\par Bilingual Support:\n"
 OPTIMIZE_OUTPUT_FOR_C  = NO
 OPTIMIZE_OUTPUT_JAVA   = NO
 OPTIMIZE_FOR_FORTRAN   = NO
 OPTIMIZE_OUTPUT_VHDL   = NO
 OPTIMIZE_OUTPUT_SLICE  = NO
-EXTENSION_MAPPING      = 
+EXTENSION_MAPPING      = .py=Python
 MARKDOWN_SUPPORT       = YES
-TOC_INCLUDE_HEADINGS   = 5
+TOC_INCLUDE_HEADINGS   = 6
 AUTOLINK_SUPPORT       = YES
 BUILTIN_STL_SUPPORT    = YES
 CPP_CLI_SUPPORT        = NO
@@ -126,8 +132,10 @@ INPUT                  = include \
                          zlayout \
                          examples \
                          benchmarks \
-                         docs/tutorials \
+                         docs/tutorials/en \
+                         docs/tutorials/zh \
                          docs/examples \
+                         docs/index.md \
                          README.md \
                          README_EN.md
 INPUT_ENCODING         = UTF-8
@@ -189,6 +197,8 @@ EXCLUDE_PATTERNS       = */build/* \
 EXCLUDE_SYMBOLS        = 
 EXAMPLE_PATH           = examples \
                          docs/examples \
+                         docs/tutorials/en/algorithms \
+                         docs/tutorials/zh/algorithms \
                          benchmarks
 EXAMPLE_PATTERNS       = *
 EXAMPLE_RECURSIVE      = YES
@@ -197,7 +207,7 @@ INPUT_FILTER           =
 FILTER_PATTERNS        = 
 FILTER_SOURCE_FILES    = NO
 FILTER_SOURCE_PATTERNS = 
-USE_MDFILE_AS_MAINPAGE = README.md
+USE_MDFILE_AS_MAINPAGE = docs/index.md
 
 #---------------------------------------------------------------------------
 # Configuration options related to source browsing
@@ -238,41 +248,41 @@ HTML_COLORSTYLE_SAT    = 100
 HTML_COLORSTYLE_GAMMA  = 80
 HTML_TIMESTAMP         = NO
 HTML_DYNAMIC_MENUS     = YES
-HTML_DYNAMIC_SECTIONS  = NO
+HTML_DYNAMIC_SECTIONS  = YES
 HTML_INDEX_NUM_ENTRIES = 100
 GENERATE_DOCSET        = NO
-DOCSET_FEEDNAME        = "Doxygen generated docs"
-DOCSET_BUNDLE_ID       = org.doxygen.Project
-DOCSET_PUBLISHER_ID    = org.doxygen.Publisher
-DOCSET_PUBLISHER_NAME  = Publisher
+DOCSET_FEEDNAME        = "ZLayout EDA Documentation"
+DOCSET_BUNDLE_ID       = org.zlayout.docs
+DOCSET_PUBLISHER_ID    = org.zlayout.publisher
+DOCSET_PUBLISHER_NAME  = ZLayout Team
 GENERATE_HTMLHELP      = NO
 CHM_FILE               = 
 HHC_LOCATION           = 
 GENERATE_CHI           = NO
 CHM_INDEX_ENCODING     = 
 BINARY_TOC             = NO
-TOC_EXPAND             = NO
+TOC_EXPAND             = YES
 GENERATE_QHP           = NO
 QCH_FILE               = 
-QHP_NAMESPACE          = org.doxygen.Project
+QHP_NAMESPACE          = org.zlayout.Project
 QHP_VIRTUAL_FOLDER     = doc
 QHP_CUST_FILTER_NAME   = 
 QHP_CUST_FILTER_ATTRS  = 
 QHP_SECT_FILTER_ATTRS  = 
 QHG_LOCATION           = 
 GENERATE_ECLIPSEHELP   = NO
-ECLIPSE_DOC_ID         = org.doxygen.Project
+ECLIPSE_DOC_ID         = org.zlayout.Project
 DISABLE_INDEX          = NO
 GENERATE_TREEVIEW      = YES
 ENUM_VALUES_PER_LINE   = 4
-TREEVIEW_WIDTH         = 250
-EXT_LINKS_IN_WINDOW    = NO
+TREEVIEW_WIDTH         = 300
+EXT_LINKS_IN_WINDOW    = YES
 FORMULA_FONTSIZE       = 10
 FORMULA_TRANSPARENT    = YES
 FORMULA_MACROFILE      = 
 USE_MATHJAX            = YES
 MATHJAX_FORMAT         = HTML-CSS
-MATHJAX_RELPATH        = https://cdn.jsdelivr.net/npm/mathjax@2
+MATHJAX_RELPATH        = https://cdn.jsdelivr.net/npm/mathjax@3
 MATHJAX_EXTENSIONS     = 
 MATHJAX_CODEFILE       = 
 SEARCHENGINE           = YES
@@ -367,7 +377,8 @@ INCLUDE_FILE_PATTERNS  =
 PREDEFINED             = DOXYGEN_SHOULD_SKIP_THIS \
                          ZLAYOUT_EXPORTS \
                          ZLAYOUT_OPENMP \
-                         ZLAYOUT_VISUALIZATION
+                         ZLAYOUT_VISUALIZATION \
+                         ZLAYOUT_BILINGUAL_DOCS
 EXPAND_AS_DEFINED      = 
 SKIP_FUNCTION_MACROS   = YES
 
@@ -375,7 +386,7 @@ SKIP_FUNCTION_MACROS   = YES
 # Configuration options related to external references
 #---------------------------------------------------------------------------
 TAGFILES               = 
-GENERATE_TAGFILE       = 
+GENERATE_TAGFILE       = zlayout.tag
 ALLEXTERNALS           = NO
 EXTERNAL_GROUPS        = YES
 EXTERNAL_PAGES         = YES
